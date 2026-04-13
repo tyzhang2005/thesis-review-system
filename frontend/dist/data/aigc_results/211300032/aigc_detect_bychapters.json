@@ -1,0 +1,53 @@
+{
+  "overall_ai_rate": 0.9935102279797223,
+  "total_chapters": 5,
+  "total_length": 33778,
+  "detection_time": "2026-04-03T18:56:07.217201",
+  "chapters": [
+    {
+      "chapter": "第一章 绪论",
+      "content_length": 2014,
+      "chunk_count": 6,
+      "ai_probability": 0.9996199607849121,
+      "human_probability": 0.0003799848782364279,
+      "prediction": "AI生成",
+      "confidence": 0.9996199607849121
+    },
+    {
+      "chapter": "第二章 相关工作",
+      "content_length": 11907,
+      "chunk_count": 37,
+      "ai_probability": 0.99580979347229,
+      "human_probability": 0.004190271254628897,
+      "prediction": "AI生成",
+      "confidence": 0.99580979347229
+    },
+    {
+      "chapter": "第三章 本文方法",
+      "content_length": 14820,
+      "chunk_count": 48,
+      "ai_probability": 0.9979368448257446,
+      "human_probability": 0.002063139108940959,
+      "prediction": "AI生成",
+      "confidence": 0.9979368448257446
+    },
+    {
+      "chapter": "第四章 实验",
+      "content_length": 4375,
+      "chunk_count": 18,
+      "ai_probability": 0.9685055613517761,
+      "human_probability": 0.031494494527578354,
+      "prediction": "AI生成",
+      "confidence": 0.9685055613517761
+    },
+    {
+      "chapter": "第五章 结语",
+      "content_length": 662,
+      "chunk_count": 1,
+      "ai_probability": 0.999714195728302,
+      "human_probability": 0.00028576437034644186,
+      "prediction": "AI生成",
+      "confidence": 0.999714195728302
+    }
+  ]
+}

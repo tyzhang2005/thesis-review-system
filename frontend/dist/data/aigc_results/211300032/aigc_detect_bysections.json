@@ -1,0 +1,184 @@
+{
+  "overall_ai_rate": 0.8074206264384178,
+  "total_sections": 16,
+  "total_length": 33778,
+  "detection_time": "2026-04-03T18:56:06.776645",
+  "sections": [
+    {
+      "section_key": "第一章 绪论__#1.1 研究背景及意义",
+      "chapter": "第一章 绪论",
+      "section": "#1.1 研究背景及意义",
+      "content_length": 1681,
+      "chunk_count": 4,
+      "ai_probability": 0.9996199607849121,
+      "human_probability": 0.0003799848782364279,
+      "prediction": "AI生成",
+      "confidence": 0.9996199607849121
+    },
+    {
+      "section_key": "第一章 绪论__#1.2 本文组织结构",
+      "chapter": "第一章 绪论",
+      "section": "#1.2 本文组织结构",
+      "content_length": 333,
+      "chunk_count": 2,
+      "ai_probability": 0.15708665549755096,
+      "human_probability": 0.8429133296012878,
+      "prediction": "人类",
+      "confidence": 0.8429133296012878
+    },
+    {
+      "section_key": "第二章 相关工作__#2.1 相关理论和概念",
+      "chapter": "第二章 相关工作",
+      "section": "#2.1 相关理论和概念",
+      "content_length": 8350,
+      "chunk_count": 27,
+      "ai_probability": 0.99580979347229,
+      "human_probability": 0.004190271254628897,
+      "prediction": "AI生成",
+      "confidence": 0.99580979347229
+    },
+    {
+      "section_key": "第二章 相关工作__#2.2 国内外研究现状",
+      "chapter": "第二章 相关工作",
+      "section": "#2.2 国内外研究现状",
+      "content_length": 3557,
+      "chunk_count": 10,
+      "ai_probability": 0.9952114224433899,
+      "human_probability": 0.004788602236658335,
+      "prediction": "AI生成",
+      "confidence": 0.9952114224433899
+    },
+    {
+      "section_key": "第三章 本文方法__None",
+      "chapter": "第三章 本文方法",
+      "section": null,
+      "content_length": 64,
+      "chunk_count": 1,
+      "ai_probability": 0.9762976169586182,
+      "human_probability": 0.023702414706349373,
+      "prediction": "AI生成",
+      "confidence": 0.9762976169586182
+    },
+    {
+      "section_key": "第三章 本文方法__#3.1 模型结构概述",
+      "chapter": "第三章 本文方法",
+      "section": "#3.1 模型结构概述",
+      "content_length": 1800,
+      "chunk_count": 5,
+      "ai_probability": 0.9963490962982178,
+      "human_probability": 0.0036508471239358187,
+      "prediction": "AI生成",
+      "confidence": 0.9963490962982178
+    },
+    {
+      "section_key": "第三章 本文方法__#3.2 上下文编码器 CE 的优化目标",
+      "chapter": "第三章 本文方法",
+      "section": "#3.2 上下文编码器 CE 的优化目标",
+      "content_length": 6080,
+      "chunk_count": 17,
+      "ai_probability": 0.36798956990242004,
+      "human_probability": 0.6320104002952576,
+      "prediction": "人类",
+      "confidence": 0.6320104002952576
+    },
+    {
+      "section_key": "第三章 本文方法__#3.3 历史序列截断",
+      "chapter": "第三章 本文方法",
+      "section": "#3.3 历史序列截断",
+      "content_length": 528,
+      "chunk_count": 3,
+      "ai_probability": 0.20750117301940918,
+      "human_probability": 0.7924988269805908,
+      "prediction": "人类",
+      "confidence": 0.7924988269805908
+    },
+    {
+      "section_key": "第三章 本文方法__#3.4 移动平均值",
+      "chapter": "第三章 本文方法",
+      "section": "#3.4 移动平均值",
+      "content_length": 1060,
+      "chunk_count": 4,
+      "ai_probability": 0.9968078136444092,
+      "human_probability": 0.003192189848050475,
+      "prediction": "AI生成",
+      "confidence": 0.9968078136444092
+    },
+    {
+      "section_key": "第三章 本文方法__#3.5 特定学习率",
+      "chapter": "第三章 本文方法",
+      "section": "#3.5 特定学习率",
+      "content_length": 4678,
+      "chunk_count": 16,
+      "ai_probability": 0.7084070444107056,
+      "human_probability": 0.2915929853916168,
+      "prediction": "AI生成",
+      "confidence": 0.7084070444107056
+    },
+    {
+      "section_key": "第三章 本文方法__#3.6 总训练过程",
+      "chapter": "第三章 本文方法",
+      "section": "#3.6 总训练过程",
+      "content_length": 610,
+      "chunk_count": 2,
+      "ai_probability": 0.9942382574081421,
+      "human_probability": 0.005761759355664253,
+      "prediction": "AI生成",
+      "confidence": 0.9942382574081421
+    },
+    {
+      "section_key": "第四章 实验__None",
+      "chapter": "第四章 实验",
+      "section": null,
+      "content_length": 200,
+      "chunk_count": 1,
+      "ai_probability": 0.9526050686836243,
+      "human_probability": 0.047394972294569016,
+      "prediction": "AI生成",
+      "confidence": 0.9526050686836243
+    },
+    {
+      "section_key": "第四章 实验__#4.1 网格世界",
+      "chapter": "第四章 实验",
+      "section": "#4.1 网格世界",
+      "content_length": 2728,
+      "chunk_count": 9,
+      "ai_probability": 0.9745413064956665,
+      "human_probability": 0.02545865811407566,
+      "prediction": "AI生成",
+      "confidence": 0.9745413064956665
+    },
+    {
+      "section_key": "第四章 实验__#4.2 MuJoCo 任务环境",
+      "chapter": "第四章 实验",
+      "section": "#4.2 MuJoCo 任务环境",
+      "content_length": 1279,
+      "chunk_count": 7,
+      "ai_probability": 0.6466834545135498,
+      "human_probability": 0.3533165752887726,
+      "prediction": "AI生成",
+      "confidence": 0.6466834545135498
+    },
+    {
+      "section_key": "第四章 实验__#4.3 实验结果总结",
+      "chapter": "第四章 实验",
+      "section": "#4.3 实验结果总结",
+      "content_length": 168,
+      "chunk_count": 1,
+      "ai_probability": 0.9972444772720337,
+      "human_probability": 0.0027554829139262438,
+      "prediction": "AI生成",
+      "confidence": 0.9972444772720337
+    },
+    {
+      "section_key": "第五章 结语__None",
+      "chapter": "第五章 结语",
+      "section": null,
+      "content_length": 662,
+      "chunk_count": 1,
+      "ai_probability": 0.999714195728302,
+      "human_probability": 0.00028576437034644186,
+      "prediction": "AI生成",
+      "confidence": 0.999714195728302
+    }
+  ]
+}

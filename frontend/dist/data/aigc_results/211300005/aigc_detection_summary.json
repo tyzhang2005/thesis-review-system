@@ -1,0 +1,27 @@
+{
+  "document_name": "211300005",
+  "detection_time": "2026-04-03T18:43:26.501522",
+  "overall_summary": {
+    "average_ai_rate": 0.6217612427454786,
+    "detection_modes_used": [
+      "by_chunks",
+      "by_sections",
+      "by_chapters"
+    ],
+    "total_detection_modes": 3
+  },
+  "detailed_results": {
+    "by_chunks": {
+      "overall_ai_rate": 0.3501504164118515,
+      "total_items": 95
+    },
+    "by_sections": {
+      "overall_ai_rate": 0.6160968543629588,
+      "total_items": 19
+    },
+    "by_chapters": {
+      "overall_ai_rate": 0.8990364574616256,
+      "total_items": 5
+    }
+  }
+}

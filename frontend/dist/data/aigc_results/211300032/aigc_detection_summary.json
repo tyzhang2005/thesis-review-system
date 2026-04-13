@@ -1,0 +1,17 @@
+{
+  "document_name": "211300032",
+  "detection_time": "2026-04-03T19:16:51.894905",
+  "overall_summary": {
+    "average_ai_rate": 0.3683328562162139,
+    "detection_modes_used": [
+      "by_chunks"
+    ],
+    "total_detection_modes": 1
+  },
+  "detailed_results": {
+    "by_chunks": {
+      "overall_ai_rate": 0.3683328562162139,
+      "total_items": 110
+    }
+  }
+}

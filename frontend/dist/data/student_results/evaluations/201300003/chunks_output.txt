@@ -1,0 +1,228 @@
+Title: 强化学习智能体的轨迹与文本转换方法研究
+Student Name: 李开元
+Student ID: 201300003
+Abstract: 强化学习作为人工智能的关键分支，其核心在于智能体通过与环境的交互学习最优策略。强化学习的轨迹数据，即智能体在特定任务中的行为序列，对于评估和优化智能体策略至关重要。它详细记录了智能体的行为，而且为性能评估和策略改进提供了实证基础。此外，轨迹还能作为训练数据，促进智能体在后续任务中实现更高的奖励累积。然而，获取高质量的强化学习轨迹数据存在挑战，通常需要领域专家的深入参与，以及在复杂仿真环境中进行大量的实验模拟。此外，强化学习轨迹的可解释性也面临挑战，尤其是对于非专业人士而言，理解由状态、动作和奖励构成的三元组数据较为困难。针对上述挑战，本研究提出了一种创新方法，旨在实现强化学习轨迹数据与自然语言文本之间的双向转换。通过微调预训练的大语言模型，本研究构建了一个框架，该框架能够理解强化学习轨迹数据与自然语言文本之间的对应关系，并实现它们之间的有效转换。本方法一方面通过将自然语言目标转换为轨迹数据，能有效地扩充训练集，实现数据的增广，提高智能体策略的学习效率；另一方面，通过将轨迹数据转换为易于理解的自然语言描述，显著提升了数据的可解释性，使得非专业人士也能更好地理解智能体的行为模式。本研究成功地缩小了预训练语言模型与强化学习轨迹之间的差异，为利用语言模型进行强化学习轨迹的生成和解释开辟了新的途径，并展示了其在实际应用中的潜力和效果。
+
+Keywords: 关键词：强化学习；大语言模型；轨迹生成；自然语言指令
+
+English Abstract: Reinforcement learning (RL), a pivotal branch of artificial intelligence, hinges on the learning of optimal policies through an agent's interaction with its environment. The trajectory data in RL, which represents the sequence of actions taken by an agent in a specific task, is crucial for evaluating and refining the agent's strategies. It meticulously documents the agent's behavior and provides an empirical foundation for performance assessment and strategic enhancement. Moreover, trajectory data can also serve as training material, facilitating superior reward accumulation in subsequent tasks. However, obtaining high- quality RL trajectory data presents challenges, often necessitating the deep involvement of domain experts and extensive experimental simulations in complex simulation environments. Additionally, the interpretability of RL trajectories faces hurdles, particularly for non- experts due to the difficulty of comprehending the triplet data composed of states, actions, and rewards. To address the aforementioned challenges, this study introduces an innovative method aimed at achieving a bidirectional transformation between RL trajectory data and natural language texts. By fine- tuning a pre- trained large language model, this research constructs a framework capable of understanding the correspondence between RL trajectory data and natural language texts, enabling their effective transformation. On one hand, this method can effectively expand the training set by converting natural language goals into trajectory data, thus achieving data augmentation and improving the learning efficiency of the agent's strategy. On the other hand, by translating trajectory data into understandable natural language descriptions, it significantly enhances data interpretability, allowingnon- experts to better comprehend agent behavior patterns. This study has successfully bridged the gap between pre- trained language models and RL trajectories, paving new avenues for the generation and interpretation of RL trajectories using language models, and demonstrating their potential and effectiveness in practical applications.
+
+English Keywords:  Reinforcement Learning; Large Language Model; Trajectory Generation; Natural Language Instruction
+
+--------------------------------------------------------------------------------
+Table of Contents: # 目录 第一章绪论 1
+
+1.1 研究背景 1
+
+1.2 相关工作 2
+
+1.2.1 强化学习数据增广 2  1.2.2 强化学习可解释性 3
+
+1.3 主要贡献 4
+
+# 第二章理论背景 5
+
+2.1 强化学习 5
+
+2.2 大语言模型 6
+
+# 第三章轨迹与文本转换方法 7
+
+3.1 问题描述 7
+
+3.2 轨迹与文本统一的训练方法 8
+
+3.3 未见轨迹生成 9
+
+# 第四章轨迹与文本转换实验 11
+
+4.1 实验设置 11
+
+4.2 轨迹生成效果 13
+
+4.3 文本生成效果 15
+
+4.4 消融实验 17
+
+# 第五章总结与展望 19
+
+5.1 全文总结 19
+
+5.2 未来展望 20
+
+参考文献 23
+
+致谢 27
+
+附录A使用的提示词 29
+
+A.1 指令微调提示词 29A.2 文本生成提示词 29
+
+附录B未见任务的自然语言目标 31
+
+B.1 未见文本 31B.2 未见任务（简单） 33B.3 未见任务（困难） 35
+
+
+
+--------------------------------------------------------------------------------
+Chunk 1 [第一章 绪论 > None > None]
+Length: 216 chars
+Content: # 南京大学
+本科毕业设计
+# 南京大学本科毕业论文（设计）诚信承诺书
+本人郑重承诺：所呈交的毕业论...
+--------------------------------------------------------------------------------
+Chunk 2 [第一章 绪论 > 1.1 研究背景 > None]
+Length: 461 chars
+Content: 人工智能自20世纪50年代首次被提出以来，经过60多年的发展，已经成为一个在多领域引发颠覆性变革的前...
+--------------------------------------------------------------------------------
+Chunk 3 [第一章 绪论 > 1.1 研究背景 > None]
+Length: 301 chars
+Content: 然而，强化学习在实际应用中面临一个主要挑战：它需要通过不断地与环境交互来采集数据，学习策略。这种交互...
+--------------------------------------------------------------------------------
+Chunk 4 [第一章 绪论 > 1.1 研究背景 > None]
+Length: 305 chars
+Content: 在这样的背景下，自然语言的引入提供了新的视角。目前已有很多将自然语言引入强化学习的工作[5]，但将自...
+--------------------------------------------------------------------------------
+Chunk 5 [第一章 绪论 > 1.2 相关工作 > 1.2.1 强化学习数据增广]
+Length: 754 chars
+Content: 数据是机器学习模型训练的核心，尤其在强化学习领域，其重要性更是不容忽视。充足的训练数据对于避免过拟合...
+--------------------------------------------------------------------------------
+Chunk 6 [第一章 绪论 > 1.2 相关工作 > 1.2.2 强化学习可解释性]
+Length: 724 chars
+Content: 强化学习作为一种解决环境交互问题的通用方法，已成为机器学习领域的一个重要分支。然而，它同样面临着机器...
+--------------------------------------------------------------------------------
+Chunk 7 [第一章 绪论 > 1.3 主要贡献 > None]
+Length: 579 chars
+Content: 针对前文提到的强化学习数据量较少，可解释性较差两个问题，本文通过将大语言模型引入自然语言，实现了强化...
+--------------------------------------------------------------------------------
+Chunk 8 [第二章 理论背景 > 2.1 强化学习 > None]
+Length: 177 chars
+Content: 人工智能的终极目标之一是设计出一个智能体，使其能够通过与环境的交互和试错过程，不断自我改进并提升性能...
+--------------------------------------------------------------------------------
+Chunk 9 [第二章 理论背景 > 2.1 强化学习 > None]
+Length: 717 chars
+Content: 作为一种通过反复试错，并且基于反馈来实现序列化决策的机器学习范式，强化学习可以形式化为对马尔科夫决策...
+--------------------------------------------------------------------------------
+Chunk 10 [第二章 理论背景 > 2.1 强化学习 > None]
+Length: 356 chars
+Content: 强化学习的策略训练在很大程度上依赖于智能体与环境的不断交互。然而，在许多现实任务中，频繁的交互、试错...
+--------------------------------------------------------------------------------
+Chunk 11 [第二章 理论背景 > 2.2 大语言模型 > None]
+Length: 714 chars
+Content: 自二十世纪五十年代图灵测试提出以来，人类对如何让机器理解和掌握语言进行了不懈探索。随着自然语言处理技...
+--------------------------------------------------------------------------------
+Chunk 12 [第三章 轨迹与文本转换方法 > None > None]
+Length: 43 chars
+Content: 本章节展示了本研究提出的利用大语言模型将强化学习轨迹与自然语言描述相互转换的具体方法。...
+--------------------------------------------------------------------------------
+Chunk 13 [第三章 轨迹与文本转换方法 > 3.1 问题描述 > None]
+Length: 445 chars
+Content: 轨迹数据 本研究使用的强化学习的离线轨迹数据由一系列状态- 动作对组成，表示为  $\{G^{k},...
+--------------------------------------------------------------------------------
+Chunk 14 [第三章 轨迹与文本转换方法 > 3.1 问题描述 > None]
+Length: 460 chars
+Content: 大语言模型 本研究使用了大语言模型，通过自回归的方式生成强化学习智能体的轨迹或者其对应的自然语言描述...
+--------------------------------------------------------------------------------
+Chunk 15 [第三章 轨迹与文本转换方法 > 3.2 轨迹与文本统一的训练方法 > None]
+Length: 424 chars
+Content: 为了实现强化学习轨迹与自然语言文本的相互转换，大语言模型必须深入理解数据的采集环境。这包括对状态信息...
+--------------------------------------------------------------------------------
+Chunk 16 [第三章 轨迹与文本转换方法 > 3.2 轨迹与文本统一的训练方法 > None]
+Length: 493 chars
+Content: 通过以上四种范式，本研究将轨迹生成和文本生成任务组织成了指令微调的形式。因为经过指令微调的大语言模型...
+--------------------------------------------------------------------------------
+Chunk 17 [第三章 轨迹与文本转换方法 > 3.3 未见轨迹生成 > None]
+Length: 530 chars
+Content: 在根据环境数据微调后，大语言模型已经能够理解环境中的状态、动作和动力学信息。鉴于大语言模型通过预训练...
+--------------------------------------------------------------------------------
+Chunk 18 [第四章 轨迹与文本转换实验 > None > None]
+Length: 184 chars
+Content: 本章节将详细分析和评估强化学习轨迹与自然语言文本互相转换效果的实验设计及其结果。实验的主要目标分为三...
+--------------------------------------------------------------------------------
+Chunk 19 [第四章 轨迹与文本转换实验 > 4.1 实验设置 > None]
+Length: 366 chars
+Content: 实验环境 实验在CLEVR- Robot环境[21]中进行。该环境是一个基于MuJoCo物理引擎[2...
+--------------------------------------------------------------------------------
+Chunk 20 [第四章 轨迹与文本转换实验 > 4.1 实验设置 > None]
+Length: 402 chars
+Content: 图4-1 CLEVR-Robot环境
+
+数据集 我们预先收集并构建了一个离线数据集，该数据集包含10...
+--------------------------------------------------------------------------------
+Chunk 21 [第四章 轨迹与文本转换实验 > 4.1 实验设置 > None]
+Length: 674 chars
+Content: 未见任务为了评估训练后的大语言模型在生成未见轨迹方面的能力，本研究在第3.3节的基础上进行了扩展，将...
+--------------------------------------------------------------------------------
+Chunk 22 [第四章 轨迹与文本转换实验 > 4.2 轨迹生成效果 > None]
+Length: 418 chars
+Content: 4.2 轨迹生成效果本节通过实验评估了大语言模型在未见任务上生成的轨迹的质量。评估采用的是未见任务（...
+--------------------------------------------------------------------------------
+Chunk 23 [第四章 轨迹与文本转换实验 > 4.2 轨迹生成效果 > None]
+Length: 418 chars
+Content: 4.2 轨迹生成效果本节通过实验评估了大语言模型在未见任务上生成的轨迹的质量。评估采用的是未见任务（...
+--------------------------------------------------------------------------------
+Chunk 24 [第四章 轨迹与文本转换实验 > 4.2 轨迹生成效果 > None]
+Length: 349 chars
+Content: ![](images/39daf319aec308e6d2e1838bd33e8529700b1ca...
+--------------------------------------------------------------------------------
+Chunk 25 [第四章 轨迹与文本转换实验 > 4.2 轨迹生成效果 > None]
+Length: 338 chars
+Content: ![](images/829682a59fcd9bf033abeaed2c200118c818adc...
+--------------------------------------------------------------------------------
+Chunk 26 [第四章 轨迹与文本转换实验 > 4.2 轨迹生成效果 > None]
+Length: 318 chars
+Content: 图4-4 未见任务（简单）轨迹示例
+
+- 在未见任务（困难）（图4-5（a））维度上，尽管任务要求更...
+--------------------------------------------------------------------------------
+Chunk 27 [第四章 轨迹与文本转换实验 > 4.3 文本生成效果 > None]
+Length: 480 chars
+Content: ![](images/6091a7647f6a9663c04f6a1b07955527f710f83...
+--------------------------------------------------------------------------------
+Chunk 28 [第四章 轨迹与文本转换实验 > 4.3 文本生成效果 > None]
+Length: 621 chars
+Content: 与4.2节相同，在准确率评估之外，本节还随机选取了一些轨迹的自然语言解释作为示例。无论是训练中使用的...
+--------------------------------------------------------------------------------
+Chunk 29 [第四章 轨迹与文本转换实验 > 4.4 消融实验 > None]
+Length: 332 chars
+Content: 4.4 消融实验本研究进一步开展了消融实验，以评估对大语言模型进行指令微调的实际效果。为了形成有效的...
+--------------------------------------------------------------------------------
+Chunk 30 [第四章 轨迹与文本转换实验 > 4.4 消融实验 > None]
+Length: 432 chars
+Content: 4.4 消融实验本研究进一步开展了消融实验，以评估对大语言模型进行指令微调的实际效果。为了形成有效的...
+--------------------------------------------------------------------------------
+Chunk 31 [第五章 总结与展望 > 5.1 全文总结 > None]
+Length: 359 chars
+Content: 自从DeepMind的AlphaGo战胜了人类顶尖棋手李世石之后，强化学习引起了学术界和工业界的广泛...
+--------------------------------------------------------------------------------
+Chunk 32 [第五章 总结与展望 > 5.1 全文总结 > None]
+Length: 341 chars
+Content: 本文在前两章论述了人工智能发展的必然趋势、强化学习的广阔前景和目前强化学习进一步发展所面临的其中两个...
+--------------------------------------------------------------------------------
+Chunk 33 [第五章 总结与展望 > 5.2 未来展望 > None]
+Length: 302 chars
+Content: 虽然本文提出了一种新颖的方法，通过预训练的大语言模型实现强化学习轨迹与自然语言文本的相互转换，一定程...
+--------------------------------------------------------------------------------
+Chunk 34 [第五章 总结与展望 > 5.2 未来展望 > None]
+Length: 651 chars
+Content: - 然后存在的不足是大语言模型需要同时学习输出状态和动作。要求单一模型同时学习状态和动作的表示，可能...
+--------------------------------------------------------------------------------
+Chunk 35 [参考文献 > None > None]
+Length: 4773 chars
+Content: [1] RUSSELL S, NORVIG P. Artificial Intelligence: ...
+--------------------------------------------------------------------------------
+Chunk 36 [致谢 > None > None]
+Length: 535 chars
+Content: 四年的本科时光转瞬即逝。回顾自己的大学生活，有愉快也有悲伤，有成功也有失败，有许多人陪我走过了这段跌...
+--------------------------------------------------------------------------------
+Chunk 37 [附录A 使用的提示词 > None > None]
+Length: 896 chars
+Content: # A.1 指令微调提示词
+- 动力学预测：You are an expert in identif...
+--------------------------------------------------------------------------------
+Chunk 38 [附录B 未见任务的自然语言目标 > None > None]
+Length: 11918 chars
+Content: # B.1 未见文本
+我们为此维度准备了40种不同的自然语言来描述目标。如果我们的任务涉及的物体是“...
+--------------------------------------------------------------------------------

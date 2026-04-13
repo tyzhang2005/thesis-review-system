@@ -1,0 +1,275 @@
+Title: 基于隔离分布核函数的
+Student Name: 李鑫澎
+Student ID: 201300068
+Abstract: 随着移动设备的普及和物联网技术的快速发展，轨迹数据的产生呈现出爆炸性增长的趋势。轨迹数据包含了移动对象在时空上的轨迹信息，例如车辆出行路径、运动轨迹等，因此在智能交通、移动物体跟踪等众多领域得到了广泛应用。在这些应用中，精确而高效地从轨迹数据库中检索出所需的轨迹是实现任务的关键。然而，传统的轨迹检索方法基于具有二次乃至更高的时间复杂度的轨迹相似度计算方法，无法运用在大规模轨迹数据库上。在此背景下，本文旨在提出一种能够实现高效轨迹检索的哈希方法 VDeH（Voronoi Diagram encodedHashing）。该方法首先将轨迹数据利用隔离分布核函数（Isolation DistributionalKernel）映射为高维特征空间中的向量，然后通过沃罗诺伊图（Voronoi diagram）将这些向量转化为二进制哈希码，从而实现轨迹数据的压缩存储和后续的高效检索。同时，VDeH 还能够与多种基于哈希的数据检索方法进行结合，进一步提高检索速度。本文通过与现有的哈希学习方法以及经典的轨迹相似度计算方法进行对比实验，验证了所提出方法的有效性和高效性。
+
+Keywords: 关键词：轨迹检索；哈希；隔离分布核函数；机器学习
+
+English Abstract: With the popularization of mobile devices and the rapid development of Internet of Things technology, there has been an explosive growth in trajectory data generation. Trajectory data contains information about the spatiotemporal paths of moving objects, such as vehicle travel routes and motion trajectories, and thus has found widespread applications in various fields such as intelligent transportation and mobile object tracking. In these applications, precise and efficient retrieval of desired trajectories from trajectory databases is crucial for the task. However, traditional trajectory retrieval methods based on trajectory similarity calculations with quadratic or even higher time complexity cannot be applied to large-scale trajectory databases. In this context, this paper aims to propose a hashing method called VDeH (Voronoi Diagram encoded Hashing) that achieves efficient trajectory retrieval. This method first maps trajectory data into vectors in a high-dimensional feature space using the Isolation Distributional Kernel, and then transforms these vectors into binary hash codes using Voronoi diagram, thereby enabling trajectory data compression and subsequent efficient retrieval. Additionally, VDeH can be combined with various hashing-based data retrieval methods to further improve retrieval speed. Through comparative experiments with existing learning to hash methods and classical trajectory similarity calculation methods, we validate the effectiveness and efficiency of the proposed approach.
+
+English Keywords:  Trajectory Retrieval; Hashing; Isolation Distributional Kernel; Machine Learning
+
+--------------------------------------------------------------------------------
+Table of Contents: # 目 录
+
+第一章 绪论
+
+## 第二章 相关工作 . . . 3
+
+2.1 轨迹检索与表征 . 3
+
+2.1.1 轨迹检索 . . . . . .  
+2.1.2 轨迹表征 . . 4
+
+### 2.2 哈希方法 . . . 6
+
+2.2.1 哈希检索方法 . . . . 6  
+2.2.2 哈希学习 . . 7
+
+2.3 本章小结 . . 9
+
+## 第三章 基于 IDK 的二进制哈希轨迹检索方法 . . . . . . . . . . . . 11
+
+3.1 IDK 表征轨迹 . . 1  
+3.2 二进制哈希检索 . . . . . . . 13
+
+## 第四章 实验测试 17
+
+4.1 实验设置 17  
+4.2 实验结果 19  
+4.3 参数分析 . . 24
+
+## 第五章 总结与展望 . 27
+
+参考文献 . . . 29
+
+致 谢 35
+
+
+
+--------------------------------------------------------------------------------
+Chunk 1 [参考文献 > None > None]
+Length: 1810 chars
+Content: 本 科 毕 业 论 文院 系 人工智能学院专 业 人工智能题 目 基于隔离分布核函数的
+## 第一章...
+--------------------------------------------------------------------------------
+Chunk 2 [参考文献 > ##2.1 轨迹检索与表征 > ###2.1.1 轨迹检索]
+Length: 773 chars
+Content: 由于轨迹检索在轨迹数据分析任务中的重要性，这个课题在过去数十年来已经得到了广泛的研究[1,6]。传统...
+--------------------------------------------------------------------------------
+Chunk 3 [参考文献 > ##2.1 轨迹检索与表征 > ###2.1.1 轨迹检索]
+Length: 482 chars
+Content: 第二类加速方法通过使用近似算法来加速轨迹间相似度的计算，从而达到快速检索轨迹的目标。Yao 等[4]...
+--------------------------------------------------------------------------------
+Chunk 4 [参考文献 > ##2.1 轨迹检索与表征 > ###2.1.2 轨迹表征]
+Length: 764 chars
+Content: 在现实世界中，一条轨迹应当是空间中的一条连续曲线，但由于轨迹数据的采样率等因素，计算机处理的轨迹数据...
+--------------------------------------------------------------------------------
+Chunk 5 [参考文献 > ##2.1 轨迹检索与表征 > ###2.1.2 轨迹表征]
+Length: 1172 chars
+Content: 在体育比赛中，常常需要对运动物体的轨迹进行跟踪记录，例如使用相机和传感器在一场足球比赛中将球员和足球...
+--------------------------------------------------------------------------------
+Chunk 6 [参考文献 > ##2.2 哈希方法 > None]
+Length: 65 chars
+Content: 哈希（hashing）能够将高维复杂数据映射到低维空间中以一条哈希码进行表征，被广泛应用于大规模数据...
+--------------------------------------------------------------------------------
+Chunk 7 [参考文献 > ##2.2 哈希方法 > ###2.2.1 哈希检索方法]
+Length: 1064 chars
+Content: 与加速轨迹检索过程的方法类似，哈希方法根据其利用哈希码进行检索的方式也可以分为两类：哈希表查找（ha...
+--------------------------------------------------------------------------------
+Chunk 8 [参考文献 > ##2.2 哈希方法 > ###2.2.2 哈希学习]
+Length: 978 chars
+Content: 传统的局部敏感哈希（Locality Sensitive Hashing, LSH）方法[22]基于...
+--------------------------------------------------------------------------------
+Chunk 9 [参考文献 > ##2.2 哈希方法 > ###2.2.2 哈希学习]
+Length: 637 chars
+Content: 除了显式地通过降低原本数据相似度与哈希码表征相似度之间的差异来学习哈希函数外，还有一些方法通过对空间...
+--------------------------------------------------------------------------------
+Chunk 10 [参考文献 > ##2.2 哈希方法 > ###2.2.2 哈希学习]
+Length: 934 chars
+Content: 有研究者指出简单的基于随机投影的LSH方法长久以来遭到了低估[28]，但其性能的优越性只有在哈希码长...
+--------------------------------------------------------------------------------
+Chunk 11 [参考文献 > ##2.3 本章小结 > None]
+Length: 758 chars
+Content: 本章介绍了与本研究相关的背景和现有方法。用于加速轨迹检索过程的方法主要可以分为两类：基于索引和剪枝技...
+--------------------------------------------------------------------------------
+Chunk 12 [参考文献 > ##3.1 IDK 表征轨迹 > None]
+Length: 788 chars
+Content: 核方法（kernel method）在机器学习领域被广泛应用于数据表征、分类和模式识别等任务中。每个...
+--------------------------------------------------------------------------------
+Chunk 13 [参考文献 > ##3.1 IDK 表征轨迹 > None]
+Length: 601 chars
+Content: ‖x−y‖• 拉普拉斯核（Laplacian Kernel）： $\begin{array} { r...
+--------------------------------------------------------------------------------
+Chunk 14 [参考文献 > ##3.1 IDK 表征轨迹 > None]
+Length: 585 chars
+Content: 实现 IK 的其中一种方法是以 iNNE（isolation using Nearest Neigh...
+--------------------------------------------------------------------------------
+Chunk 15 [参考文献 > ##3.1 IDK 表征轨迹 > None]
+Length: 590 chars
+Content: <!--formula-->$$
+
+\phi _ { j } ( \mathbf { x } | D...
+--------------------------------------------------------------------------------
+Chunk 16 [参考文献 > ##3.1 IDK 表征轨迹 > None]
+Length: 599 chars
+Content: 此后，在不产生歧义的情况下，我们省略 $| D |$ ，将 $\phi _ { j } ( \mat...
+--------------------------------------------------------------------------------
+Chunk 17 [参考文献 > ##3.1 IDK 表征轨迹 > None]
+Length: 560 chars
+Content: $$<!--/formula-->
+
+作为一个点对间核函数，IK 能够利用数据集 $_ D$ ，通过...
+--------------------------------------------------------------------------------
+Chunk 18 [参考文献 > ##3.1 IDK 表征轨迹 > None]
+Length: 668 chars
+Content: <!--formula-->$$
+
+\widehat { \Phi } ( \mathcal { P...
+--------------------------------------------------------------------------------
+Chunk 19 [参考文献 > ##3.1 IDK 表征轨迹 > None]
+Length: 742 chars
+Content: $$<!--/formula-->
+
+作为由IK衍生出的分布核函数，IDK自然而然地继承了IK的优点...
+--------------------------------------------------------------------------------
+Chunk 20 [参考文献 > ##3.2 二进制哈希检索 > None]
+Length: 505 chars
+Content: 将轨迹数据通过 IDK 映射为 RKHS 中的特征向量后，我们可以利用一种基于沃罗诺伊图（Voron...
+--------------------------------------------------------------------------------
+Chunk 21 [参考文献 > ##3.2 二进制哈希检索 > None]
+Length: 587 chars
+Content: 图 3-1 二维空间和三维空间中的沃罗诺伊图
+
+对于 RKHS 中表征轨迹数据 $T$ 的特征向量 ...
+--------------------------------------------------------------------------------
+Chunk 22 [参考文献 > ##3.2 二进制哈希检索 > None]
+Length: 621 chars
+Content: 对于数据检索任务，基于哈希码排序的方法需要在整个数据库中进行搜索，这意味着即使是与查询数据十分不相似...
+--------------------------------------------------------------------------------
+Chunk 23 [参考文献 > ##3.2 二进制哈希检索 > None]
+Length: 752 chars
+Content: 2. 计算 $\mathbf { q }$ 与每个簇质心 $\mathbf { c } _ { i ...
+--------------------------------------------------------------------------------
+Chunk 24 [参考文献 > ##4.1 实验设置 > None]
+Length: 836 chars
+Content: 我们将 VDeH 与以下几种方法进行比较：
+
+• 迭代量化（Iterative Quantizati...
+--------------------------------------------------------------------------------
+Chunk 25 [参考文献 > ##4.1 实验设置 > None]
+Length: 504 chars
+Content: 关于这些方法的更多细节已在2.2.2节中介绍。
+
+实验在以下三个真实数据集上进行：
+
+• T-Dri...
+--------------------------------------------------------------------------------
+Chunk 26 [参考文献 > ##4.1 实验设置 > None]
+Length: 1106 chars
+Content: 表 4-1 数据集详细信息
+
+<table><tr><td rowspan=1 colspan=1>...
+--------------------------------------------------------------------------------
+Chunk 27 [参考文献 > ##4.1 实验设置 > None]
+Length: 542 chars
+Content: 我们以 1000 次查询的平均精度均值（mean average precision, mAP）[3...
+--------------------------------------------------------------------------------
+Chunk 28 [参考文献 > ##4.2 实验结果 > None]
+Length: 891 chars
+Content: 图4-1至图4-3展示了VDeH与其他方法在三个数据集上的性能表现，其中横轴为二进制哈希码长度，纵轴...
+--------------------------------------------------------------------------------
+Chunk 29 [参考文献 > ##4.2 实验结果 > None]
+Length: 681 chars
+Content: ![](images/7837d95091d194cb3d37d0a7eca96ab3d2ca56f...
+--------------------------------------------------------------------------------
+Chunk 30 [参考文献 > ##4.2 实验结果 > None]
+Length: 951 chars
+Content: 表 4-2 查询时间
+
+<table><tr><td rowspan=1 colspan=2>数据集...
+--------------------------------------------------------------------------------
+Chunk 31 [参考文献 > ##4.2 实验结果 > None]
+Length: 512 chars
+Content: 在进行检索前，哈希方法需要基于数据库中的数据学习哈希函数并将这些数据转换为二进制哈希码，这一过程需要...
+--------------------------------------------------------------------------------
+Chunk 32 [参考文献 > ##4.2 实验结果 > None]
+Length: 774 chars
+Content: 表 4-3 各哈希方法在 T-Drive 数据集上所需的学习时间与数据转换时间（s）
+
+<table...
+--------------------------------------------------------------------------------
+Chunk 33 [参考文献 > ##4.2 实验结果 > None]
+Length: 537 chars
+Content: 图4-4至图4-6展示了在各数据集上的 1000 最近邻搜索任务中，不同二进制哈希码长度的 VDeH...
+--------------------------------------------------------------------------------
+Chunk 34 [参考文献 > ##4.2 实验结果 > None]
+Length: 654 chars
+Content: 图 4-5 在 Porto 数据集上进行 1000 最近邻搜索的召回率
+
+![](images/84...
+--------------------------------------------------------------------------------
+Chunk 35 [参考文献 > ##4.3 参数分析 > None]
+Length: 647 chars
+Content: 对于VDeH方法，我们需要构建具有一定数量的沃罗诺伊原胞（Voronoi cell）的沃罗诺伊图。较...
+--------------------------------------------------------------------------------
+Chunk 36 [参考文献 > ##4.3 参数分析 > None]
+Length: 566 chars
+Content: ![](images/24202a9ebe595e485fe89099517c0897019f4ab...
+--------------------------------------------------------------------------------
+Chunk 37 [参考文献 > ##4.3 参数分析 > None]
+Length: 558 chars
+Content: 展望未来，我们将继续探究VDeH与更多类似GHR的不同方法进行结合的可能性，以进一步提高 VDeH ...
+--------------------------------------------------------------------------------
+Chunk 38 [参考文献 > ##4.3 参数分析 > None]
+Length: 628 chars
+Content: [3] ATEV S, MILLER G, PAPANIKOLOPOULOS N P. Cluste...
+--------------------------------------------------------------------------------
+Chunk 39 [参考文献 > ##4.3 参数分析 > None]
+Length: 553 chars
+Content: [6] LI X, ZHAO K, CONG G, et al. Deep representati...
+--------------------------------------------------------------------------------
+Chunk 40 [参考文献 > ##4.3 参数分析 > None]
+Length: 551 chars
+Content: [9] WANG J, ZHANG T, SEBE N, et al. A survey on le...
+--------------------------------------------------------------------------------
+Chunk 41 [参考文献 > ##4.3 参数分析 > None]
+Length: 512 chars
+Content: [12] CHEN Z, SHEN H T, ZHOU X, et al. Searching tr...
+--------------------------------------------------------------------------------
+Chunk 42 [参考文献 > ##4.3 参数分析 > None]
+Length: 666 chars
+Content: [15] DRIEMEL A, SILVESTRI F. Locality-sensitive ha...
+--------------------------------------------------------------------------------
+Chunk 43 [参考文献 > ##4.3 参数分析 > None]
+Length: 525 chars
+Content: [18] MIKOLOV T, SUTSKEVER I, CHEN K, et al. Distri...
+--------------------------------------------------------------------------------
+Chunk 44 [参考文献 > ##4.3 参数分析 > None]
+Length: 682 chars
+Content: [21] JEGOU H, DOUZE M, SCHMID C. Product quantizat...
+--------------------------------------------------------------------------------
+Chunk 45 [参考文献 > ##4.3 参数分析 > None]
+Length: 536 chars
+Content: [25] GONG Y, LAZEBNIK S, GORDO A, et al. Iterative...
+--------------------------------------------------------------------------------
+Chunk 46 [参考文献 > ##4.3 参数分析 > None]
+Length: 547 chars
+Content: CAI D. A revisit of hashing algorithms for approxi...
+--------------------------------------------------------------------------------
+Chunk 47 [参考文献 > ##4.3 参数分析 > None]
+Length: 580 chars
+Content: [32] WILLIAMS C, SEEGER M. Using the Nyström metho...
+--------------------------------------------------------------------------------
+Chunk 48 [参考文献 > ##4.3 参数分析 > None]
+Length: 521 chars
+Content: [36] YUAN J, ZHENG Y, XIE X, et al. T-drive: Enhan...
+--------------------------------------------------------------------------------
+Chunk 49 [参考文献 > ##4.3 参数分析 > None]
+Length: 517 chars
+Content: [39] YUAN Y. Habir: Hashing baseline for image ret...
+--------------------------------------------------------------------------------
+Chunk 50 [致 谢 > None > None]
+Length: 704 chars
+Content: 时光飞逝，光阴荏苒。满怀着对未来的期待初次踏入大学校园的那一刻仿佛还在昨日，而如今本科阶段的终点竟已...
+--------------------------------------------------------------------------------
