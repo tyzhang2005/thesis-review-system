@@ -1,0 +1,53 @@
+{
+  "overall_ai_rate": 0.9447039307625226,
+  "total_chapters": 5,
+  "total_length": 26551,
+  "detection_time": "2026-04-03T19:00:08.366289",
+  "chapters": [
+    {
+      "chapter": "第一章 引言",
+      "content_length": 4403,
+      "chunk_count": 23,
+      "ai_probability": 0.9971332550048828,
+      "human_probability": 0.0028667196165770292,
+      "prediction": "AI生成",
+      "confidence": 0.9971332550048828
+    },
+    {
+      "chapter": "第二章 背景介绍",
+      "content_length": 11405,
+      "chunk_count": 58,
+      "ai_probability": 0.9867308139801025,
+      "human_probability": 0.013269154354929924,
+      "prediction": "AI生成",
+      "confidence": 0.9867308139801025
+    },
+    {
+      "chapter": "第三章 基于元学习的多目标演化种群更新机制",
+      "content_length": 5233,
+      "chunk_count": 33,
+      "ai_probability": 0.9599747657775879,
+      "human_probability": 0.04002523794770241,
+      "prediction": "AI生成",
+      "confidence": 0.9599747657775879
+    },
+    {
+      "chapter": "第四章 实验",
+      "content_length": 5079,
+      "chunk_count": 20,
+      "ai_probability": 0.7848270535469055,
+      "human_probability": 0.2151729315519333,
+      "prediction": "AI生成",
+      "confidence": 0.7848270535469055
+    },
+    {
+      "chapter": "第五章 总结与展望",
+      "content_length": 431,
+      "chunk_count": 1,
+      "ai_probability": 0.9956075549125671,
+      "human_probability": 0.004392463248223066,
+      "prediction": "AI生成",
+      "confidence": 0.9956075549125671
+    }
+  ]
+}

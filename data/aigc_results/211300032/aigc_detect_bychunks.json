@@ -1,0 +1,1883 @@
+{
+  "overall_ai_rate": 0.3683328562162139,
+  "total_chunks": 110,
+  "detection_time": "2026-04-03T19:16:50.185492",
+  "chunks": [
+    {
+      "chunk_id": 1,
+      "chapter": "第一章 绪论",
+      "section": "#1.1 研究背景及意义",
+      "subsection": null,
+      "content_preview": "强化学习（Reinforcement Learning, RL）是机器学习领域的一个重要的分支，在人工智能（Artificial Intelligence, AI）发展的最早期阶段便被闵斯基（Marv...",
+      "content_length": 479,
+      "ai_probability": 0.719738130569458,
+      "human_probability": 0.00036372875911183655,
+      "prediction": "AI生成",
+      "confidence": 0.9996362924575806,
+      "pdf_positions": [
+        {
+          "page_idx": 6,
+          "block_idx": 45
+        }
+      ]
+    },
+    {
+      "chunk_id": 2,
+      "chapter": "第一章 绪论",
+      "section": "#1.1 研究背景及意义",
+      "subsection": null,
+      "content_preview": "为了解决上文所述的动态多任务环境下的长期适应性问题，持续强化学习（Continual RL, CRL）[3]应运而生。作为强化学习的一种扩展范式，持续强化学习的核心挑战可归纳为以下三方面：首先，神经网...",
+      "content_length": 350,
+      "ai_probability": 0.7198023748397827,
+      "human_probability": 0.00027448791661299765,
+      "prediction": "AI生成",
+      "confidence": 0.9997255206108093,
+      "pdf_positions": [
+        {
+          "page_idx": 6,
+          "block_idx": 46
+        }
+      ]
+    },
+    {
+      "chunk_id": 3,
+      "chapter": "第一章 绪论",
+      "section": "#1.1 研究背景及意义",
+      "subsection": null,
+      "content_preview": "基于表征学习（representation learning）的持续强化学习方法为解决上文所述的三方面核心问题提供了创新路径。基于表征学习的持续强化学习方法部署了编码器（encoder）用于提取任务无...",
+      "content_length": 561,
+      "ai_probability": 0.7198158502578735,
+      "human_probability": 0.0002558048872742802,
+      "prediction": "AI生成",
+      "confidence": 0.9997442364692688,
+      "pdf_positions": [
+        {
+          "page_idx": 6,
+          "block_idx": 47
+        }
+      ]
+    },
+    {
+      "chunk_id": 4,
+      "chapter": "第一章 绪论",
+      "section": "#1.1 研究背景及意义",
+      "subsection": null,
+      "content_preview": "本文拟针对ESCP框架的局限性展开研究，并提出一种面向奖赏函数动态变化的改进型持续强化学习算法，笔者将其命名为“基于奖赏的序列上下文解释算法”（Reward-on SequentiaL context...",
+      "content_length": 291,
+      "ai_probability": 0.7198016881942749,
+      "human_probability": 0.0002754093147814274,
+      "prediction": "AI生成",
+      "confidence": 0.9997245669364929,
+      "pdf_positions": [
+        {
+          "page_idx": 7,
+          "block_idx": 49
+        }
+      ]
+    },
+    {
+      "chunk_id": 5,
+      "chapter": "第一章 绪论",
+      "section": "#1.2 本文组织结构",
+      "subsection": null,
+      "content_preview": "本文的组织结构说明如下：\n\n• 第一章为绪论，指出了传统强化学习和近年来部分模型在奖赏可变环境下适应能力的不足，从而引出基于奖赏的序列上下文解释算法相应的研究意义。\n\n• 第二章介绍了强化学习的相关理...",
+      "content_length": 141,
+      "ai_probability": 0.03640972077846527,
+      "human_probability": 0.9635902047157288,
+      "prediction": "人类",
+      "confidence": 0.9635902047157288,
+      "pdf_positions": [
+        {
+          "page_idx": 7,
+          "block_idx": 51
+        },
+        {
+          "page_idx": 7,
+          "block_idx": 52
+        }
+      ]
+    },
+    {
+      "chunk_id": 6,
+      "chapter": "第一章 绪论",
+      "section": "#1.2 本文组织结构",
+      "subsection": null,
+      "content_preview": "• 第三章为模型与优化，主要介绍基于奖赏的序列上下文解释算法的框架组成，并说明其中部分环节的优化过程，同时给出相应的数学证明。\n\n• 第四章为基于奖赏的序列上下文解释算法在仿真环境下的实验及结论，我们...",
+      "content_length": 192,
+      "ai_probability": 0.5446190983057022,
+      "human_probability": 0.2738412320613861,
+      "prediction": "AI生成",
+      "confidence": 0.7261587977409363,
+      "pdf_positions": []
+    },
+    {
+      "chunk_id": 7,
+      "chapter": "第二章 相关工作",
+      "section": "#2.1 相关理论和概念",
+      "subsection": "##2.1.1 马尔可夫决策过程",
+      "content_preview": "如前文所述，在强化学习中，我们通常将智能体同环境的交互过程建模为一个马尔可夫决策过程或其衍生形态。图2-1给出了强化学习的基本模式，接下来我们讨论如何用马尔可夫决策过程描述这个模式。",
+      "content_length": 91,
+      "ai_probability": 0.7154693841934204,
+      "human_probability": 0.006292561534792185,
+      "prediction": "AI生成",
+      "confidence": 0.9937074780464172,
+      "pdf_positions": [
+        {
+          "page_idx": 9,
+          "block_idx": 57
+        }
+      ]
+    },
+    {
+      "chunk_id": 8,
+      "chapter": "第二章 相关工作",
+      "section": "#2.1 相关理论和概念",
+      "subsection": "##2.1.1 马尔可夫决策过程",
+      "content_preview": "在一个马尔可夫决策过程中，我们定义一个初始状态分布 $\\rho _ { 0 }$ 、一个状态空间（state space） $s$ 和一个动作空间（action space） $A$ 。当处于状态 $...",
+      "content_length": 974,
+      "ai_probability": 0.7076378059387207,
+      "human_probability": 0.017169682309031487,
+      "prediction": "AI生成",
+      "confidence": 0.982830286026001,
+      "pdf_positions": [
+        {
+          "page_idx": 9,
+          "block_idx": 58
+        }
+      ]
+    },
+    {
+      "chunk_id": 9,
+      "chapter": "第二章 相关工作",
+      "section": "#2.1 相关理论和概念",
+      "subsection": "##2.1.1 马尔可夫决策过程",
+      "content_preview": "为了对马尔可夫决策过程问题进行求解，我们引入状态值函数（state valuefunction） $V ^ { \\pi } ( s )$ 和状态-动作值函数（state-action value fu...",
+      "content_length": 253,
+      "ai_probability": 0.5201239138841629,
+      "human_probability": 0.3065014183521271,
+      "prediction": "AI生成",
+      "confidence": 0.6934985518455505,
+      "pdf_positions": [
+        {
+          "page_idx": 9,
+          "block_idx": 59
+        }
+      ]
+    },
+    {
+      "chunk_id": 10,
+      "chapter": "第二章 相关工作",
+      "section": "#2.1 相关理论和概念",
+      "subsection": "##2.1.1 马尔可夫决策过程",
+      "content_preview": "![](images/1962da8266c447e0e2d48680d828969b85e0b4804234ecb64daab6e33c3973b5.jpg)\n\n图 2-1 强化学习模式示意图。图片...",
+      "content_length": 118,
+      "ai_probability": 0.7150919008255004,
+      "human_probability": 0.0068168556317687035,
+      "prediction": "AI生成",
+      "confidence": 0.9931831955909729,
+      "pdf_positions": []
+    },
+    {
+      "chunk_id": 11,
+      "chapter": "第二章 相关工作",
+      "section": "#2.1 相关理论和概念",
+      "subsection": "##2.1.1 马尔可夫决策过程",
+      "content_preview": "奖赏的定义，我们有\n\n<!--formula-->$$\n\n\\begin{array} { r l } & { { \\cal { V } } _ { T } ^ { \\pi } ( s ) = \\mat...",
+      "content_length": 417,
+      "ai_probability": 0.3206625282764435,
+      "human_probability": 0.6793375015258789,
+      "prediction": "人类",
+      "confidence": 0.6793375015258789,
+      "pdf_positions": [
+        {
+          "page_idx": 10,
+          "block_idx": 60
+        }
+      ]
+    },
+    {
+      "chunk_id": 12,
+      "chapter": "第二章 相关工作",
+      "section": "#2.1 相关理论和概念",
+      "subsection": "##2.1.1 马尔可夫决策过程",
+      "content_preview": "$$<!--/formula-->\n\n以及\n\n<!--formula-->$$\n\n\\begin{array} { r l } & { Q _ { T } ^ { \\pi } ( s , a ) = \\...",
+      "content_length": 459,
+      "ai_probability": 0.2888069152832031,
+      "human_probability": 0.7111930847167969,
+      "prediction": "人类",
+      "confidence": 0.7111930847167969,
+      "pdf_positions": []
+    },
+    {
+      "chunk_id": 13,
+      "chapter": "第二章 相关工作",
+      "section": "#2.1 相关理论和概念",
+      "subsection": "##2.1.1 马尔可夫决策过程",
+      "content_preview": "$$<!--/formula-->\n\n一般通过贝尔曼最优方程（Bellman Optimality Equation）[13]来最优化动作选择概率，即策略。我们首先生成上述两种值函数的递归求解式。由于...",
+      "content_length": 145,
+      "ai_probability": 0.2932424247264862,
+      "human_probability": 0.7067575454711914,
+      "prediction": "人类",
+      "confidence": 0.7067575454711914,
+      "pdf_positions": [
+        {
+          "page_idx": 10,
+          "block_idx": 62
+        }
+      ]
+    },
+    {
+      "chunk_id": 14,
+      "chapter": "第二章 相关工作",
+      "section": "#2.1 相关理论和概念",
+      "subsection": "##2.1.1 马尔可夫决策过程",
+      "content_preview": "<!--formula-->$$",
+      "content_length": 16,
+      "ai_probability": 0.2404458224773407,
+      "human_probability": 0.7595542073249817,
+      "prediction": "人类",
+      "confidence": 0.7595542073249817,
+      "pdf_positions": []
+    },
+    {
+      "chunk_id": 15,
+      "chapter": "第二章 相关工作",
+      "section": "#2.1 相关理论和概念",
+      "subsection": "##2.1.1 马尔可夫决策过程",
+      "content_preview": "\\begin{array} { r l } & { V _ { T } ^ { \\alpha } ( s ) = \\mathbb { E } _ { \\boldsymbol { \\kappa } } ...",
+      "content_length": 1153,
+      "ai_probability": 0.6423273468017577,
+      "human_probability": 0.10787870734930038,
+      "prediction": "AI生成",
+      "confidence": 0.8921213150024414,
+      "pdf_positions": []
+    },
+    {
+      "chunk_id": 16,
+      "chapter": "第二章 相关工作",
+      "section": "#2.1 相关理论和概念",
+      "subsection": "##2.1.1 马尔可夫决策过程",
+      "content_preview": "$$<!--/formula-->\n\n相似地，我们有\n\n<!--formula-->$$\n\nV _ { \\gamma } ^ { \\pi } = \\sum _ { a \\in \\mathcal { A...",
+      "content_length": 284,
+      "ai_probability": 0.33596155047416687,
+      "human_probability": 0.6640384793281555,
+      "prediction": "人类",
+      "confidence": 0.6640384793281555,
+      "pdf_positions": [
+        {
+          "page_idx": 11,
+          "block_idx": 63
+        }
+      ]
+    },
+    {
+      "chunk_id": 17,
+      "chapter": "第二章 相关工作",
+      "section": "#2.1 相关理论和概念",
+      "subsection": "##2.1.1 马尔可夫决策过程",
+      "content_preview": "$$<!--/formula-->\n\n于是，我们容易得到状态-动作值函数的递归式\n\n<!--formula-->$$",
+      "content_length": 58,
+      "ai_probability": 0.36930277943611145,
+      "human_probability": 0.6306972503662109,
+      "prediction": "人类",
+      "confidence": 0.6306972503662109,
+      "pdf_positions": [
+        {
+          "page_idx": 11,
+          "block_idx": 64
+        }
+      ]
+    },
+    {
+      "chunk_id": 18,
+      "chapter": "第二章 相关工作",
+      "section": "#2.1 相关理论和概念",
+      "subsection": "##2.1.1 马尔可夫决策过程",
+      "content_preview": "\\begin{array} { r l } & { Q _ { T } ^ { \\pi } ( s , a ) = \\displaystyle \\sum _ { s ^ { \\prime } \\in ...",
+      "content_length": 503,
+      "ai_probability": 0.4714093655347824,
+      "human_probability": 0.3714542090892792,
+      "prediction": "AI生成",
+      "confidence": 0.6285458207130432,
+      "pdf_positions": []
+    },
+    {
+      "chunk_id": 19,
+      "chapter": "第二章 相关工作",
+      "section": "#2.1 相关理论和概念",
+      "subsection": "##2.1.1 马尔可夫决策过程",
+      "content_preview": "$$<!--/formula-->\n\n显然，由于策略本身作为优化的目标，为了得到最优的状态值函数 $V$ ，我们有\n\n<!--formula-->$$\n\nV ^ { \\star } = \\operat...",
+      "content_length": 180,
+      "ai_probability": 0.5302294939756393,
+      "human_probability": 0.2930273413658142,
+      "prediction": "AI生成",
+      "confidence": 0.7069726586341858,
+      "pdf_positions": [
+        {
+          "page_idx": 11,
+          "block_idx": 65
+        }
+      ]
+    },
+    {
+      "chunk_id": 20,
+      "chapter": "第二章 相关工作",
+      "section": "#2.1 相关理论和概念",
+      "subsection": "##2.1.1 马尔可夫决策过程",
+      "content_preview": "$$<!--/formula-->\n\n相对地，我们将最优状态值函数代入状态-动作值函数的递归式，得到\n\n<!--formula-->$$",
+      "content_length": 68,
+      "ai_probability": 0.4154537677764893,
+      "human_probability": 0.4806828200817108,
+      "prediction": "AI生成",
+      "confidence": 0.5193172097206116,
+      "pdf_positions": [
+        {
+          "page_idx": 11,
+          "block_idx": 66
+        }
+      ]
+    },
+    {
+      "chunk_id": 21,
+      "chapter": "第二章 相关工作",
+      "section": "#2.1 相关理论和概念",
+      "subsection": "##2.1.1 马尔可夫决策过程",
+      "content_preview": "\\begin{array} { r l } & { Q _ { T } ^ { \\star } ( s , a ) = \\displaystyle \\sum _ { s ^ { \\prime } \\i...",
+      "content_length": 621,
+      "ai_probability": 0.4892925024032593,
+      "human_probability": 0.3476100564002991,
+      "prediction": "AI生成",
+      "confidence": 0.6523900032043457,
+      "pdf_positions": []
+    },
+    {
+      "chunk_id": 22,
+      "chapter": "第二章 相关工作",
+      "section": "#2.1 相关理论和概念",
+      "subsection": "##2.1.1 马尔可夫决策过程",
+      "content_preview": "$$<!--/formula-->\n\n至此，我们利用贝尔曼最优方程得到了非最优化策略的更新优化方式。",
+      "content_length": 50,
+      "ai_probability": 0.4389805793762207,
+      "human_probability": 0.4512743055820465,
+      "prediction": "AI生成",
+      "confidence": 0.5487257242202759,
+      "pdf_positions": [
+        {
+          "page_idx": 11,
+          "block_idx": 67
+        }
+      ]
+    },
+    {
+      "chunk_id": 23,
+      "chapter": "第二章 相关工作",
+      "section": "#2.1 相关理论和概念",
+      "subsection": "##2.1.2 部分可观测的马尔可夫决策过程",
+      "content_preview": "在式 (2-3) 中，动作-状态全概率展开的前提条件是转移概率 $P$ 和奖赏函数$R$ 可知。但在大多数现实任务环境中，由于我们无法对所有的环境变量或因素进行测量，所以无法准确得到状态 $s$ ，也...",
+      "content_length": 192,
+      "ai_probability": 0.6778018999099731,
+      "human_probability": 0.058608535677194595,
+      "prediction": "AI生成",
+      "confidence": 0.9413915276527405,
+      "pdf_positions": [
+        {
+          "page_idx": 11,
+          "block_idx": 69
+        }
+      ]
+    },
+    {
+      "chunk_id": 24,
+      "chapter": "第二章 相关工作",
+      "section": "#2.1 相关理论和概念",
+      "subsection": "##2.1.2 部分可观测的马尔可夫决策过程",
+      "content_preview": "在部分可观测的马尔可夫决策过程中，我们引入一个观测空间（observationspace）??，即所有观测值的集合。智能体在同环境进行交互的过程中通过观测值对环境状态进行推理和建模。对于某个观测值 $...",
+      "content_length": 318,
+      "ai_probability": 0.6826620197296143,
+      "human_probability": 0.051858317106962204,
+      "prediction": "AI生成",
+      "confidence": 0.9481416940689087,
+      "pdf_positions": [
+        {
+          "page_idx": 11,
+          "block_idx": 70
+        }
+      ]
+    },
+    {
+      "chunk_id": 25,
+      "chapter": "第二章 相关工作",
+      "section": "#2.1 相关理论和概念",
+      "subsection": "##2.1.2 部分可观测的马尔可夫决策过程",
+      "content_preview": "由于我们无法像一般的马尔可夫决策过程一样求解状态值函数和动作-状态值函数，我们引入信念状态（belief state）。首先，我们定义一个历史变量 $h _ { t }$ ，表示系统在时刻 $t$ 之...",
+      "content_length": 252,
+      "ai_probability": 0.6775606298446655,
+      "human_probability": 0.058943551033735275,
+      "prediction": "AI生成",
+      "confidence": 0.9410564303398132,
+      "pdf_positions": [
+        {
+          "page_idx": 12,
+          "block_idx": 72
+        }
+      ]
+    },
+    {
+      "chunk_id": 26,
+      "chapter": "第二章 相关工作",
+      "section": "#2.1 相关理论和概念",
+      "subsection": "##2.1.2 部分可观测的马尔可夫决策过程",
+      "content_preview": "<!--formula-->$$\n\nb _ { t + 1 } ( s ^ { \\prime } ) = \\frac { O ( z _ { t + 1 } \\mid s ^ { \\prime } ,...",
+      "content_length": 375,
+      "ai_probability": 0.4511350840330124,
+      "human_probability": 0.39848658442497253,
+      "prediction": "AI生成",
+      "confidence": 0.6015134453773499,
+      "pdf_positions": []
+    },
+    {
+      "chunk_id": 27,
+      "chapter": "第二章 相关工作",
+      "section": "#2.1 相关理论和概念",
+      "subsection": "##2.1.2 部分可观测的马尔可夫决策过程",
+      "content_preview": "$$<!--/formula-->\n\n即下一时刻的信念 $b _ { t + 1 }$ 等于转移至下一状态 $s ^ { \\prime }$ 的概率、在下一状态观测到 $z _ { t + 1 }$ ...",
+      "content_length": 125,
+      "ai_probability": 0.18189637362957,
+      "human_probability": 0.8181036114692688,
+      "prediction": "人类",
+      "confidence": 0.8181036114692688,
+      "pdf_positions": [
+        {
+          "page_idx": 12,
+          "block_idx": 73
+        }
+      ]
+    },
+    {
+      "chunk_id": 28,
+      "chapter": "第二章 相关工作",
+      "section": "#2.1 相关理论和概念",
+      "subsection": "##2.1.2 部分可观测的马尔可夫决策过程",
+      "content_preview": "在部分可观测的马尔可夫决策过程中，以 $\\gamma$ 折扣累积奖赏为例，我们可以相应地定义状态值函数和状态-动作值函数，最终写出相应的贝尔曼最优方程如下：\n\n<!--formula-->$$\n\nV ...",
+      "content_length": 302,
+      "ai_probability": 0.702601261138916,
+      "human_probability": 0.024164954200387,
+      "prediction": "AI生成",
+      "confidence": 0.9758350849151611,
+      "pdf_positions": [
+        {
+          "page_idx": 12,
+          "block_idx": 74
+        }
+      ]
+    },
+    {
+      "chunk_id": 29,
+      "chapter": "第二章 相关工作",
+      "section": "#2.1 相关理论和概念",
+      "subsection": "##2.1.2 部分可观测的马尔可夫决策过程",
+      "content_preview": "$$<!--/formula-->\n\n<!--formula-->$$\n\nQ ^ { \\star } ( b , a ) = R _ { b } ( b , a ) + \\gamma \\sum _ {...",
+      "content_length": 177,
+      "ai_probability": 0.35053741931915283,
+      "human_probability": 0.6494625806808472,
+      "prediction": "人类",
+      "confidence": 0.6494625806808472,
+      "pdf_positions": []
+    },
+    {
+      "chunk_id": 30,
+      "chapter": "第二章 相关工作",
+      "section": "#2.1 相关理论和概念",
+      "subsection": "##2.1.2 部分可观测的马尔可夫决策过程",
+      "content_preview": "$$<!--/formula-->\n\n其中 $p ( z \\mid b , a )$ 表示智能体在信念 $b$ 和执行动作 $a$ 的条件下观测到 $z$ 的概率，这个值的计算可以参考式(2-8)的分...",
+      "content_length": 104,
+      "ai_probability": 0.6851698637008666,
+      "human_probability": 0.04837512597441673,
+      "prediction": "AI生成",
+      "confidence": 0.9516248106956482,
+      "pdf_positions": [
+        {
+          "page_idx": 12,
+          "block_idx": 75
+        }
+      ]
+    },
+    {
+      "chunk_id": 31,
+      "chapter": "第二章 相关工作",
+      "section": "#2.1 相关理论和概念",
+      "subsection": "##2.1.3 离线和在线强化学习",
+      "content_preview": "如1.1节所述，标准的强化学习方法通过反复试错来习得如何执行任务，并在探索（exploration）与利用（exploitation）之间的平衡中试图取得更好的表现。离线强化学习（offline RL...",
+      "content_length": 331,
+      "ai_probability": 0.7076714086532593,
+      "human_probability": 0.01712305098772049,
+      "prediction": "AI生成",
+      "confidence": 0.9828769564628601,
+      "pdf_positions": [
+        {
+          "page_idx": 12,
+          "block_idx": 77
+        }
+      ]
+    },
+    {
+      "chunk_id": 32,
+      "chapter": "第二章 相关工作",
+      "section": "#2.1 相关理论和概念",
+      "subsection": "##2.1.3 离线和在线强化学习",
+      "content_preview": "![](images/3dc10e91897452b7d0c08145b8f3cf41b6f8e82a0599d809a6d94698baaa43e7.jpg)\n\n图 2-2 在线强化学习 (a)、异...",
+      "content_length": 174,
+      "ai_probability": 0.31933510303497314,
+      "human_probability": 0.6806648969650269,
+      "prediction": "人类",
+      "confidence": 0.6806648969650269,
+      "pdf_positions": []
+    },
+    {
+      "chunk_id": 33,
+      "chapter": "第二章 相关工作",
+      "section": "#2.1 相关理论和概念",
+      "subsection": "##2.1.3 离线和在线强化学习",
+      "content_preview": "在线强化学习（online RL）是一种更为常见的强化学习模式，它要求智能体在训练过程中同环境进行交互。图 2-2 (a) 展示了在线强化学习的模型结构。在线强化学习又可以分为异策略（off-poli...",
+      "content_length": 610,
+      "ai_probability": 0.6976239395141601,
+      "human_probability": 0.03107788786292076,
+      "prediction": "AI生成",
+      "confidence": 0.9689221382141113,
+      "pdf_positions": [
+        {
+          "page_idx": 13,
+          "block_idx": 78
+        }
+      ]
+    },
+    {
+      "chunk_id": 34,
+      "chapter": "第二章 相关工作",
+      "section": "#2.2 国内外研究现状",
+      "subsection": "##2.2.1 元强化学习",
+      "content_preview": "元强化学习[11]通过“学会学习”（Learning to Learn）[23-24]机制，使智能体能够快速适应未知任务。元强化学习的核心思想是通过元训练阶段获取跨任务共享的先验知识，然后在元测试阶段...",
+      "content_length": 205,
+      "ai_probability": 0.7176007318496704,
+      "human_probability": 0.0033323238603770733,
+      "prediction": "AI生成",
+      "confidence": 0.9966676831245422,
+      "pdf_positions": [
+        {
+          "page_idx": 13,
+          "block_idx": 81
+        }
+      ]
+    },
+    {
+      "chunk_id": 35,
+      "chapter": "第二章 相关工作",
+      "section": "#2.2 国内外研究现状",
+      "subsection": "##2.2.1 元强化学习",
+      "content_preview": "Unit, GRU）[25]实现快速的策略调整。然而，RL2 的外层循环算法已被证明是一个直接的性能瓶颈，并且RL2 在处理任务时需要使用完整的情节（episode），它对先验知识的利用效率也不甚理想...",
+      "content_length": 112,
+      "ai_probability": 0.7189958238601685,
+      "human_probability": 0.0013946685940027237,
+      "prediction": "AI生成",
+      "confidence": 0.9986053109169006,
+      "pdf_positions": [
+        {
+          "page_idx": 14,
+          "block_idx": 82
+        }
+      ]
+    },
+    {
+      "chunk_id": 36,
+      "chapter": "第二章 相关工作",
+      "section": "#2.2 国内外研究现状",
+      "subsection": "##2.2.1 元强化学习",
+      "content_preview": "模型不可知的元学习（Model-Agnostic Meta-Learning, MAML）[26]算法也是一种重要的元强化学习方法。它使用一套预先训练完毕的环境参数，用尽可能少的梯度更新步数使得模型能...",
+      "content_length": 466,
+      "ai_probability": 0.6923923873901366,
+      "human_probability": 0.038343872874975204,
+      "prediction": "AI生成",
+      "confidence": 0.9616560935974121,
+      "pdf_positions": [
+        {
+          "page_idx": 14,
+          "block_idx": 83
+        }
+      ]
+    },
+    {
+      "chunk_id": 37,
+      "chapter": "第二章 相关工作",
+      "section": "#2.2 国内外研究现状",
+      "subsection": "##2.2.2 基于记忆的强化学习",
+      "content_preview": "基于记忆的强化学习（memory-based RL）是元强化学习的另一分野。它通过显式地存储历史经验从而缓解神经网络的灾难性遗忘问题。记忆增强神经网络（Memory-Augmented Neural ...",
+      "content_length": 487,
+      "ai_probability": 0.7182288837432861,
+      "human_probability": 0.002459939569234848,
+      "prediction": "AI生成",
+      "confidence": 0.9975401163101196,
+      "pdf_positions": [
+        {
+          "page_idx": 14,
+          "block_idx": 85
+        }
+      ]
+    },
+    {
+      "chunk_id": 38,
+      "chapter": "第二章 相关工作",
+      "section": "#2.2 国内外研究现状",
+      "subsection": "##2.2.2 基于记忆的强化学习",
+      "content_preview": "值得关注的是，混合记忆架构（hybrid memory architecture）逐渐成为了一个新的研究热点。例如，神经情景控制（Neural Episodic Control, NEC）[34-35...",
+      "content_length": 242,
+      "ai_probability": 0.7197911310195922,
+      "human_probability": 0.0002900667896028608,
+      "prediction": "AI生成",
+      "confidence": 0.9997099041938782,
+      "pdf_positions": [
+        {
+          "page_idx": 14,
+          "block_idx": 86
+        }
+      ]
+    },
+    {
+      "chunk_id": 39,
+      "chapter": "第二章 相关工作",
+      "section": "#2.2 国内外研究现状",
+      "subsection": "##2.2.3 基于上下文的元强化学习",
+      "content_preview": "基于上下文的元强化学习（context-based meta RL）应用于部分可观测的马尔可夫决策任务中，在智能体感知环境受限的情况下帮助智能体对环境进行建模。在动态环境建模领域，上下文编码器（Con...",
+      "content_length": 490,
+      "ai_probability": 0.7178611850738525,
+      "human_probability": 0.0029705355409532785,
+      "prediction": "AI生成",
+      "confidence": 0.9970294237136841,
+      "pdf_positions": [
+        {
+          "page_idx": 15,
+          "block_idx": 89
+        }
+      ]
+    },
+    {
+      "chunk_id": 40,
+      "chapter": "第二章 相关工作",
+      "section": "#2.2 国内外研究现状",
+      "subsection": "##2.2.3 基于上下文的元强化学习",
+      "content_preview": "前文提到的 ESCP 模型[10]通过三阶段优化实现突变环境的高效适应：1）上下文编码方差最小化（variance minimization），以确保任务表征的稳定性使得模型能够快速且准确地提供环境上...",
+      "content_length": 405,
+      "ai_probability": 0.7198079538345337,
+      "human_probability": 0.0002666934160515666,
+      "prediction": "AI生成",
+      "confidence": 0.9997332692146301,
+      "pdf_positions": [
+        {
+          "page_idx": 15,
+          "block_idx": 90
+        }
+      ]
+    },
+    {
+      "chunk_id": 41,
+      "chapter": "第二章 相关工作",
+      "section": "#2.2 国内外研究现状",
+      "subsection": "##2.2.4 持续强化学习的代表算法",
+      "content_preview": "策略优化算法的进步为持续强化学习提供了基础支撑。信赖域策略优化（Trust Region Policy Optimization, TRPO）[42]算法类似于自然策略梯度方法，它忽略状态分布的变化，...",
+      "content_length": 569,
+      "ai_probability": 0.6463750791549683,
+      "human_probability": 0.10225685685873032,
+      "prediction": "AI生成",
+      "confidence": 0.8977431654930115,
+      "pdf_positions": [
+        {
+          "page_idx": 16,
+          "block_idx": 92
+        }
+      ]
+    },
+    {
+      "chunk_id": 42,
+      "chapter": "第二章 相关工作",
+      "section": "#2.2 国内外研究现状",
+      "subsection": "##2.2.4 持续强化学习的代表算法",
+      "content_preview": "最大熵强化学习（maximum entropy RL）框架[20]通过引入熵正则化项来实现探索与利用二者的平衡。软动作评价（SAC）[20-21]作为其代表算法，采用了随机策略（stochastic ...",
+      "content_length": 244,
+      "ai_probability": 0.719668436050415,
+      "human_probability": 0.00046053811092860997,
+      "prediction": "AI生成",
+      "confidence": 0.9995394945144653,
+      "pdf_positions": [
+        {
+          "page_idx": 16,
+          "block_idx": 93
+        }
+      ]
+    },
+    {
+      "chunk_id": 43,
+      "chapter": "第二章 相关工作",
+      "section": "#2.2 国内外研究现状",
+      "subsection": "##2.2.4 持续强化学习的代表算法",
+      "content_preview": "具有上下文编码器特定学习率的递归非策略强化学习（Recurrent off-policyRL with context-Encoder-Specific Learning rate, RESeL）[4...",
+      "content_length": 337,
+      "ai_probability": 0.04252883791923523,
+      "human_probability": 0.9574711918830872,
+      "prediction": "人类",
+      "confidence": 0.9574711918830872,
+      "pdf_positions": [
+        {
+          "page_idx": 16,
+          "block_idx": 94
+        }
+      ]
+    },
+    {
+      "chunk_id": 44,
+      "chapter": "第三章 本文方法",
+      "section": null,
+      "subsection": null,
+      "content_preview": "本章主要介绍RoSeLIA的模型结构和RoSeLIA在理论与实践中的各类优化方法，最后我们给出 RoSeLIA 的总体训练过程。",
+      "content_length": 64,
+      "ai_probability": 0.7029342842102051,
+      "human_probability": 0.023702379316091537,
+      "prediction": "AI生成",
+      "confidence": 0.9762976169586182,
+      "pdf_positions": [
+        {
+          "page_idx": 17,
+          "block_idx": 96
+        }
+      ]
+    },
+    {
+      "chunk_id": 45,
+      "chapter": "第三章 本文方法",
+      "section": "#3.1 模型结构概述",
+      "subsection": null,
+      "content_preview": "RoSeLIA由两个主要部分组成：1）上下文编码器（CE），以历史交互信息为输入，生成关于潜在环境上下文的编码；2）上下文策略（Contextual Policy, CP），以采样出来的环境上下文和当...",
+      "content_length": 936,
+      "ai_probability": 0.7173713493347168,
+      "human_probability": 0.003650852246209979,
+      "prediction": "AI生成",
+      "confidence": 0.9963490962982178,
+      "pdf_positions": [
+        {
+          "page_idx": 17,
+          "block_idx": 98
+        }
+      ]
+    },
+    {
+      "chunk_id": 46,
+      "chapter": "第三章 本文方法",
+      "section": "#3.1 模型结构概述",
+      "subsection": null,
+      "content_preview": "![](images/a0c7a80cef25ba17772fd1e708777fcf2ee0ffe861014f175ac659ebc1c07f2c.jpg)\n\n图 3-1 以状态-动作值函数 Q ...",
+      "content_length": 123,
+      "ai_probability": 0.16558492183685303,
+      "human_probability": 0.8344151377677917,
+      "prediction": "人类",
+      "confidence": 0.8344151377677917,
+      "pdf_positions": []
+    },
+    {
+      "chunk_id": 47,
+      "chapter": "第三章 本文方法",
+      "section": "#3.1 模型结构概述",
+      "subsection": null,
+      "content_preview": "评价模块的输入包含上下文信息、当前动作 $a _ { t }$ 和当前状态 $s _ { t }$ 。由于平均上下文具有更小的方差并且更稳定，故我们选择使用（移动更新过的）平均潜在上下文作为动作值函数...",
+      "content_length": 399,
+      "ai_probability": 0.6315226793289185,
+      "human_probability": 0.12288515269756317,
+      "prediction": "AI生成",
+      "confidence": 0.8771148324012756,
+      "pdf_positions": [
+        {
+          "page_idx": 18,
+          "block_idx": 100
+        }
+      ]
+    },
+    {
+      "chunk_id": 48,
+      "chapter": "第三章 本文方法",
+      "section": "#3.1 模型结构概述",
+      "subsection": null,
+      "content_preview": "从而，上下文策略 CP 和相应的动作评价函数（以状态-动作值函数为例）可以分别被表示为\n\n<!--formula-->$$\n\n\\pi \\left( a \\mid s , c ; \\theta \\rig...",
+      "content_length": 159,
+      "ai_probability": 0.3202418088912964,
+      "human_probability": 0.5996977686882019,
+      "prediction": "人类",
+      "confidence": 0.5996977686882019,
+      "pdf_positions": [
+        {
+          "page_idx": 18,
+          "block_idx": 101
+        }
+      ]
+    },
+    {
+      "chunk_id": 49,
+      "chapter": "第三章 本文方法",
+      "section": "#3.1 模型结构概述",
+      "subsection": null,
+      "content_preview": "$$<!--/formula-->\n\n其中 $\\theta$ 和 $\\varphi$ 分别表示上下文策略 CP 和状态-动作值函数 Q 的参数。在本文中，上下文策略 CP 的训练遵循软动作评价（SAC...",
+      "content_length": 183,
+      "ai_probability": 0.6798809337615966,
+      "human_probability": 0.05572091415524483,
+      "prediction": "AI生成",
+      "confidence": 0.9442790746688843,
+      "pdf_positions": [
+        {
+          "page_idx": 18,
+          "block_idx": 102
+        }
+      ]
+    },
+    {
+      "chunk_id": 50,
+      "chapter": "第三章 本文方法",
+      "section": "#3.2 上下文编码器 CE 的优化目标",
+      "subsection": null,
+      "content_preview": "由于上下文策略CP的决策以上下文编码器CE所习得的上下文编码为基础，在后者完成对上下文的编码后，一个最优的上下文策略CP便可相应地生成一个最优的策略。换言之，只要上下文编码器 CE 能迅速识别并跟踪变...",
+      "content_length": 219,
+      "ai_probability": 0.09693966060876846,
+      "human_probability": 0.9030603766441345,
+      "prediction": "人类",
+      "confidence": 0.9030603766441345,
+      "pdf_positions": [
+        {
+          "page_idx": 18,
+          "block_idx": 104
+        }
+      ]
+    },
+    {
+      "chunk_id": 51,
+      "chapter": "第三章 本文方法",
+      "section": "#3.2 上下文编码器 CE 的优化目标",
+      "subsection": null,
+      "content_preview": "应的正确的调整。\n\n我们记潜在上下文空间（latent context space）为 $c$ ，并令第 $i ( i = 0 , 1 , \\cdots , M { - } 1 )$ 个环境中的真实潜...",
+      "content_length": 352,
+      "ai_probability": 0.0932563990354538,
+      "human_probability": 0.9067436456680298,
+      "prediction": "人类",
+      "confidence": 0.9067436456680298,
+      "pdf_positions": [
+        {
+          "page_idx": 19,
+          "block_idx": 105
+        },
+        {
+          "page_idx": 19,
+          "block_idx": 106
+        }
+      ]
+    },
+    {
+      "chunk_id": 52,
+      "chapter": "第三章 本文方法",
+      "section": "#3.2 上下文编码器 CE 的优化目标",
+      "subsection": null,
+      "content_preview": "<!--formula-->$$\n\n\\ell _ { \\mathrm { { C E } } } ^ { i } = \\mathbb { E } _ { c _ { t } ^ { i } \\sim ...",
+      "content_length": 189,
+      "ai_probability": 0.38445274829864506,
+      "human_probability": 0.5194340348243713,
+      "prediction": "人类",
+      "confidence": 0.5194340348243713,
+      "pdf_positions": []
+    },
+    {
+      "chunk_id": 53,
+      "chapter": "第三章 本文方法",
+      "section": "#3.2 上下文编码器 CE 的优化目标",
+      "subsection": null,
+      "content_preview": "$$<!--/formula-->\n\n这里我们使用了 L2 距离作为度量。为方便起见，在下文中，我们将 $\\mathbb { E } _ { c _ { t } ^ { i } \\sim D ^ { ...",
+      "content_length": 127,
+      "ai_probability": 0.6623112630844116,
+      "human_probability": 0.08012323081493378,
+      "prediction": "AI生成",
+      "confidence": 0.919876754283905,
+      "pdf_positions": [
+        {
+          "page_idx": 19,
+          "block_idx": 107
+        }
+      ]
+    },
+    {
+      "chunk_id": 54,
+      "chapter": "第三章 本文方法",
+      "section": "#3.2 上下文编码器 CE 的优化目标",
+      "subsection": null,
+      "content_preview": "我们对式 (3-2) 进行偏置-方差分解（bias-variance decomposition），得到\n\n<!--formula-->$$",
+      "content_length": 70,
+      "ai_probability": 0.23064115643501282,
+      "human_probability": 0.7693588733673096,
+      "prediction": "人类",
+      "confidence": 0.7693588733673096,
+      "pdf_positions": [
+        {
+          "page_idx": 19,
+          "block_idx": 108
+        }
+      ]
+    },
+    {
+      "chunk_id": 55,
+      "chapter": "第三章 本文方法",
+      "section": "#3.2 上下文编码器 CE 的优化目标",
+      "subsection": null,
+      "content_preview": "\\begin{array} { r l } { \\hat { c } _ { \\hat { c } \\hat { c } } ^ { \\dagger } = \\mathbb { E } [ \\| \\h...",
+      "content_length": 1491,
+      "ai_probability": 0.6777795839309693,
+      "human_probability": 0.05863938480615616,
+      "prediction": "AI生成",
+      "confidence": 0.9413605332374573,
+      "pdf_positions": []
+    },
+    {
+      "chunk_id": 56,
+      "chapter": "第三章 本文方法",
+      "section": "#3.2 上下文编码器 CE 的优化目标",
+      "subsection": null,
+      "content_preview": "$$<!--/formula-->\n\n这样，上下文编码器CE的优化目标就被分为两个部分：1）偏置（bias），用于表征上下文编码器 CE 预测值的平均值 $\\mathbb { E } \\left[ c...",
+      "content_length": 370,
+      "ai_probability": 0.5885788822174072,
+      "human_probability": 0.18252933025360107,
+      "prediction": "AI生成",
+      "confidence": 0.8174706697463989,
+      "pdf_positions": [
+        {
+          "page_idx": 19,
+          "block_idx": 109
+        }
+      ]
+    },
+    {
+      "chunk_id": 57,
+      "chapter": "第三章 本文方法",
+      "section": "#3.2 上下文编码器 CE 的优化目标",
+      "subsection": null,
+      "content_preview": "预测结果快速而平稳地趋近平均值。\n\n接下来我们尝试为上下文编码器 CE，或者更准确地，为所有环境构建一组合适的上下文向量 $u ^ { i } \\in \\mathcal { C } , i = 0 ,...",
+      "content_length": 421,
+      "ai_probability": 0.6886151075363159,
+      "human_probability": 0.04359012469649315,
+      "prediction": "AI生成",
+      "confidence": 0.9564098715782166,
+      "pdf_positions": [
+        {
+          "page_idx": 20,
+          "block_idx": 110
+        },
+        {
+          "page_idx": 20,
+          "block_idx": 111
+        }
+      ]
+    },
+    {
+      "chunk_id": 58,
+      "chapter": "第三章 本文方法",
+      "section": "#3.2 上下文编码器 CE 的优化目标",
+      "subsection": null,
+      "content_preview": "<!--formula-->$$\n\n\\operatorname { c o r } \\left( \\pmb { p } , \\pmb { q } \\right) = \\exp \\left( - \\rh...",
+      "content_length": 168,
+      "ai_probability": 0.3464552402496338,
+      "human_probability": 0.5669309496879578,
+      "prediction": "人类",
+      "confidence": 0.5669309496879578,
+      "pdf_positions": []
+    },
+    {
+      "chunk_id": 59,
+      "chapter": "第三章 本文方法",
+      "section": "#3.2 上下文编码器 CE 的优化目标",
+      "subsection": null,
+      "content_preview": "$$<!--/formula-->\n\n其中 $\\rho$ 是用来控制度量比例的超参数。我们再令向量集合 $\\boldsymbol { \\nu }$ 的关系矩阵为 $\\pmb { R } _ { \\ma...",
+      "content_length": 127,
+      "ai_probability": 0.6737408638000488,
+      "human_probability": 0.06424883753061295,
+      "prediction": "AI生成",
+      "confidence": 0.93575119972229,
+      "pdf_positions": [
+        {
+          "page_idx": 20,
+          "block_idx": 112
+        }
+      ]
+    },
+    {
+      "chunk_id": 60,
+      "chapter": "第三章 本文方法",
+      "section": "#3.2 上下文编码器 CE 的优化目标",
+      "subsection": null,
+      "content_preview": "<!--formula-->$$\n\nR _ { \\mathcal { V } } ( i , j ) = \\mathrm { c o r } \\left( u ^ { i } , u ^ { j } ...",
+      "content_length": 156,
+      "ai_probability": 0.3526532888412476,
+      "human_probability": 0.5591833591461182,
+      "prediction": "人类",
+      "confidence": 0.5591833591461182,
+      "pdf_positions": []
+    },
+    {
+      "chunk_id": 61,
+      "chapter": "第三章 本文方法",
+      "section": "#3.2 上下文编码器 CE 的优化目标",
+      "subsection": null,
+      "content_preview": "$$<!--/formula-->\n\n最后，我们记向量集合 $\\boldsymbol { \\nu }$ 的差异程度为 $\\mathrm { d i v } ( \\mathcal { V } ) = \\...",
+      "content_length": 207,
+      "ai_probability": 0.6867424964904785,
+      "human_probability": 0.04619096592068672,
+      "prediction": "AI生成",
+      "confidence": 0.9538090229034424,
+      "pdf_positions": [
+        {
+          "page_idx": 20,
+          "block_idx": 113
+        }
+      ]
+    },
+    {
+      "chunk_id": 62,
+      "chapter": "第三章 本文方法",
+      "section": "#3.2 上下文编码器 CE 的优化目标",
+      "subsection": null,
+      "content_preview": "根据上述定义，我们有命题 3.1 div(?? ) 的下界为 0，上界为 1。\n\n以下给出一个定性的、数学上不严谨的证明。",
+      "content_length": 61,
+      "ai_probability": 0.05810180678963661,
+      "human_probability": 0.9418981671333313,
+      "prediction": "人类",
+      "confidence": 0.9418981671333313,
+      "pdf_positions": [
+        {
+          "page_idx": 20,
+          "block_idx": 114
+        },
+        {
+          "page_idx": 20,
+          "block_idx": 116
+        }
+      ]
+    },
+    {
+      "chunk_id": 63,
+      "chapter": "第三章 本文方法",
+      "section": "#3.2 上下文编码器 CE 的优化目标",
+      "subsection": null,
+      "content_preview": "证明 我们考虑两种最极端的情况： $I$ ）集合 $\\boldsymbol { \\nu }$ 中的所有向量均相同，此情形是相关性度量 $\\mathrm { c o r } ( \\cdot )$ 最大的...",
+      "content_length": 1041,
+      "ai_probability": 0.16179177165031433,
+      "human_probability": 0.8382081985473633,
+      "prediction": "人类",
+      "confidence": 0.8382081985473633,
+      "pdf_positions": [
+        {
+          "page_idx": 20,
+          "block_idx": 117
+        }
+      ]
+    },
+    {
+      "chunk_id": 64,
+      "chapter": "第三章 本文方法",
+      "section": "#3.2 上下文编码器 CE 的优化目标",
+      "subsection": null,
+      "content_preview": "<!--formula-->$$\n\n\\mathcal { V } ^ { \\star } = \\operatorname * { a r g m a x } _ { \\mathcal { V } } ...",
+      "content_length": 271,
+      "ai_probability": 0.45339012145996094,
+      "human_probability": 0.43326231837272644,
+      "prediction": "AI生成",
+      "confidence": 0.5667376518249512,
+      "pdf_positions": []
+    },
+    {
+      "chunk_id": 65,
+      "chapter": "第三章 本文方法",
+      "section": "#3.2 上下文编码器 CE 的优化目标",
+      "subsection": null,
+      "content_preview": "$$<!--/formula-->\n\n根据式 (3-3)，我们知道， $u ^ { i }$ 是 $\\mathbb { E } \\left[ c _ { t } ^ { i } \\right]$ 的目...",
+      "content_length": 494,
+      "ai_probability": 0.3387700319290161,
+      "human_probability": 0.6612299680709839,
+      "prediction": "人类",
+      "confidence": 0.6612299680709839,
+      "pdf_positions": [
+        {
+          "page_idx": 21,
+          "block_idx": 119
+        }
+      ]
+    },
+    {
+      "chunk_id": 66,
+      "chapter": "第三章 本文方法",
+      "section": "#3.2 上下文编码器 CE 的优化目标",
+      "subsection": null,
+      "content_preview": "<!--formula-->$$\n\n\\ell _ { \\mathrm { { C E } } } = \\lambda \\sum _ { i = 0 } ^ { M - 1 } \\mathbb { E ...",
+      "content_length": 316,
+      "ai_probability": 0.5792873203754425,
+      "human_probability": 0.22761690616607666,
+      "prediction": "AI生成",
+      "confidence": 0.7723830938339233,
+      "pdf_positions": [
+        {
+          "page_idx": 21,
+          "block_idx": 120
+        }
+      ]
+    },
+    {
+      "chunk_id": 67,
+      "chapter": "第三章 本文方法",
+      "section": "#3.3 历史序列截断",
+      "subsection": null,
+      "content_preview": "历史序列截断（history sequence truncation）首次在 ESCP[10]中被提出，主要作用是在随时可能突变的环境中防止上下文编码器 CE 从过于久远的观测值和其他历史交互信息中学...",
+      "content_length": 182,
+      "ai_probability": 0.0387948676943779,
+      "human_probability": 0.9612051248550415,
+      "prediction": "人类",
+      "confidence": 0.9612051248550415,
+      "pdf_positions": [
+        {
+          "page_idx": 21,
+          "block_idx": 122
+        }
+      ]
+    },
+    {
+      "chunk_id": 68,
+      "chapter": "第三章 本文方法",
+      "section": "#3.3 历史序列截断",
+      "subsection": null,
+      "content_preview": "<!--formula-->$$\n\nc _ { t } ^ { i } \\sim f ( x _ { t - H \\colon t } , s _ { t } ; \\psi ) ,\n\n$$<!--/f...",
+      "content_length": 109,
+      "ai_probability": 0.37986698746681213,
+      "human_probability": 0.6201329827308655,
+      "prediction": "人类",
+      "confidence": 0.6201329827308655,
+      "pdf_positions": []
+    },
+    {
+      "chunk_id": 69,
+      "chapter": "第三章 本文方法",
+      "section": "#3.3 历史序列截断",
+      "subsection": null,
+      "content_preview": "其中 $x _ { t - H : \\ t } = \\{ s _ { t - H } , a _ { t - H } , r _ { t - H } , \\cdots , s _ { t - 1 } ...",
+      "content_length": 237,
+      "ai_probability": 0.7147896909713745,
+      "human_probability": 0.007236596662551165,
+      "prediction": "AI生成",
+      "confidence": 0.9927634596824646,
+      "pdf_positions": [
+        {
+          "page_idx": 21,
+          "block_idx": 123
+        }
+      ]
+    },
+    {
+      "chunk_id": 70,
+      "chapter": "第三章 本文方法",
+      "section": "#3.4 移动平均值",
+      "subsection": null,
+      "content_preview": "在实践中，式(3-7)中的期望值通常是由一个批次（batch）的数据计算而得的。然而，数据批次的大小会直接影响期望值 ?? $\\left[ c _ { t } ^ { i } \\right]$ 的方差...",
+      "content_length": 325,
+      "ai_probability": 0.699681601524353,
+      "human_probability": 0.028219953179359436,
+      "prediction": "AI生成",
+      "confidence": 0.971780002117157,
+      "pdf_positions": [
+        {
+          "page_idx": 21,
+          "block_idx": 125
+        }
+      ]
+    },
+    {
+      "chunk_id": 71,
+      "chapter": "第三章 本文方法",
+      "section": "#3.4 移动平均值",
+      "subsection": null,
+      "content_preview": "<!--formula-->$$\n\n\\hat { c } ^ { i } \\gets \\eta \\hat { c } ^ { i } + ( 1 - \\eta ) \\mathbb { E } _ { ...",
+      "content_length": 182,
+      "ai_probability": 0.3761409521102905,
+      "human_probability": 0.5298237800598145,
+      "prediction": "人类",
+      "confidence": 0.5298237800598145,
+      "pdf_positions": []
+    },
+    {
+      "chunk_id": 72,
+      "chapter": "第三章 本文方法",
+      "section": "#3.4 移动平均值",
+      "subsection": null,
+      "content_preview": "$$<!--/formula-->\n\n其中 $\\eta \\in [ 0 , 1 )$ 是控制权重的超参数。在梯度计算过程中，我们将赋值式右边的$\\bar { c } ^ { i }$ 视为常数，即程序...",
+      "content_length": 172,
+      "ai_probability": 0.7162045240402222,
+      "human_probability": 0.005271518602967262,
+      "prediction": "AI生成",
+      "confidence": 0.9947285056114197,
+      "pdf_positions": [
+        {
+          "page_idx": 22,
+          "block_idx": 127
+        }
+      ]
+    },
+    {
+      "chunk_id": 73,
+      "chapter": "第三章 本文方法",
+      "section": "#3.4 移动平均值",
+      "subsection": null,
+      "content_preview": "<!--formula-->$$\n\n\\hat { \\ell } _ { \\mathrm { C E } } = \\lambda \\sum _ { i = 0 } ^ { M - 1 } \\mathbb...",
+      "content_length": 381,
+      "ai_probability": 0.7160931158065795,
+      "human_probability": 0.0054262434132397175,
+      "prediction": "AI生成",
+      "confidence": 0.9945737719535828,
+      "pdf_positions": [
+        {
+          "page_idx": 22,
+          "block_idx": 128
+        }
+      ]
+    },
+    {
+      "chunk_id": 74,
+      "chapter": "第三章 本文方法",
+      "section": "#3.5 特定学习率",
+      "subsection": null,
+      "content_preview": "如前文所述，上下文编码器 CE 以循环神经网络（RNN）的形式实现。一般地，我们记在时间步 $t$ ，上下文编码器 CE 预测出的潜在上下文 $c _ { t }$ 和下一时刻的隐藏状态 $h _ {...",
+      "content_length": 111,
+      "ai_probability": 0.2197093963623047,
+      "human_probability": 0.7802906036376953,
+      "prediction": "人类",
+      "confidence": 0.7802906036376953,
+      "pdf_positions": [
+        {
+          "page_idx": 22,
+          "block_idx": 130
+        }
+      ]
+    },
+    {
+      "chunk_id": 75,
+      "chapter": "第三章 本文方法",
+      "section": "#3.5 特定学习率",
+      "subsection": null,
+      "content_preview": "<!--formula-->$$\n\nc _ { t } , h _ { t + 1 } = f ^ { \\psi } ( x _ { t } ; h _ { t } ) ,\n\n$$<!--/formu...",
+      "content_length": 105,
+      "ai_probability": 0.327480673789978,
+      "human_probability": 0.5906491279602051,
+      "prediction": "人类",
+      "confidence": 0.5906491279602051,
+      "pdf_positions": []
+    },
+    {
+      "chunk_id": 76,
+      "chapter": "第三章 本文方法",
+      "section": "#3.5 特定学习率",
+      "subsection": null,
+      "content_preview": "其中 $\\psi$ 表示循环神经网络的参数， $x _ { t } = \\{ s _ { t - H } , a _ { t - H } , r _ { t - H } , \\cdots , s _ ...",
+      "content_length": 789,
+      "ai_probability": 0.4331224918365479,
+      "human_probability": 0.4585968554019928,
+      "prediction": "AI生成",
+      "confidence": 0.5414031147956848,
+      "pdf_positions": [
+        {
+          "page_idx": 22,
+          "block_idx": 131
+        }
+      ]
+    },
+    {
+      "chunk_id": 77,
+      "chapter": "第三章 本文方法",
+      "section": "#3.5 特定学习率",
+      "subsection": null,
+      "content_preview": "Tu, Huang, et al., $2 0 2 4 ] ^ { [ 4 4 ] }$ 给出了一个关于两次输出之间差异上界的命题：\n\n命题 3.2 假设 $f$ 与 $f ^ { \\prime }$...",
+      "content_length": 327,
+      "ai_probability": 0.4663715064525604,
+      "human_probability": 0.3781713843345642,
+      "prediction": "AI生成",
+      "confidence": 0.6218286752700806,
+      "pdf_positions": [
+        {
+          "page_idx": 23,
+          "block_idx": 132
+        },
+        {
+          "page_idx": 23,
+          "block_idx": 133
+        }
+      ]
+    },
+    {
+      "chunk_id": 78,
+      "chapter": "第三章 本文方法",
+      "section": "#3.5 特定学习率",
+      "subsection": null,
+      "content_preview": "<!--formula-->$$\n\n\\left\\| f _ { h } ^ { \\hat { \\psi } } ( x ; h ) - f _ { h } ^ { \\hat { \\psi } } ( ...",
+      "content_length": 363,
+      "ai_probability": 0.45101407170295715,
+      "human_probability": 0.39864787459373474,
+      "prediction": "AI生成",
+      "confidence": 0.6013520956039429,
+      "pdf_positions": []
+    },
+    {
+      "chunk_id": 79,
+      "chapter": "第三章 本文方法",
+      "section": "#3.5 特定学习率",
+      "subsection": null,
+      "content_preview": "$$<!--/formula-->\n\n并且对于任意的 $x \\in \\mathcal { X }$ 和 $h \\in { \\mathcal { H } }$ ，存在常数 $\\epsilon \\in \\...",
+      "content_length": 165,
+      "ai_probability": 0.06966706365346909,
+      "human_probability": 0.9303328990936279,
+      "prediction": "人类",
+      "confidence": 0.9303328990936279,
+      "pdf_positions": [
+        {
+          "page_idx": 23,
+          "block_idx": 134
+        }
+      ]
+    },
+    {
+      "chunk_id": 80,
+      "chapter": "第三章 本文方法",
+      "section": "#3.5 特定学习率",
+      "subsection": null,
+      "content_preview": "<!--formula-->$$\n\n\\left\\| f _ { h } ^ { \\psi } ( x ; h ) - f _ { h } ^ { \\psi ^ { \\prime } } ( x ; h...",
+      "content_length": 253,
+      "ai_probability": 0.42746562957763673,
+      "human_probability": 0.4656679332256317,
+      "prediction": "AI生成",
+      "confidence": 0.5343320369720459,
+      "pdf_positions": []
+    },
+    {
+      "chunk_id": 81,
+      "chapter": "第三章 本文方法",
+      "section": "#3.5 特定学习率",
+      "subsection": null,
+      "content_preview": "$$<!--/formula-->\n\n以及使得循环神经网络在时间步 $t$ 产生的输出满足\n\n<!--formula-->$$\n\n\\left\\| y _ { t } - y _ { t } ^ { \\...",
+      "content_length": 245,
+      "ai_probability": 0.4480915069580078,
+      "human_probability": 0.43988558650016785,
+      "prediction": "AI生成",
+      "confidence": 0.5601143836975098,
+      "pdf_positions": [
+        {
+          "page_idx": 23,
+          "block_idx": 135
+        }
+      ]
+    },
+    {
+      "chunk_id": 82,
+      "chapter": "第三章 本文方法",
+      "section": "#3.5 特定学习率",
+      "subsection": null,
+      "content_preview": "$$<!--/formula-->\n\n[Luo, Tu, Huang, et al., $2 0 2 4 ] ^ { [ 4 4 ] }$ 亦给出了详细证明。值得注意的是，命题3.2关注 $K _ {...",
+      "content_length": 272,
+      "ai_probability": 0.7187712049484253,
+      "human_probability": 0.0017066076397895813,
+      "prediction": "AI生成",
+      "confidence": 0.9982933402061462,
+      "pdf_positions": [
+        {
+          "page_idx": 23,
+          "block_idx": 136
+        }
+      ]
+    },
+    {
+      "chunk_id": 83,
+      "chapter": "第三章 本文方法",
+      "section": "#3.5 特定学习率",
+      "subsection": null,
+      "content_preview": "在式 (3-11) 中， $\\epsilon$ 表示在模型参数（在梯度更新过程中）被修改后，以及模型输入和隐藏状态均不变的情况下，模型输出的最大变化。然而，由式 (3-11)，我们可以观察到模型输出的...",
+      "content_length": 332,
+      "ai_probability": 0.6302564191818237,
+      "human_probability": 0.12464387714862823,
+      "prediction": "AI生成",
+      "confidence": 0.875356137752533,
+      "pdf_positions": [
+        {
+          "page_idx": 23,
+          "block_idx": 137
+        }
+      ]
+    },
+    {
+      "chunk_id": 84,
+      "chapter": "第三章 本文方法",
+      "section": "#3.5 特定学习率",
+      "subsection": null,
+      "content_preview": "命题3.3 网络输出变化的平均值 $\\frac { 1 } { t + 1 } \\sum _ { i = 0 } ^ { t } \\left\\| y _ { i } - y _ { i } ^ { \\...",
+      "content_length": 156,
+      "ai_probability": 0.5586168766021729,
+      "human_probability": 0.2551775574684143,
+      "prediction": "AI生成",
+      "confidence": 0.7448225021362305,
+      "pdf_positions": [
+        {
+          "page_idx": 23,
+          "block_idx": 138
+        }
+      ]
+    },
+    {
+      "chunk_id": 85,
+      "chapter": "第三章 本文方法",
+      "section": "#3.5 特定学习率",
+      "subsection": null,
+      "content_preview": "证明 由式 (3-11)，我们有\n\n<!--formula-->$$\n\n\\begin{array} { r l } {  { \\| y _ { t } - y _ { t } ^ { \\prime }...",
+      "content_length": 488,
+      "ai_probability": 0.23066700994968414,
+      "human_probability": 0.7693329453468323,
+      "prediction": "人类",
+      "confidence": 0.7693329453468323,
+      "pdf_positions": [
+        {
+          "page_idx": 24,
+          "block_idx": 139
+        }
+      ]
+    },
+    {
+      "chunk_id": 86,
+      "chapter": "第三章 本文方法",
+      "section": "#3.5 特定学习率",
+      "subsection": null,
+      "content_preview": "$$<!--/formula-->\n\n又由等比数列求和公式知\n\n<!--formula-->$$\n\n\\sum _ { i = 0 } ^ { t } \\left( K _ { h } \\right) ...",
+      "content_length": 180,
+      "ai_probability": 0.44580078125,
+      "human_probability": 0.4427489936351776,
+      "prediction": "AI生成",
+      "confidence": 0.5572509765625,
+      "pdf_positions": [
+        {
+          "page_idx": 24,
+          "block_idx": 140
+        }
+      ]
+    },
+    {
+      "chunk_id": 87,
+      "chapter": "第三章 本文方法",
+      "section": "#3.5 特定学习率",
+      "subsection": null,
+      "content_preview": "$$<!--/formula-->\n\n于是我们有\n\n<!--formula-->$$",
+      "content_length": 42,
+      "ai_probability": 0.03641423583030701,
+      "human_probability": 0.9635857939720154,
+      "prediction": "人类",
+      "confidence": 0.9635857939720154,
+      "pdf_positions": [
+        {
+          "page_idx": 24,
+          "block_idx": 141
+        }
+      ]
+    },
+    {
+      "chunk_id": 88,
+      "chapter": "第三章 本文方法",
+      "section": "#3.5 特定学习率",
+      "subsection": null,
+      "content_preview": "\\begin{array} { l } { \\displaystyle \\frac { 1 } { t + 1 } \\sum _ { i = 0 } ^ { t } \\left\\| y _ { i }...",
+      "content_length": 483,
+      "ai_probability": 0.4627664387226105,
+      "human_probability": 0.3829781115055084,
+      "prediction": "AI生成",
+      "confidence": 0.617021918296814,
+      "pdf_positions": []
+    },
+    {
+      "chunk_id": 89,
+      "chapter": "第三章 本文方法",
+      "section": "#3.5 特定学习率",
+      "subsection": null,
+      "content_preview": "$$<!--/formula-->\n\n当 $t$ 足够大时，上式右边收敛于 $( \\mu + 1 ) \\epsilon$ 。\n\n由命题3.3知，平均输出仍由一个以 $\\mu$ 定义的倍数被放大。这表明...",
+      "content_length": 367,
+      "ai_probability": 0.22531667351722717,
+      "human_probability": 0.7746832966804504,
+      "prediction": "人类",
+      "confidence": 0.7746832966804504,
+      "pdf_positions": [
+        {
+          "page_idx": 24,
+          "block_idx": 142
+        },
+        {
+          "page_idx": 24,
+          "block_idx": 143
+        }
+      ]
+    },
+    {
+      "chunk_id": 90,
+      "chapter": "第三章 本文方法",
+      "section": "#3.6 总训练过程",
+      "subsection": null,
+      "content_preview": "我们使用门控循环单元（GRU）[25]来实现上下文编码器 CE，并使用全连接神经网络来实现上下文策略 CP。我们定义潜在上下文分布是一个方差固定的高斯分布，其输出定义为该高斯分布的均值（mean）。在...",
+      "content_length": 530,
+      "ai_probability": 0.7153093957901001,
+      "human_probability": 0.00651474529877305,
+      "prediction": "AI生成",
+      "confidence": 0.9934852719306946,
+      "pdf_positions": [
+        {
+          "page_idx": 24,
+          "block_idx": 145
+        }
+      ]
+    },
+    {
+      "chunk_id": 91,
+      "chapter": "第三章 本文方法",
+      "section": "#3.6 总训练过程",
+      "subsection": null,
+      "content_preview": "![](images/247a55fb917379db8e8c6f74bdf5bcd0c022adf5fe8c91f9eb93faf9fe04902d.jpg)",
+      "content_length": 80,
+      "ai_probability": 0.16632623970508575,
+      "human_probability": 0.8336737751960754,
+      "prediction": "人类",
+      "confidence": 0.8336737751960754,
+      "pdf_positions": []
+    },
+    {
+      "chunk_id": 92,
+      "chapter": "第四章 实验",
+      "section": null,
+      "subsection": null,
+      "content_preview": "在本章中，我们在网格世界（Grid-World）和三个 $\\mathrm { M u J o C o ^ { [ 4 1 ] } }$ 任务环境中将RoSeLIA 与其基础模型 ESCP 进行了对比实...",
+      "content_length": 200,
+      "ai_probability": 0.6858756494522095,
+      "human_probability": 0.04739488288760185,
+      "prediction": "AI生成",
+      "confidence": 0.9526050686836243,
+      "pdf_positions": [
+        {
+          "page_idx": 26,
+          "block_idx": 148
+        }
+      ]
+    },
+    {
+      "chunk_id": 93,
+      "chapter": "第四章 实验",
+      "section": "#4.1 网格世界",
+      "subsection": "##4.1.1 环境概况",
+      "content_preview": "上文提到的“网格世界”是一个人为设计的环境，它是一个默认大小为 $1 1 \\times 1 1$ 的棋盘。我们定义网格世界的奖赏中心方格的奖赏为 20，而其他方格的奖赏则按照它与奖赏中心的 L1 距离...",
+      "content_length": 851,
+      "ai_probability": 0.7016697406768798,
+      "human_probability": 0.025458674877882004,
+      "prediction": "AI生成",
+      "confidence": 0.9745413064956665,
+      "pdf_positions": [
+        {
+          "page_idx": 26,
+          "block_idx": 151
+        }
+      ]
+    },
+    {
+      "chunk_id": 94,
+      "chapter": "第四章 实验",
+      "section": "#4.1 网格世界",
+      "subsection": "##4.1.1 环境概况",
+      "content_preview": "与此同时，我们还设置了一种新的网格世界。为了表述方便，我们将上文提到的网格世界称作“世界 A”，将新设置的网格世界称作“世界 B”。世界 B 将奖赏中心固定在网格世界的几何中心，其奖赏值设置为 10（...",
+      "content_length": 230,
+      "ai_probability": 0.5385583341121674,
+      "human_probability": 0.28192222118377686,
+      "prediction": "AI生成",
+      "confidence": 0.7180777788162231,
+      "pdf_positions": [
+        {
+          "page_idx": 26,
+          "block_idx": 152
+        }
+      ]
+    },
+    {
+      "chunk_id": 95,
+      "chapter": "第四章 实验",
+      "section": "#4.1 网格世界",
+      "subsection": "##4.1.1 环境概况",
+      "content_preview": "![](images/95fed602532b71f8de1144db02c47bd3ac8cdc14f0fd09aba2585a0e2df6a201.jpg)\n\n图 4-1 网格世界示意图，在每个方...",
+      "content_length": 110,
+      "ai_probability": 0.5806865394115448,
+      "human_probability": 0.22575123608112335,
+      "prediction": "AI生成",
+      "confidence": 0.7742487192153931,
+      "pdf_positions": []
+    },
+    {
+      "chunk_id": 96,
+      "chapter": "第四章 实验",
+      "section": "#4.1 网格世界",
+      "subsection": "##4.1.1 环境概况",
+      "content_preview": "![](images/a162118968a707e05d597b32ed015e115b9d6901587cb3dae6eed4973a9bde25.jpg)\n\n图 4-2 RoSeLIA 和 ES...",
+      "content_length": 117,
+      "ai_probability": 0.45745854377746586,
+      "human_probability": 0.4281768202781677,
+      "prediction": "AI生成",
+      "confidence": 0.5718231797218323,
+      "pdf_positions": []
+    },
+    {
+      "chunk_id": 97,
+      "chapter": "第四章 实验",
+      "section": "#4.1 网格世界",
+      "subsection": "##4.1.2 实验结果",
+      "content_preview": "图 4-2 展示了 RoSeLIA 和 ESCP 在网格世界中的学习曲线对比。由于模型很快就能够达到收敛状态，我们在奖赏中心固定的实验中进行了较奖赏中心变化实验更少轮数的迭代。",
+      "content_length": 88,
+      "ai_probability": 0.46938228607177734,
+      "human_probability": 0.41327208280563354,
+      "prediction": "AI生成",
+      "confidence": 0.5867278575897217,
+      "pdf_positions": [
+        {
+          "page_idx": 27,
+          "block_idx": 155
+        }
+      ]
+    },
+    {
+      "chunk_id": 98,
+      "chapter": "第四章 实验",
+      "section": "#4.1 网格世界",
+      "subsection": "##4.1.2 实验结果",
+      "content_preview": "从图中不难发现，在奖赏中心随机变化的环境（世界A）中，两个模型的学习曲线都出现了上升、略微下降和平缓上升的态势。我们称两个模型在训练初期学习曲线快速上升直至峰值的时间段为“上升阶段”，模型在这一阶段学...",
+      "content_length": 579,
+      "ai_probability": 0.7171894311904907,
+      "human_probability": 0.0039036034140735865,
+      "prediction": "AI生成",
+      "confidence": 0.9960964322090149,
+      "pdf_positions": [
+        {
+          "page_idx": 28,
+          "block_idx": 156
+        }
+      ]
+    },
+    {
+      "chunk_id": 99,
+      "chapter": "第四章 实验",
+      "section": "#4.1 网格世界",
+      "subsection": "##4.1.2 实验结果",
+      "content_preview": "在奖赏中心固定的环境（世界B）中，由于奖赏中心固定，模型在训练过程中没有经历扰动阶段。然而，RoSeLIA的训练效果却要略逊于ESCP。在上升阶段结束时，RoSeLIA的学习曲线已经展示了这个性能差距...",
+      "content_length": 236,
+      "ai_probability": 0.690178427696228,
+      "human_probability": 0.04141877964138985,
+      "prediction": "AI生成",
+      "confidence": 0.9585811495780945,
+      "pdf_positions": [
+        {
+          "page_idx": 28,
+          "block_idx": 157
+        }
+      ]
+    },
+    {
+      "chunk_id": 100,
+      "chapter": "第四章 实验",
+      "section": "#4.1 网格世界",
+      "subsection": "##4.1.2 实验结果",
+      "content_preview": "为了更有效地对比 RoSeLIA 与 ESCP 在网格世界任务环境下的性能，我们尝试使用不同随机种子更改初始环境配置，进行了多次平行实验。图 4-3 展示了RoSeLIA 与 ESCP 在平行实验中的...",
+      "content_length": 400,
+      "ai_probability": 0.7196781778335571,
+      "human_probability": 0.0004469610285013914,
+      "prediction": "AI生成",
+      "confidence": 0.9995530247688293,
+      "pdf_positions": [
+        {
+          "page_idx": 28,
+          "block_idx": 158
+        }
+      ]
+    },
+    {
+      "chunk_id": 101,
+      "chapter": "第四章 实验",
+      "section": "#4.1 网格世界",
+      "subsection": "##4.1.2 实验结果",
+      "content_preview": "![](images/d13499e23d64855aa419957817ba1abb1d1437ed1faa4e4cbd074fbf0a346a4d.jpg)\n\n图4-3 通过更改随机种子（seed...",
+      "content_length": 117,
+      "ai_probability": 0.33265831470489504,
+      "human_probability": 0.5841771364212036,
+      "prediction": "人类",
+      "confidence": 0.5841771364212036,
+      "pdf_positions": []
+    },
+    {
+      "chunk_id": 102,
+      "chapter": "第四章 实验",
+      "section": "#4.2 MuJoCo 任务环境",
+      "subsection": null,
+      "content_preview": "我们亦尝试了在比网格世界更复杂的任务环境——MuJoCo[41]任务环境中对 RoSeLIA 和 ESCP 两个模型做了对比实验。",
+      "content_length": 65,
+      "ai_probability": 0.6173286008834838,
+      "human_probability": 0.1425992101430893,
+      "prediction": "AI生成",
+      "confidence": 0.8574008345603943,
+      "pdf_positions": [
+        {
+          "page_idx": 29,
+          "block_idx": 161
+        }
+      ]
+    },
+    {
+      "chunk_id": 103,
+      "chapter": "第四章 实验",
+      "section": "#4.2 MuJoCo 任务环境",
+      "subsection": "##4.2.1 环境概况",
+      "content_preview": "在实验中，我们让环境中的重力（gravity）随机变化，这个变化被视为突变上下文的一部分。由于MuJoCo任务环境目标的确定性，随机改变奖赏值缺乏意义，因此我们只是出于好奇和比较的心态选择了三个任务（...",
+      "content_length": 119,
+      "ai_probability": 0.6087428283691406,
+      "human_probability": 0.15452390909194946,
+      "prediction": "AI生成",
+      "confidence": 0.8454761505126953,
+      "pdf_positions": [
+        {
+          "page_idx": 29,
+          "block_idx": 163
+        }
+      ]
+    },
+    {
+      "chunk_id": 104,
+      "chapter": "第四章 实验",
+      "section": "#4.2 MuJoCo 任务环境",
+      "subsection": "##4.2.1 环境概况",
+      "content_preview": "![](images/037d30cc48b8bad66cd516cc1a5f200e33ced5dd888e62c6afc24991302654d5.jpg)\n\n图 4-4 实验中使用的 MuJoC...",
+      "content_length": 127,
+      "ai_probability": 0.3552773594856262,
+      "human_probability": 0.6447226405143738,
+      "prediction": "人类",
+      "confidence": 0.6447226405143738,
+      "pdf_positions": []
+    },
+    {
+      "chunk_id": 105,
+      "chapter": "第四章 实验",
+      "section": "#4.2 MuJoCo 任务环境",
+      "subsection": "##4.2.1 环境概况",
+      "content_preview": "![](images/308b70c199f6f0d07e3c37b47290d8e972a2cd6a6b2806d8a2481659297e0e5d.jpg)\n\n图 4-5 RoSeLIA 和 ES...",
+      "content_length": 125,
+      "ai_probability": 0.5870330715179443,
+      "human_probability": 0.18467624485492706,
+      "prediction": "AI生成",
+      "confidence": 0.8153237104415894,
+      "pdf_positions": []
+    },
+    {
+      "chunk_id": 106,
+      "chapter": "第四章 实验",
+      "section": "#4.2 MuJoCo 任务环境",
+      "subsection": "##4.2.1 环境概况",
+      "content_preview": "和 Ant）来对比两个模型的性能。\n\n图 4-4 展示了本实验所用 MuJoCo 任务环境的三维建模示意。其中，Half-Cheetah[50]任务环境中的智能体是一只“半猎豹”，由八个关节（其中两个...",
+      "content_length": 288,
+      "ai_probability": 0.47197580337524414,
+      "human_probability": 0.41003018617630005,
+      "prediction": "AI生成",
+      "confidence": 0.5899697542190552,
+      "pdf_positions": [
+        {
+          "page_idx": 30,
+          "block_idx": 164
+        },
+        {
+          "page_idx": 30,
+          "block_idx": 165
+        }
+      ]
+    },
+    {
+      "chunk_id": 107,
+      "chapter": "第四章 实验",
+      "section": "#4.2 MuJoCo 任务环境",
+      "subsection": "##4.2.2 实验结果",
+      "content_preview": "图4-5展示了RoSeLIA和ESCP在上述三个任务环境中的学习曲线对比。由实验结果可以看出，RoSeLIA 在比网格世界复杂得多的 MuJoCo 任务环境中展现出了与 ESCP 相近甚至更好的性能。",
+      "content_length": 100,
+      "ai_probability": 0.701687421798706,
+      "human_probability": 0.02543415129184723,
+      "prediction": "AI生成",
+      "confidence": 0.974565863609314,
+      "pdf_positions": [
+        {
+          "page_idx": 30,
+          "block_idx": 167
+        }
+      ]
+    },
+    {
+      "chunk_id": 108,
+      "chapter": "第四章 实验",
+      "section": "#4.2 MuJoCo 任务环境",
+      "subsection": "##4.2.2 实验结果",
+      "content_preview": "在 Half-Cheetah 任务中，RoSeLIA 从训练一开始就表现出了比 ESCP 更佳的学习效果，在大约500次迭代后，二者的学习曲线近乎平行上升，最终RoSeLIA呈现出与 ESCP 相比的...",
+      "content_length": 455,
+      "ai_probability": 0.7152184152603149,
+      "human_probability": 0.00664106197655201,
+      "prediction": "AI生成",
+      "confidence": 0.9933589100837708,
+      "pdf_positions": [
+        {
+          "page_idx": 30,
+          "block_idx": 168
+        }
+      ]
+    },
+    {
+      "chunk_id": 109,
+      "chapter": "第四章 实验",
+      "section": "#4.3 实验结果总结",
+      "subsection": null,
+      "content_preview": "通过在网格世界和 MuJoCo 任务环境下对 RoSeLIA 和 ESCP 进行的对比实验，我们可以给出如下结论与设想：\n\n• RoSeLIA 在训练初期的收敛能力与ESCP 不相上下；\n\n• RoS...",
+      "content_length": 168,
+      "ai_probability": 0.7180161094665527,
+      "human_probability": 0.0027554777916520834,
+      "prediction": "AI生成",
+      "confidence": 0.9972445964813232,
+      "pdf_positions": [
+        {
+          "page_idx": 31,
+          "block_idx": 171
+        },
+        {
+          "page_idx": 31,
+          "block_idx": 172
+        }
+      ]
+    },
+    {
+      "chunk_id": 110,
+      "chapter": "第五章 结语",
+      "section": null,
+      "subsection": null,
+      "content_preview": "在本论文中，我们针对动态环境下奖赏函数频繁变化的任务场景，提出了一种基于表征学习的高效持续强化学习算法——RoSeLIA，一种具有特殊上下文编码器的基于 ESCP 算法的模型。我们为 RoSeLIA ...",
+      "content_length": 662,
+      "ai_probability": 0.7197942209243774,
+      "human_probability": 0.00028576437034644186,
+      "prediction": "AI生成",
+      "confidence": 0.999714195728302,
+      "pdf_positions": [
+        {
+          "page_idx": 32,
+          "block_idx": 174
+        },
+        {
+          "page_idx": 32,
+          "block_idx": 175
+        }
+      ]
+    }
+  ]
+}

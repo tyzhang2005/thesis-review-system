@@ -1,0 +1,2454 @@
+{
+  "overall_ai_rate": 0.47981496844026783,
+  "total_chunks": 135,
+  "detection_time": "2026-04-03T19:00:05.948852",
+  "chunks": [
+    {
+      "chunk_id": 1,
+      "chapter": "第一章 引言",
+      "section": "#1.1 研究背景",
+      "subsection": null,
+      "content_preview": "多目标优化问题（Multi-Objective Optimization Problems, MOPs）是指在优化过程中需要同时考虑多个相互冲突的目标，并寻求在这些目标之间实现最佳权衡的决策问题[1]...",
+      "content_length": 211,
+      "ai_probability": 0.7162449502944946,
+      "human_probability": 0.005215353798121214,
+      "prediction": "AI生成",
+      "confidence": 0.9947846531867981,
+      "pdf_positions": [
+        {
+          "page_idx": 10,
+          "block_idx": 54
+        }
+      ]
+    },
+    {
+      "chunk_id": 2,
+      "chapter": "第一章 引言",
+      "section": "#1.1 研究背景",
+      "subsection": null,
+      "content_preview": "演化算法（Evolutionary Algorithm, EA）是一类受生物进化机制启发的优化算法[4]。它通过模拟生物种群的进化过程，在解空间中搜索复杂问题的最优解。演化算法的核心思想是：维护一个或...",
+      "content_length": 204,
+      "ai_probability": 0.7188122749328613,
+      "human_probability": 0.0016496211756020784,
+      "prediction": "AI生成",
+      "confidence": 0.9983503818511963,
+      "pdf_positions": [
+        {
+          "page_idx": 10,
+          "block_idx": 55
+        }
+      ]
+    },
+    {
+      "chunk_id": 3,
+      "chapter": "第一章 引言",
+      "section": "#1.1 研究背景",
+      "subsection": null,
+      "content_preview": "演化算法的群体搜索特性与多目标优化的解集特性高度契合，在解决多目标优化问题中展现出独特优势。相较于传统数学规划方法，演化算法通过模拟生物进化机制来维护种群，能够在单次运行中生成一组分布良好的帕累托近似...",
+      "content_length": 164,
+      "ai_probability": 0.7169004821777344,
+      "human_probability": 0.004304872360080481,
+      "prediction": "AI生成",
+      "confidence": 0.9956951141357422,
+      "pdf_positions": [
+        {
+          "page_idx": 10,
+          "block_idx": 56
+        }
+      ]
+    },
+    {
+      "chunk_id": 4,
+      "chapter": "第一章 引言",
+      "section": "#1.1 研究背景",
+      "subsection": null,
+      "content_preview": "演化算法通常依赖于手工设计的算子，对先验知识有较高的要求，并且泛化性能受限。在单目标黑箱优化领域，Lange 等人提出了用注意力模块参数化核心算子的方法[8-9]，并在 BBOB 等数据集上表现优秀，...",
+      "content_length": 210,
+      "ai_probability": 0.7167319536209106,
+      "human_probability": 0.00453893793746829,
+      "prediction": "AI生成",
+      "confidence": 0.9954610466957092,
+      "pdf_positions": [
+        {
+          "page_idx": 10,
+          "block_idx": 57
+        }
+      ]
+    },
+    {
+      "chunk_id": 5,
+      "chapter": "第一章 引言",
+      "section": "#1.2 研究现状",
+      "subsection": "##1.2.1 多目标演化算法",
+      "content_preview": "在现实世界中，许多优化问题往往不仅限于优化一个目标函数，而要同时权衡多个相互冲突的目标。例如，设计汽车时，可能需要同时最大化汽车性能并最小化成本，但这两个目标往往是矛盾的。这类问题被称作多目标优化问题...",
+      "content_length": 168,
+      "ai_probability": 0.7180148220062256,
+      "human_probability": 0.0027572421822696924,
+      "prediction": "AI生成",
+      "confidence": 0.99724280834198,
+      "pdf_positions": [
+        {
+          "page_idx": 11,
+          "block_idx": 60
+        }
+      ]
+    },
+    {
+      "chunk_id": 6,
+      "chapter": "第一章 引言",
+      "section": "#1.2 研究现状",
+      "subsection": "##1.2.1 多目标演化算法",
+      "content_preview": "多目标优化通常需要寻找一个帕累托最优解集，即没有任何解在所有目标上都优于其他解的解集。换言之，在帕累托最优解集中的任何解，无法在不牺牲其他目标的表现的前提下改善某一个目标值。\n\n多目标演化算法是一类基...",
+      "content_length": 318,
+      "ai_probability": 0.7180748176574707,
+      "human_probability": 0.0026738960295915604,
+      "prediction": "AI生成",
+      "confidence": 0.997326135635376,
+      "pdf_positions": [
+        {
+          "page_idx": 11,
+          "block_idx": 61
+        },
+        {
+          "page_idx": 11,
+          "block_idx": 62
+        }
+      ]
+    },
+    {
+      "chunk_id": 7,
+      "chapter": "第一章 引言",
+      "section": "#1.2 研究现状",
+      "subsection": "##1.2.1 多目标演化算法",
+      "content_preview": "基于支配的方法以 NSGA-II[5] 为代表，通过非支配排序和拥挤度距离策略筛选解集，平衡收敛性与多样性。种群中的解按照支配关系划分为若干层级，其中非支配解为第一级，去除第一级后的非支配解为第二级，...",
+      "content_length": 203,
+      "ai_probability": 0.7161000680923462,
+      "human_probability": 0.00541651900857687,
+      "prediction": "AI生成",
+      "confidence": 0.9945834279060364,
+      "pdf_positions": [
+        {
+          "page_idx": 11,
+          "block_idx": 63
+        }
+      ]
+    },
+    {
+      "chunk_id": 8,
+      "chapter": "第一章 引言",
+      "section": "#1.2 研究现状",
+      "subsection": "##1.2.1 多目标演化算法",
+      "content_preview": "基于性能指标的方法以SMS-EMOA[6] 为代表，解的帕累托等级相同时，它利用超体积指标指导搜索。解的质量被定义为移除这个解后超体积指标的减少程度，SMS-EMOA 算法通过逐次移除对超体积贡献最小...",
+      "content_length": 169,
+      "ai_probability": 0.7024232053756714,
+      "human_probability": 0.02441220171749592,
+      "prediction": "AI生成",
+      "confidence": 0.975587785243988,
+      "pdf_positions": [
+        {
+          "page_idx": 11,
+          "block_idx": 64
+        }
+      ]
+    },
+    {
+      "chunk_id": 9,
+      "chapter": "第一章 引言",
+      "section": "#1.2 研究现状",
+      "subsection": "##1.2.1 多目标演化算法",
+      "content_preview": "基于分解的方法以 MOEA/D[7] 为代表，将多目标问题分解为单目标子问题并协同求解，通过参考向量控制解的分布特性。求解每个单目标子问题时，将邻近问题的最优解用于交叉和变异，以此来提高搜索效率。基于...",
+      "content_length": 350,
+      "ai_probability": 0.7193763971328735,
+      "human_probability": 0.0008661535102874041,
+      "prediction": "AI生成",
+      "confidence": 0.9991338849067688,
+      "pdf_positions": [
+        {
+          "page_idx": 11,
+          "block_idx": 65
+        },
+        {
+          "page_idx": 12,
+          "block_idx": 67
+        }
+      ]
+    },
+    {
+      "chunk_id": 10,
+      "chapter": "第一章 引言",
+      "section": "#1.2 研究现状",
+      "subsection": "##1.2.2 基于机器学习的种群更新机制",
+      "content_preview": "近年来基于机器学习技术的可学习的多目标演化算法受到了广泛关注。例如，Deist 等人在 2021 年的工作[15] 使用神经网络预测每个解对超体积指标的贡献；Tian 等人在 2023 年的工作[16...",
+      "content_length": 227,
+      "ai_probability": 0.6869703340530395,
+      "human_probability": 0.045874517410993576,
+      "prediction": "AI生成",
+      "confidence": 0.9541254639625549,
+      "pdf_positions": [
+        {
+          "page_idx": 12,
+          "block_idx": 69
+        }
+      ]
+    },
+    {
+      "chunk_id": 11,
+      "chapter": "第一章 引言",
+      "section": "#1.2 研究现状",
+      "subsection": "##1.2.2 基于机器学习的种群更新机制",
+      "content_preview": "基于机器学习的多目标种群更新机制也是其中一个研究方向。许多工作将学到的模型作为判别器，来从父代和子代的组合种群中选择能够平衡收敛性和多样性的下一代种群。根据使用的机器学习模型的类型，可以将这些方法分为...",
+      "content_length": 130,
+      "ai_probability": 0.0764368325471878,
+      "human_probability": 0.9235631823539734,
+      "prediction": "人类",
+      "confidence": 0.9235631823539734,
+      "pdf_positions": [
+        {
+          "page_idx": 12,
+          "block_idx": 70
+        }
+      ]
+    },
+    {
+      "chunk_id": 12,
+      "chapter": "第一章 引言",
+      "section": "#1.2 研究现状",
+      "subsection": "##1.2.2 基于机器学习的种群更新机制",
+      "content_preview": "有监督学习方法通过带标签的数据集训练模型，并对未知标签的数据进行预测。Martínez 等人的工作[19] 和 Tian 等人的工作[16]用回归模型来近似非支配前沿，学习到的帕累托前沿的几何性质（比...",
+      "content_length": 154,
+      "ai_probability": 0.4924219697713852,
+      "human_probability": 0.3434373140335083,
+      "prediction": "AI生成",
+      "confidence": 0.6565626263618469,
+      "pdf_positions": [
+        {
+          "page_idx": 12,
+          "block_idx": 71
+        }
+      ]
+    },
+    {
+      "chunk_id": 13,
+      "chapter": "第一章 引言",
+      "section": "#1.2 研究现状",
+      "subsection": "##1.2.2 基于机器学习的种群更新机制",
+      "content_preview": "无监督学习使用机器学习算法对无标签数据集进行分析，来揭示数据的内在性质和规律，常用的无监督学习方法有聚类和降维。研究表明，将种群在目标空间上划分为多个簇有助于算法在种群更新时平衡解的收敛性和多样性[2...",
+      "content_length": 263,
+      "ai_probability": 0.5763350486755371,
+      "human_probability": 0.19953468441963196,
+      "prediction": "AI生成",
+      "confidence": 0.8004653453826904,
+      "pdf_positions": [
+        {
+          "page_idx": 12,
+          "block_idx": 72
+        }
+      ]
+    },
+    {
+      "chunk_id": 14,
+      "chapter": "第一章 引言",
+      "section": "#1.2 研究现状",
+      "subsection": "##1.2.2 基于机器学习的种群更新机制",
+      "content_preview": "强化学习让智能体与环境交互，在试错中学习能够最大化期望累计奖励的策略。Ma等人在2022年提出了一种用强化学习自适应调整参考向量的方法[24]，智能体在优化过程中用 4 种动作控制参考向量，使之匹配帕...",
+      "content_length": 142,
+      "ai_probability": 0.5935322999954223,
+      "human_probability": 0.17564961314201355,
+      "prediction": "AI生成",
+      "confidence": 0.8243504166603088,
+      "pdf_positions": [
+        {
+          "page_idx": 13,
+          "block_idx": 74
+        }
+      ]
+    },
+    {
+      "chunk_id": 15,
+      "chapter": "第一章 引言",
+      "section": "#1.2 研究现状",
+      "subsection": "##1.2.2 基于机器学习的种群更新机制",
+      "content_preview": "这些基于机器学习的优化器在应对大规模的复杂多目标优化问题时表现出了出色的问题求解能力，但同时也面临着计算代价高、鲁棒性难以保证等诸多挑战。在这一领域，与元学习方法相结合，使优化器能够自主地反思和改进学...",
+      "content_length": 134,
+      "ai_probability": 0.6905769395828247,
+      "human_probability": 0.04086531698703766,
+      "prediction": "AI生成",
+      "confidence": 0.9591346383094788,
+      "pdf_positions": [
+        {
+          "page_idx": 13,
+          "block_idx": 75
+        }
+      ]
+    },
+    {
+      "chunk_id": 16,
+      "chapter": "第一章 引言",
+      "section": "#1.2 研究现状",
+      "subsection": "##1.2.3 元黑箱优化",
+      "content_preview": "黑箱优化（Black-Box Optimization，BBO）问题是指目标函数的具体数学形式未知、无法获取梯度信息和解析表达式，仅能通过输入参数并观测输出来寻找最优解的优化任务。演化算法被广泛认为是...",
+      "content_length": 182,
+      "ai_probability": 0.7181172609329224,
+      "human_probability": 0.0026149312034249306,
+      "prediction": "AI生成",
+      "confidence": 0.9973850846290588,
+      "pdf_positions": [
+        {
+          "page_idx": 13,
+          "block_idx": 77
+        }
+      ]
+    },
+    {
+      "chunk_id": 17,
+      "chapter": "第一章 引言",
+      "section": "#1.2 研究现状",
+      "subsection": "##1.2.3 元黑箱优化",
+      "content_preview": "最近，元黑箱优化（Meta-Black-Box Optimization，MetaBBO）算法作为一种新的演化计算范式被引入黑箱优化领域[27]。它将机器学习技术与演化算法结合，从而减少了对专家经验的...",
+      "content_length": 103,
+      "ai_probability": 0.6363638734817505,
+      "human_probability": 0.11616126447916031,
+      "prediction": "AI生成",
+      "confidence": 0.8838387131690979,
+      "pdf_positions": [
+        {
+          "page_idx": 13,
+          "block_idx": 78
+        }
+      ]
+    },
+    {
+      "chunk_id": 18,
+      "chapter": "第一章 引言",
+      "section": "#1.2 研究现状",
+      "subsection": "##1.2.3 元黑箱优化",
+      "content_preview": "元黑箱优化旨在利用元学习的方法来自动化黑箱优化算法的设计和调整，其核心目标是通过一个双层、数据驱动的学习框架训练一种元策略，使它能够在不同的黑箱优化问题分布上最大化低级优化过程的性能。元策略往往基于神...",
+      "content_length": 213,
+      "ai_probability": 0.7113410568237304,
+      "human_probability": 0.012026345357298851,
+      "prediction": "AI生成",
+      "confidence": 0.987973690032959,
+      "pdf_positions": [
+        {
+          "page_idx": 13,
+          "block_idx": 79
+        }
+      ]
+    },
+    {
+      "chunk_id": 19,
+      "chapter": "第一章 引言",
+      "section": "#1.2 研究现状",
+      "subsection": "##1.2.3 元黑箱优化",
+      "content_preview": "本文 2.4 节详细介绍了元黑箱优化。\n\n![](images/441197d5d50de51882e19fcaa7eaf8ff10f249dfc754dfb1adc44bd8b3dc59a7.jpg...",
+      "content_length": 124,
+      "ai_probability": 0.5863147974014282,
+      "human_probability": 0.18567390739917755,
+      "prediction": "AI生成",
+      "confidence": 0.8143261075019836,
+      "pdf_positions": [
+        {
+          "page_idx": 13,
+          "block_idx": 80
+        }
+      ]
+    },
+    {
+      "chunk_id": 20,
+      "chapter": "第一章 引言",
+      "section": "#1.3 本文主要贡献",
+      "subsection": null,
+      "content_preview": "在本文中，我们将元黑箱优化引入多目标优化领域，提出了一种基于元学习的种群更新机制（称为 Meta-MOO）。它完全由数据驱动，不需要依赖人类专家设计的启发式方法，并且在一系列基准问题上表现出有竞争力的...",
+      "content_length": 187,
+      "ai_probability": 0.20394651591777802,
+      "human_probability": 0.7960535287857056,
+      "prediction": "人类",
+      "confidence": 0.7960535287857056,
+      "pdf_positions": [
+        {
+          "page_idx": 14,
+          "block_idx": 82
+        }
+      ]
+    },
+    {
+      "chunk_id": 21,
+      "chapter": "第一章 引言",
+      "section": "#1.3 本文主要贡献",
+      "subsection": null,
+      "content_preview": "我们的工作表明，元黑箱优化方法能够从优化任务中自主地学习种群更新机制，并且在收敛性和多样性上取得平衡。我们在DTLZ[35]、WFG[36] 等多个基准问题集上对比 Meta-MOO 和常用的多目标演...",
+      "content_length": 164,
+      "ai_probability": 0.7164450216293334,
+      "human_probability": 0.004937485791742802,
+      "prediction": "AI生成",
+      "confidence": 0.995062530040741,
+      "pdf_positions": [
+        {
+          "page_idx": 14,
+          "block_idx": 83
+        }
+      ]
+    },
+    {
+      "chunk_id": 22,
+      "chapter": "第一章 引言",
+      "section": "#1.3 本文主要贡献",
+      "subsection": null,
+      "content_preview": "另外，实验结果显示 Meta-MOO 算法对未见任务也有一定的泛化能力，同时也在实际工程问题上表现良好，表明元学习方法能够发现多目标优化问题的某种共有特性，而非仅仅针对某个具体问题进行优化。这或许对今...",
+      "content_length": 116,
+      "ai_probability": 0.6903445959091187,
+      "human_probability": 0.04118804633617401,
+      "prediction": "AI生成",
+      "confidence": 0.9588119387626648,
+      "pdf_positions": [
+        {
+          "page_idx": 14,
+          "block_idx": 84
+        }
+      ]
+    },
+    {
+      "chunk_id": 23,
+      "chapter": "第一章 引言",
+      "section": "#1.4 本文组织架构",
+      "subsection": null,
+      "content_preview": "本文组织结构如下：第一章介绍了研究背景和意义，概述了多目标优化领域的研究现状，介绍了本文的主要贡献。第二章首先形式化地描述了多目标优化问题，然后概述了常见的多目标演化算法，之后详细介绍了注意力机制，最...",
+      "content_length": 267,
+      "ai_probability": 0.716523642539978,
+      "human_probability": 0.004828230012208223,
+      "prediction": "AI生成",
+      "confidence": 0.9951717257499695,
+      "pdf_positions": [
+        {
+          "page_idx": 14,
+          "block_idx": 86
+        }
+      ]
+    },
+    {
+      "chunk_id": 24,
+      "chapter": "第二章 背景介绍",
+      "section": null,
+      "subsection": null,
+      "content_preview": "本章 2.1 节介绍了多目标优化问题的形式化表示，2.2 节介绍了三种经典的多目标演化算法框架并分析其优缺点，2.3节详细介绍了注意力机制，2.4节介绍了元黑箱优化算法及其应用，2.5节介绍了CMA-...",
+      "content_length": 115,
+      "ai_probability": 0.2514505982398987,
+      "human_probability": 0.7485493421554565,
+      "prediction": "人类",
+      "confidence": 0.7485493421554565,
+      "pdf_positions": [
+        {
+          "page_idx": 16,
+          "block_idx": 89
+        }
+      ]
+    },
+    {
+      "chunk_id": 25,
+      "chapter": "第二章 背景介绍",
+      "section": "#2.1 多目标优化问题",
+      "subsection": null,
+      "content_preview": "多目标优化问题需要同时优化多个可能相互冲突的目标函数，其形式化定义如下：\n\n<!--formula-->$$\n\n\\begin{array} { r l } { \\operatorname* { m i...",
+      "content_length": 312,
+      "ai_probability": 0.7170989656448364,
+      "human_probability": 0.004029214382171631,
+      "prediction": "AI生成",
+      "confidence": 0.9959707856178284,
+      "pdf_positions": [
+        {
+          "page_idx": 16,
+          "block_idx": 91
+        }
+      ]
+    },
+    {
+      "chunk_id": 26,
+      "chapter": "第二章 背景介绍",
+      "section": "#2.1 多目标优化问题",
+      "subsection": null,
+      "content_preview": "$$<!--/formula-->\n\n其中 $\\pmb { x } = \\left( x _ { 1 } , x _ { 2 } , \\cdots , x _ { n } \\right)$ 是搜索空间...",
+      "content_length": 160,
+      "ai_probability": 0.30317583680152893,
+      "human_probability": 0.6968241930007935,
+      "prediction": "人类",
+      "confidence": 0.6968241930007935,
+      "pdf_positions": [
+        {
+          "page_idx": 16,
+          "block_idx": 92
+        }
+      ]
+    },
+    {
+      "chunk_id": 27,
+      "chapter": "第二章 背景介绍",
+      "section": "#2.1 多目标优化问题",
+      "subsection": null,
+      "content_preview": "如果没有额外的主观偏好，通常无法用一个单一的最优解来最小化所有目标函数，因此我们需要引入帕累托最优性（Pareto Optimality）的概念。",
+      "content_length": 73,
+      "ai_probability": 0.7133680772781372,
+      "human_probability": 0.009211014956235886,
+      "prediction": "AI生成",
+      "confidence": 0.990788996219635,
+      "pdf_positions": [
+        {
+          "page_idx": 16,
+          "block_idx": 93
+        }
+      ]
+    },
+    {
+      "chunk_id": 28,
+      "chapter": "第二章 背景介绍",
+      "section": "#2.1 多目标优化问题",
+      "subsection": null,
+      "content_preview": "当 $u , v \\in R ^ { m }$ ，则我们说 $u$ 支配 $v$ 当且仅当对任意 $i \\in \\{ 1 , 2 , \\cdots , m \\} , u _ { i } \\leqsla...",
+      "content_length": 477,
+      "ai_probability": 0.08365567028522491,
+      "human_probability": 0.9163442850112915,
+      "prediction": "人类",
+      "confidence": 0.9163442850112915,
+      "pdf_positions": [
+        {
+          "page_idx": 16,
+          "block_idx": 94
+        }
+      ]
+    },
+    {
+      "chunk_id": 29,
+      "chapter": "第二章 背景介绍",
+      "section": "#2.1 多目标优化问题",
+      "subsection": null,
+      "content_preview": "所有帕累托最优点的集合被称为帕累托集（Pareto Set），而它们在目标空间中的映射所构成的集合称为帕累托前沿（Pareto Front）。一般来讲，多目标优化算法的目标是找到数量可控的、沿帕累托前...",
+      "content_length": 191,
+      "ai_probability": 0.26155179738998413,
+      "human_probability": 0.7384481430053711,
+      "prediction": "人类",
+      "confidence": 0.7384481430053711,
+      "pdf_positions": [
+        {
+          "page_idx": 16,
+          "block_idx": 95
+        }
+      ]
+    },
+    {
+      "chunk_id": 30,
+      "chapter": "第二章 背景介绍",
+      "section": "#2.1 多目标优化问题",
+      "subsection": null,
+      "content_preview": "为了衡量帕累托前沿近似的质量，Zitzler 等人[39] 提出了超体积指标。令 ??为帕累托前沿， $y _ { \\mathrm { r e f } }$ 为参考点， $\\Lambda$ 表示勒贝格...",
+      "content_length": 114,
+      "ai_probability": 0.16784024238586426,
+      "human_probability": 0.8321597576141357,
+      "prediction": "人类",
+      "confidence": 0.8321597576141357,
+      "pdf_positions": [
+        {
+          "page_idx": 16,
+          "block_idx": 96
+        }
+      ]
+    },
+    {
+      "chunk_id": 31,
+      "chapter": "第二章 背景介绍",
+      "section": "#2.1 多目标优化问题",
+      "subsection": null,
+      "content_preview": "![](images/7e0d6a6a6c8b93fa06073549b6b33f24e4e68bdae66c146ffd97017148799376.jpg)\n\n图 2-1 多目标优化问题实例\n\n<...",
+      "content_length": 115,
+      "ai_probability": 0.639754614830017,
+      "human_probability": 0.1114518940448761,
+      "prediction": "AI生成",
+      "confidence": 0.8885480761528015,
+      "pdf_positions": []
+    },
+    {
+      "chunk_id": 32,
+      "chapter": "第二章 背景介绍",
+      "section": "#2.1 多目标优化问题",
+      "subsection": null,
+      "content_preview": "\\mathrm { H V } \\left( S , y _ { \\mathrm { r e f } } \\right) = \\Lambda \\left( \\bigcup _ { y \\in S } ...",
+      "content_length": 201,
+      "ai_probability": 0.37634632587432865,
+      "human_probability": 0.5295670628547668,
+      "prediction": "人类",
+      "confidence": 0.5295670628547668,
+      "pdf_positions": []
+    },
+    {
+      "chunk_id": 33,
+      "chapter": "第二章 背景介绍",
+      "section": "#2.1 多目标优化问题",
+      "subsection": null,
+      "content_preview": "$$<!--/formula-->\n\n参考点通常取各个目标函数的最差值，而超体积指标是非支配解集与参考点围成的超立方体区域体积。Fleischer 在 2003 年的工作[40] 证明了，在搜索空间有...",
+      "content_length": 124,
+      "ai_probability": 0.5969396978616714,
+      "human_probability": 0.20408041775226593,
+      "prediction": "AI生成",
+      "confidence": 0.7959195971488953,
+      "pdf_positions": [
+        {
+          "page_idx": 17,
+          "block_idx": 98
+        }
+      ]
+    },
+    {
+      "chunk_id": 34,
+      "chapter": "第二章 背景介绍",
+      "section": "#2.2 多目标演化算法",
+      "subsection": null,
+      "content_preview": "本节介绍了三种经典的多目标演化算法，其中 NSGA-II 算法使用基于支配的种群更新策略，SMS-EMOA算法使用基于性能指标的策略，MOEA/D算法则使用基于分解的策略。",
+      "content_length": 86,
+      "ai_probability": 0.7137916946411133,
+      "human_probability": 0.008622621186077595,
+      "prediction": "AI生成",
+      "confidence": 0.9913773536682129,
+      "pdf_positions": [
+        {
+          "page_idx": 17,
+          "block_idx": 100
+        }
+      ]
+    },
+    {
+      "chunk_id": 35,
+      "chapter": "第二章 背景介绍",
+      "section": "#2.2 多目标演化算法",
+      "subsection": "##2.2.1 NSGA-II",
+      "content_preview": "NSGA- $. \\mathrm { I I } ^ { \\left[ 5 \\right] }$ 是一种常用的多目标演化算法，它的流程如图 2-2 所示。算法初始化大小为 N 的种群，每轮迭代用二元锦...",
+      "content_length": 185,
+      "ai_probability": 0.7129445886611938,
+      "human_probability": 0.009799211286008358,
+      "prediction": "AI生成",
+      "confidence": 0.9902008175849915,
+      "pdf_positions": [
+        {
+          "page_idx": 17,
+          "block_idx": 102
+        }
+      ]
+    },
+    {
+      "chunk_id": 36,
+      "chapter": "第二章 背景介绍",
+      "section": "#2.2 多目标演化算法",
+      "subsection": "##2.2.1 NSGA-II",
+      "content_preview": "![](images/45c0044141409fdcb082d39fce32d9dff72acefeec1ad6bf0dc642e469096eeb.jpg)\n\n图 2-2 NSGA-II 算法流程...",
+      "content_length": 101,
+      "ai_probability": 0.39326276779174807,
+      "human_probability": 0.5084215402603149,
+      "prediction": "人类",
+      "confidence": 0.5084215402603149,
+      "pdf_positions": []
+    },
+    {
+      "chunk_id": 37,
+      "chapter": "第二章 背景介绍",
+      "section": "#2.2 多目标演化算法",
+      "subsection": "##2.2.1 NSGA-II",
+      "content_preview": "NSGA-II 使用非支配排序方法进行子代选择，它将种群分为多个帕累托等级。第一级包含所有未被其他解支配的个体；第二级包含被第一级的解支配但未被其他解支配的个体，依此类推。对同一帕累托等级的个体，按拥...",
+      "content_length": 261,
+      "ai_probability": 0.7126679992675781,
+      "human_probability": 0.010183370672166348,
+      "prediction": "AI生成",
+      "confidence": 0.9898166656494141,
+      "pdf_positions": [
+        {
+          "page_idx": 18,
+          "block_idx": 103
+        },
+        {
+          "page_idx": 18,
+          "block_idx": 104
+        }
+      ]
+    },
+    {
+      "chunk_id": 38,
+      "chapter": "第二章 背景介绍",
+      "section": "#2.2 多目标演化算法",
+      "subsection": "##2.2.2 SMS-EMOA",
+      "content_preview": "SMS-EMOA[6] 是一种基于超体积指标的多目标演化算法，它通过最大化种群覆盖的超体积来平衡解的收敛性和分布性。与 NSGA-II 算法相似，SMS-EMOA首先对种群进行非支配排序，不同之处在于...",
+      "content_length": 242,
+      "ai_probability": 0.7152144241333007,
+      "human_probability": 0.006646585185080767,
+      "prediction": "AI生成",
+      "confidence": 0.9933533668518066,
+      "pdf_positions": [
+        {
+          "page_idx": 18,
+          "block_idx": 106
+        },
+        {
+          "page_idx": 18,
+          "block_idx": 107
+        }
+      ]
+    },
+    {
+      "chunk_id": 39,
+      "chapter": "第二章 背景介绍",
+      "section": "#2.2 多目标演化算法",
+      "subsection": "##2.2.3 MOEA/D",
+      "content_preview": "MOEA/D[7] 全称基于分解的多目标演化算法（Multiobjective Evolutionary Al-gorithm Based on Decomposition），其核心思想是通过分解策略...",
+      "content_length": 245,
+      "ai_probability": 0.7183314514160156,
+      "human_probability": 0.002317392732948065,
+      "prediction": "AI生成",
+      "confidence": 0.9976825714111328,
+      "pdf_positions": [
+        {
+          "page_idx": 19,
+          "block_idx": 109
+        }
+      ]
+    },
+    {
+      "chunk_id": 40,
+      "chapter": "第二章 背景介绍",
+      "section": "#2.2 多目标演化算法",
+      "subsection": "##2.2.3 MOEA/D",
+      "content_preview": "1. 从子问题的邻近问题中随机选取解，交叉变异后得到新解 $x ^ { \\prime }$ ；\n\n2. 对于所有邻近子问题，如果 $x ^ { \\prime }$ 更优，则替换其最优解；\n\n3. 如果...",
+      "content_length": 147,
+      "ai_probability": 0.7043669271469116,
+      "human_probability": 0.02171260677278042,
+      "prediction": "AI生成",
+      "confidence": 0.978287398815155,
+      "pdf_positions": [
+        {
+          "page_idx": 19,
+          "block_idx": 110
+        }
+      ]
+    },
+    {
+      "chunk_id": 41,
+      "chapter": "第二章 背景介绍",
+      "section": "#2.2 多目标演化算法",
+      "subsection": "##2.2.3 MOEA/D",
+      "content_preview": "被 $x ^ { \\prime }$ 支配的解；\n\n4. 迭代直到终止条件满足。\n\n与其他流行的多目标演化算法相比，MOEA/D 的计算复杂度相对较低。然而，MOEA/D 算法的性能高度依赖于权重向量...",
+      "content_length": 141,
+      "ai_probability": 0.7186184692382812,
+      "human_probability": 0.001918785274028778,
+      "prediction": "AI生成",
+      "confidence": 0.9980812072753906,
+      "pdf_positions": [
+        {
+          "page_idx": 19,
+          "block_idx": 111
+        }
+      ]
+    },
+    {
+      "chunk_id": 42,
+      "chapter": "第二章 背景介绍",
+      "section": "#2.3 注意力机制",
+      "subsection": null,
+      "content_preview": "注意力机制是一种在机器学习领域中被广泛采用的技术，它能够建模序列内部各元素的依赖关系，在聚合序列信息方面表现突出[43]。这项技术使模型在处理序列数据时能够动态地聚焦于输入信息中最重要的部分，极大地提...",
+      "content_length": 210,
+      "ai_probability": 0.7162217330932616,
+      "human_probability": 0.005247608758509159,
+      "prediction": "AI生成",
+      "confidence": 0.9947524070739746,
+      "pdf_positions": [
+        {
+          "page_idx": 19,
+          "block_idx": 113
+        },
+        {
+          "page_idx": 19,
+          "block_idx": 114
+        }
+      ]
+    },
+    {
+      "chunk_id": 43,
+      "chapter": "第二章 背景介绍",
+      "section": "#2.3 注意力机制",
+      "subsection": "##2.3.1 缩放的点积自注意力",
+      "content_preview": "缩放的点积自注意力（Scaled Dot-Product Self-Attention），以长度为 $N$ 的token 序列 $\\pmb { X } \\in \\mathbb { R } ^ { N ...",
+      "content_length": 162,
+      "ai_probability": 0.17273616790771484,
+      "human_probability": 0.8272638916969299,
+      "prediction": "人类",
+      "confidence": 0.8272638916969299,
+      "pdf_positions": [
+        {
+          "page_idx": 19,
+          "block_idx": 116
+        }
+      ]
+    },
+    {
+      "chunk_id": 44,
+      "chapter": "第二章 背景介绍",
+      "section": "#2.3 注意力机制",
+      "subsection": "##2.3.1 缩放的点积自注意力",
+      "content_preview": "$V$ ，其中 $Q , K , V \\in \\mathbb { R } ^ { N \\times D _ { k } }$ ：\n\n<!--formula-->$$\n\n\\begin{array} { ...",
+      "content_length": 225,
+      "ai_probability": 0.3849649131298065,
+      "human_probability": 0.6150350570678711,
+      "prediction": "人类",
+      "confidence": 0.6150350570678711,
+      "pdf_positions": [
+        {
+          "page_idx": 20,
+          "block_idx": 117
+        }
+      ]
+    },
+    {
+      "chunk_id": 45,
+      "chapter": "第二章 背景介绍",
+      "section": "#2.3 注意力机制",
+      "subsection": "##2.3.1 缩放的点积自注意力",
+      "content_preview": "$$<!--/formula-->\n\n它的基本思想是：通过计算查询 $\\pmb { Q }$ 与键 $\\pmb { K }$ 之间的相似度，来决定值 $V$ 的加权和，从而得到一个表示当前查询与其他所...",
+      "content_length": 223,
+      "ai_probability": 0.6261136293411255,
+      "human_probability": 0.13039767742156982,
+      "prediction": "AI生成",
+      "confidence": 0.8696022629737854,
+      "pdf_positions": [
+        {
+          "page_idx": 20,
+          "block_idx": 118
+        }
+      ]
+    },
+    {
+      "chunk_id": 46,
+      "chapter": "第二章 背景介绍",
+      "section": "#2.3 注意力机制",
+      "subsection": "##2.3.1 缩放的点积自注意力",
+      "content_preview": "当 $D _ { k }$ 较大时，计算得到的点积结果也较大，容易引发 softmax 函数梯度消失的问题，因此需要用 $\\frac { 1 } { \\sqrt { D _ { k } } }$ 进行...",
+      "content_length": 103,
+      "ai_probability": 0.6867792749404907,
+      "human_probability": 0.04613995552062988,
+      "prediction": "AI生成",
+      "confidence": 0.9538601040840149,
+      "pdf_positions": [
+        {
+          "page_idx": 20,
+          "block_idx": 119
+        }
+      ]
+    },
+    {
+      "chunk_id": 47,
+      "chapter": "第二章 背景介绍",
+      "section": "#2.3 注意力机制",
+      "subsection": "##2.3.1 缩放的点积自注意力",
+      "content_preview": "缩放的点积注意力机制的计算公式如下：\n\n<!--formula-->$$\n\n{ \\mathrm { A t t e n t i o n } } ( Q , K , V ) = { \\mathrm { ...",
+      "content_length": 205,
+      "ai_probability": 0.5891054105758666,
+      "human_probability": 0.1817980706691742,
+      "prediction": "AI生成",
+      "confidence": 0.8182019591331482,
+      "pdf_positions": [
+        {
+          "page_idx": 20,
+          "block_idx": 120
+        }
+      ]
+    },
+    {
+      "chunk_id": 48,
+      "chapter": "第二章 背景介绍",
+      "section": "#2.3 注意力机制",
+      "subsection": "##2.3.2 多头注意力机制",
+      "content_preview": "多头注意力机制通过并行运行多次注意力计算来扩展自注意力，它允许模型在不同的位置共同关注来自不同表示子空间的信息[43]。与单头注意力相比，多头注意力具有更高的表达能力和更好的鲁棒性。\n\n为了实现多头注...",
+      "content_length": 245,
+      "ai_probability": 0.7143750858306884,
+      "human_probability": 0.00781235471367836,
+      "prediction": "AI生成",
+      "confidence": 0.9921876192092896,
+      "pdf_positions": [
+        {
+          "page_idx": 20,
+          "block_idx": 122
+        },
+        {
+          "page_idx": 20,
+          "block_idx": 123
+        }
+      ]
+    },
+    {
+      "chunk_id": 49,
+      "chapter": "第二章 背景介绍",
+      "section": "#2.3 注意力机制",
+      "subsection": "##2.3.2 多头注意力机制",
+      "content_preview": "<!--formula-->$$\n\n\\begin{array} { r l } & { [ \\mathrm { u l t i H e a d } ( Q , K , V ) = \\mathrm { ...",
+      "content_length": 368,
+      "ai_probability": 0.4403158187866211,
+      "human_probability": 0.44960522651672363,
+      "prediction": "AI生成",
+      "confidence": 0.5503947734832764,
+      "pdf_positions": []
+    },
+    {
+      "chunk_id": 50,
+      "chapter": "第二章 背景介绍",
+      "section": "#2.3 注意力机制",
+      "subsection": "##2.3.2 多头注意力机制",
+      "content_preview": "$$<!--/formula-->\n\n缩放的点积注意力机制与多头注意力机制的流程图见图 2-3。\n\n![](images/dd68692741eede7d3c12135a65649f9c3eaaa26...",
+      "content_length": 162,
+      "ai_probability": 0.6039848899841308,
+      "human_probability": 0.1611320823431015,
+      "prediction": "AI生成",
+      "confidence": 0.8388679027557373,
+      "pdf_positions": [
+        {
+          "page_idx": 20,
+          "block_idx": 124
+        }
+      ]
+    },
+    {
+      "chunk_id": 51,
+      "chapter": "第二章 背景介绍",
+      "section": "#2.3 注意力机制",
+      "subsection": "##2.3.3 位置编码",
+      "content_preview": "与循环神经网络不同，自注意力机制是位置无关的，它会同时关注序列中的所有位置。这种并行处理虽然提高了效率，但也丢失了序列的词序信息。\n\n位置编码是 Transformer 架构中的关键组件，能够为模型提...",
+      "content_length": 139,
+      "ai_probability": 0.7169059324264526,
+      "human_probability": 0.004297318402677774,
+      "prediction": "AI生成",
+      "confidence": 0.9957026839256287,
+      "pdf_positions": [
+        {
+          "page_idx": 21,
+          "block_idx": 126
+        },
+        {
+          "page_idx": 21,
+          "block_idx": 127
+        }
+      ]
+    },
+    {
+      "chunk_id": 52,
+      "chapter": "第二章 背景介绍",
+      "section": "#2.3 注意力机制",
+      "subsection": "##2.3.3 位置编码",
+      "content_preview": "对于位置??????和维度 $i$ ，编码公式为：\n\n<!--formula-->$$\n\n\\begin{array} { r } { \\mathrm { P E } _ { ( p o s , 2 i...",
+      "content_length": 335,
+      "ai_probability": 0.5566141158342361,
+      "human_probability": 0.2578478455543518,
+      "prediction": "AI生成",
+      "confidence": 0.7421521544456482,
+      "pdf_positions": [
+        {
+          "page_idx": 21,
+          "block_idx": 128
+        }
+      ]
+    },
+    {
+      "chunk_id": 53,
+      "chapter": "第二章 背景介绍",
+      "section": "#2.3 注意力机制",
+      "subsection": "##2.3.3 位置编码",
+      "content_preview": "$$<!--/formula-->\n\n这种设计使不同频率的正弦余弦函数能够唯一标识每个位置，且相对位置关系可以通过三角函数的性质来表达。另外，位置编码应当和嵌入具有相同的维度（ $( d _ { \\m...",
+      "content_length": 136,
+      "ai_probability": 0.7161919498443603,
+      "human_probability": 0.005288987420499325,
+      "prediction": "AI生成",
+      "confidence": 0.9947110414505005,
+      "pdf_positions": [
+        {
+          "page_idx": 21,
+          "block_idx": 129
+        }
+      ]
+    },
+    {
+      "chunk_id": 54,
+      "chapter": "第二章 背景介绍",
+      "section": "#2.3 注意力机制",
+      "subsection": "##2.3.4 Transformer 块",
+      "content_preview": "Transformer 块是构成 transformer 神经网络架构的基本构建单元，它包括多头注意力机制、前馈神经网络、残差连接和层归一化等部分。输入序列首先经过嵌入层转换为向量表示，然后加上位置编...",
+      "content_length": 148,
+      "ai_probability": 0.709363431930542,
+      "human_probability": 0.014772951602935791,
+      "prediction": "AI生成",
+      "confidence": 0.9852269887924194,
+      "pdf_positions": [
+        {
+          "page_idx": 21,
+          "block_idx": 131
+        }
+      ]
+    },
+    {
+      "chunk_id": 55,
+      "chapter": "第二章 背景介绍",
+      "section": "#2.3 注意力机制",
+      "subsection": "##2.3.4 Transformer 块",
+      "content_preview": "• 通过多头自注意力机制计算序列中每个位置与其他所有位置的关联度，使模型能从不同角度捕捉各种类型的依赖关系；\n\n• 残差连接和层归一化，缓解梯度消失问题，有助于训练深层网络；\n\n• 通过前馈网络变换为...",
+      "content_length": 112,
+      "ai_probability": 0.694544506072998,
+      "human_probability": 0.035354893654584885,
+      "prediction": "AI生成",
+      "confidence": 0.9646451473236084,
+      "pdf_positions": [
+        {
+          "page_idx": 22,
+          "block_idx": 132
+        }
+      ]
+    },
+    {
+      "chunk_id": 56,
+      "chapter": "第二章 背景介绍",
+      "section": "#2.3 注意力机制",
+      "subsection": "##2.3.4 Transformer 块",
+      "content_preview": "• 再次进行残差连接和层归一化。\n\n残差连接方法将子层的输入直接加到其输出上，这使得信息和梯度可以更容易地在网络中传播。层归一化方法对每个样本在层内的激活值进行归一化，使其具有零均值和单位方差，这有助...",
+      "content_length": 172,
+      "ai_probability": 0.7178716993331908,
+      "human_probability": 0.002955951727926731,
+      "prediction": "AI生成",
+      "confidence": 0.997044026851654,
+      "pdf_positions": [
+        {
+          "page_idx": 22,
+          "block_idx": 133
+        }
+      ]
+    },
+    {
+      "chunk_id": 57,
+      "chapter": "第二章 背景介绍",
+      "section": "#2.3 注意力机制",
+      "subsection": "##2.3.4 Transformer 块",
+      "content_preview": "![](images/55a6a6412047b7468d6d087aa2586e73acd8af9c7b319614c85341724829858e.jpg)\n\n图 2 − 4 的红色虚线框部分展示...",
+      "content_length": 143,
+      "ai_probability": 0.5543265491724014,
+      "human_probability": 0.2608979344367981,
+      "prediction": "AI生成",
+      "confidence": 0.7391020655632019,
+      "pdf_positions": []
+    },
+    {
+      "chunk_id": 58,
+      "chapter": "第二章 背景介绍",
+      "section": "#2.4 元黑箱优化",
+      "subsection": null,
+      "content_preview": "元学习（Meta-Learning），又称“学会学习”（Learning to Learn），其核心思想是让模型从多个任务中提取通用知识，使模型在面对新任务时，仅需少量样本或计算步骤即可高效学习。\n\n...",
+      "content_length": 282,
+      "ai_probability": 0.7182294845581054,
+      "human_probability": 0.0024590210523456335,
+      "prediction": "AI生成",
+      "confidence": 0.9975409507751465,
+      "pdf_positions": [
+        {
+          "page_idx": 23,
+          "block_idx": 135
+        },
+        {
+          "page_idx": 23,
+          "block_idx": 136
+        }
+      ]
+    },
+    {
+      "chunk_id": 59,
+      "chapter": "第二章 背景介绍",
+      "section": "#2.4 元黑箱优化",
+      "subsection": null,
+      "content_preview": "元黑箱优化[27] 是元学习在黑箱优化领域的应用，旨在减少传统优化算法中自适应调整所需的人工工作量。它由元策略和具体问题的黑箱优化器两部分组成。在训练过程中，由元策略配置优化器，然后令优化器在问题实例...",
+      "content_length": 157,
+      "ai_probability": 0.7144432783126831,
+      "human_probability": 0.007717693690210581,
+      "prediction": "AI生成",
+      "confidence": 0.9922823309898376,
+      "pdf_positions": [
+        {
+          "page_idx": 23,
+          "block_idx": 137
+        }
+      ]
+    },
+    {
+      "chunk_id": 60,
+      "chapter": "第二章 背景介绍",
+      "section": "#2.4 元黑箱优化",
+      "subsection": null,
+      "content_preview": "相比于经典的元学习方法，元黑箱优化的不同之处在于：内层循环和外层循环均使用黑箱优化方法。元黑箱优化往往在一组能够刻画任务空间的问题实例上训练，并且使反馈信号对任务进行归一化，这提高了元学习的稳定性。\n...",
+      "content_length": 250,
+      "ai_probability": 0.7149053478240966,
+      "human_probability": 0.007075916044414043,
+      "prediction": "AI生成",
+      "confidence": 0.9929240942001343,
+      "pdf_positions": [
+        {
+          "page_idx": 23,
+          "block_idx": 138
+        },
+        {
+          "page_idx": 23,
+          "block_idx": 139
+        }
+      ]
+    },
+    {
+      "chunk_id": 61,
+      "chapter": "第二章 背景介绍",
+      "section": "#2.4 元黑箱优化",
+      "subsection": null,
+      "content_preview": "Lange等人在2023年提出了一种基于自注意力的进化策略架构LES[8]。LES算法每轮从高斯分布中采样候选解，并评估它们的适应度，然后由一个基于 trans-former 的策略网络将适应度变换为...",
+      "content_length": 217,
+      "ai_probability": 0.6664880418777466,
+      "human_probability": 0.07432222366333008,
+      "prediction": "AI生成",
+      "confidence": 0.9256778359413147,
+      "pdf_positions": [
+        {
+          "page_idx": 23,
+          "block_idx": 140
+        }
+      ]
+    },
+    {
+      "chunk_id": 62,
+      "chapter": "第二章 背景介绍",
+      "section": "#2.4 元黑箱优化",
+      "subsection": null,
+      "content_preview": "LES的元黑箱优化过程分为以下四步：\n\n1. 元采样：在每个元代，使用现有的经典 ES 方法，以元均值 $\\mu$ 和协方差 $\\Sigma$\n\n采样 $M$ 次得到元种群 $\\theta _ { 1...",
+      "content_length": 131,
+      "ai_probability": 0.6343084859848023,
+      "human_probability": 0.11901600658893585,
+      "prediction": "AI生成",
+      "confidence": 0.8809840083122253,
+      "pdf_positions": [
+        {
+          "page_idx": 23,
+          "block_idx": 141
+        },
+        {
+          "page_idx": 23,
+          "block_idx": 142
+        },
+        {
+          "page_idx": 24,
+          "block_idx": 143
+        }
+      ]
+    },
+    {
+      "chunk_id": 63,
+      "chapter": "第二章 背景介绍",
+      "section": "#2.4 元黑箱优化",
+      "subsection": null,
+      "content_preview": "2. 内层优化：评估不同LES参数在同一组任务上的性能。采样一组黑箱优化任务，使每个LES实例在相同初始参数下执行 $T$ 轮优化，取最终结果作为适应度得分。\n\n3. 元归一化：为了使 LES 算法适...",
+      "content_length": 127,
+      "ai_probability": 0.32283690571784973,
+      "human_probability": 0.6771631240844727,
+      "prediction": "人类",
+      "confidence": 0.6771631240844727,
+      "pdf_positions": [
+        {
+          "page_idx": 24,
+          "block_idx": 144
+        },
+        {
+          "page_idx": 24,
+          "block_idx": 145
+        }
+      ]
+    },
+    {
+      "chunk_id": 64,
+      "chapter": "第二章 背景介绍",
+      "section": "#2.4 元黑箱优化",
+      "subsection": null,
+      "content_preview": "4. 元更新：根据 $\\theta _ { 1 } , \\cdots , \\theta _ { M }$ 的性能评估结果，更新元分布 $\\mu , \\Sigma$ 并迭代。\n\n![](images/e...",
+      "content_length": 168,
+      "ai_probability": 0.6748896217346191,
+      "human_probability": 0.06265329569578171,
+      "prediction": "AI生成",
+      "confidence": 0.9373466968536377,
+      "pdf_positions": [
+        {
+          "page_idx": 24,
+          "block_idx": 146
+        }
+      ]
+    },
+    {
+      "chunk_id": 65,
+      "chapter": "第二章 背景介绍",
+      "section": "#2.4 元黑箱优化",
+      "subsection": null,
+      "content_preview": "图2 − 5 展示了LES算法的整体架构。\n\n图 2-5 LES 的整体架构图\n\n之后，Lange等人基于相似的思路提出了LGA[9]。他们将遗传算法的选择和突变算子参数化为注意力模块，并用元黑箱优化...",
+      "content_length": 215,
+      "ai_probability": 0.46068285405635834,
+      "human_probability": 0.3857561945915222,
+      "prediction": "AI生成",
+      "confidence": 0.6142438054084778,
+      "pdf_positions": [
+        {
+          "page_idx": 24,
+          "block_idx": 147
+        },
+        {
+          "page_idx": 24,
+          "block_idx": 148
+        }
+      ]
+    },
+    {
+      "chunk_id": 66,
+      "chapter": "第二章 背景介绍",
+      "section": "#2.5 CMA-ES 算法",
+      "subsection": null,
+      "content_preview": "黑箱优化是指在不知道目标函数具体数学表达式或内部机制的情况下，仅通过输入输出数据来寻找最优解的优化方法。研究者只能观察到给定输入对应的输出结果，但无法获得梯度信息或了解函数的解析形式。黑箱优化广泛应用...",
+      "content_length": 124,
+      "ai_probability": 0.7124804162979126,
+      "human_probability": 0.0104438541457057,
+      "prediction": "AI生成",
+      "confidence": 0.9895561337471008,
+      "pdf_positions": [
+        {
+          "page_idx": 25,
+          "block_idx": 150
+        }
+      ]
+    },
+    {
+      "chunk_id": 67,
+      "chapter": "第二章 背景介绍",
+      "section": "#2.5 CMA-ES 算法",
+      "subsection": null,
+      "content_preview": "协方差矩阵自适应进化策略（Covariance Matrix Adaptation Evolution Strategy,CMA-ES）[46] 是一种为解决连续域内困难的非线性、非凸黑箱优化问题而设...",
+      "content_length": 197,
+      "ai_probability": 0.667586932182312,
+      "human_probability": 0.07279599457979202,
+      "prediction": "AI生成",
+      "confidence": 0.9272040724754333,
+      "pdf_positions": [
+        {
+          "page_idx": 25,
+          "block_idx": 151
+        }
+      ]
+    },
+    {
+      "chunk_id": 68,
+      "chapter": "第二章 背景介绍",
+      "section": "#2.5 CMA-ES 算法",
+      "subsection": null,
+      "content_preview": "算法首先在搜索空间中初始化一个多元正态分布。这个分布由一个均值向量和一个协方差矩阵定义。均值向量是最优解的初始猜测，而协方差矩阵最初通常被设置为单位矩阵，表示变量之间没有相关性。\n\n在每轮迭代中，CM...",
+      "content_length": 218,
+      "ai_probability": 0.7169239997863769,
+      "human_probability": 0.0042722527869045734,
+      "prediction": "AI生成",
+      "confidence": 0.9957277774810791,
+      "pdf_positions": [
+        {
+          "page_idx": 25,
+          "block_idx": 152
+        },
+        {
+          "page_idx": 25,
+          "block_idx": 153
+        }
+      ]
+    },
+    {
+      "chunk_id": 69,
+      "chapter": "第二章 背景介绍",
+      "section": "#2.5 CMA-ES 算法",
+      "subsection": null,
+      "content_preview": "CMA-ES 的具体步骤如下：\n\n1. 从多元正态分布中采样 $\\lambda$ 个搜索点 $\\pmb { x } _ { 1 } , \\pmb { x } _ { 2 } , \\cdots , \\p...",
+      "content_length": 129,
+      "ai_probability": 0.7057314205169678,
+      "human_probability": 0.019817495718598366,
+      "prediction": "AI生成",
+      "confidence": 0.9801825284957886,
+      "pdf_positions": [
+        {
+          "page_idx": 25,
+          "block_idx": 154
+        },
+        {
+          "page_idx": 25,
+          "block_idx": 155
+        }
+      ]
+    },
+    {
+      "chunk_id": 70,
+      "chapter": "第二章 背景介绍",
+      "section": "#2.5 CMA-ES 算法",
+      "subsection": null,
+      "content_preview": "<!--formula-->$$\n\n\\pmb { x } _ { k } ^ { g + 1 } \\sim \\pmb { m } ^ { ( g ) } + \\sigma ^ { ( g ) } \\m...",
+      "content_length": 154,
+      "ai_probability": 0.34973713755607605,
+      "human_probability": 0.6502628326416016,
+      "prediction": "人类",
+      "confidence": 0.6502628326416016,
+      "pdf_positions": []
+    },
+    {
+      "chunk_id": 71,
+      "chapter": "第二章 背景介绍",
+      "section": "#2.5 CMA-ES 算法",
+      "subsection": null,
+      "content_preview": "$$<!--/formula-->\n\n其中 $g$ 是代数， $\\pmb { m }$ 是均值， $\\ b { C }$ 是协方差矩阵。\n\n2. 选择 $\\mu$ 个最优解加权更新均值 $\\pmb {...",
+      "content_length": 360,
+      "ai_probability": 0.6637515449523925,
+      "human_probability": 0.07812289893627167,
+      "prediction": "AI生成",
+      "confidence": 0.9218771457672119,
+      "pdf_positions": [
+        {
+          "page_idx": 25,
+          "block_idx": 156
+        },
+        {
+          "page_idx": 25,
+          "block_idx": 157
+        }
+      ]
+    },
+    {
+      "chunk_id": 72,
+      "chapter": "第二章 背景介绍",
+      "section": "#2.5 CMA-ES 算法",
+      "subsection": null,
+      "content_preview": "<!--formula-->$$\n\n{ \\pmb m } ^ { ( g + 1 ) } = { \\pmb m } ^ { ( g ) } + c _ { m } \\sum _ { i = 1 } ^...",
+      "content_length": 205,
+      "ai_probability": 0.3740897655487061,
+      "human_probability": 0.5323877930641174,
+      "prediction": "人类",
+      "confidence": 0.5323877930641174,
+      "pdf_positions": []
+    },
+    {
+      "chunk_id": 73,
+      "chapter": "第二章 背景介绍",
+      "section": "#2.5 CMA-ES 算法",
+      "subsection": null,
+      "content_preview": "$$<!--/formula-->\n\n其中 $c _ { m }$ 是学习率。\n\n3. 根据新旧均值差异以及历史信息，更新步长 $\\sigma$ 和协方差矩阵 $\\ b { C }$ 。 $\\ b {...",
+      "content_length": 113,
+      "ai_probability": 0.17499414086341858,
+      "human_probability": 0.825005829334259,
+      "prediction": "人类",
+      "confidence": 0.825005829334259,
+      "pdf_positions": [
+        {
+          "page_idx": 25,
+          "block_idx": 158
+        },
+        {
+          "page_idx": 26,
+          "block_idx": 159
+        }
+      ]
+    },
+    {
+      "chunk_id": 74,
+      "chapter": "第二章 背景介绍",
+      "section": "#2.5 CMA-ES 算法",
+      "subsection": null,
+      "content_preview": "<!--formula-->$$\n\n\\begin{array} { r l } {  { C ^ { ( g + 1 ) } = ( 1 - c _ { 1 } - c _ { \\mu } ) C ^...",
+      "content_length": 364,
+      "ai_probability": 0.4728160381317139,
+      "human_probability": 0.4089799225330353,
+      "prediction": "AI生成",
+      "confidence": 0.5910200476646423,
+      "pdf_positions": []
+    },
+    {
+      "chunk_id": 75,
+      "chapter": "第二章 背景介绍",
+      "section": "#2.5 CMA-ES 算法",
+      "subsection": null,
+      "content_preview": "$$<!--/formula-->\n\n${ \\pmb y } _ { i \\colon \\lambda } ^ { ( g + 1 ) } = ( { \\pmb x } _ { i \\colon \\l...",
+      "content_length": 211,
+      "ai_probability": 0.32685201168060307,
+      "human_probability": 0.5914350152015686,
+      "prediction": "人类",
+      "confidence": 0.5914350152015686,
+      "pdf_positions": [
+        {
+          "page_idx": 26,
+          "block_idx": 160
+        }
+      ]
+    },
+    {
+      "chunk_id": 76,
+      "chapter": "第二章 背景介绍",
+      "section": "#2.5 CMA-ES 算法",
+      "subsection": null,
+      "content_preview": "<!--formula-->$$\n\np _ { c } ^ { ( g + 1 ) } = ( 1 - c _ { c } ) p _ { c } ^ { ( g ) } + \\sqrt { c _ ...",
+      "content_length": 232,
+      "ai_probability": 0.36496007442474365,
+      "human_probability": 0.5437999367713928,
+      "prediction": "人类",
+      "confidence": 0.5437999367713928,
+      "pdf_positions": []
+    },
+    {
+      "chunk_id": 77,
+      "chapter": "第二章 背景介绍",
+      "section": "#2.5 CMA-ES 算法",
+      "subsection": null,
+      "content_preview": "$$<!--/formula-->\n\n式中的 $\\sqrt { c _ { c } ( 2 - c _ { c } ) \\mu _ { \\mathrm { e f f } } }$ 是归一化常量。\n\n...",
+      "content_length": 198,
+      "ai_probability": 0.6826559257507324,
+      "human_probability": 0.051866721361875534,
+      "prediction": "AI生成",
+      "confidence": 0.9481332302093506,
+      "pdf_positions": [
+        {
+          "page_idx": 26,
+          "block_idx": 161
+        },
+        {
+          "page_idx": 26,
+          "block_idx": 162
+        }
+      ]
+    },
+    {
+      "chunk_id": 78,
+      "chapter": "第二章 背景介绍",
+      "section": "#2.5 CMA-ES 算法",
+      "subsection": null,
+      "content_preview": "<!--formula-->$$\n\np _ { \\sigma } ^ { ( g + 1 ) } = ( 1 - c _ { \\sigma } ) p _ { \\sigma } ^ { ( g ) }...",
+      "content_length": 297,
+      "ai_probability": 0.41297483444213867,
+      "human_probability": 0.4837814271450043,
+      "prediction": "AI生成",
+      "confidence": 0.5162185430526733,
+      "pdf_positions": []
+    },
+    {
+      "chunk_id": 79,
+      "chapter": "第二章 背景介绍",
+      "section": "#2.5 CMA-ES 算法",
+      "subsection": null,
+      "content_preview": "$$<!--/formula-->\n\n其中 $C ^ { ( g ) ^ { - \\frac { 1 } { 2 } } }$ 定义为 $B D ^ { - 1 } B ^ { \\top }$ ，且 ...",
+      "content_length": 236,
+      "ai_probability": 0.5945178508758545,
+      "human_probability": 0.17428074777126312,
+      "prediction": "AI生成",
+      "confidence": 0.8257192373275757,
+      "pdf_positions": [
+        {
+          "page_idx": 26,
+          "block_idx": 163
+        }
+      ]
+    },
+    {
+      "chunk_id": 80,
+      "chapter": "第二章 背景介绍",
+      "section": "#2.5 CMA-ES 算法",
+      "subsection": null,
+      "content_preview": "<!--formula-->$$\n\n\\sigma ^ { ( g + 1 ) } = \\sigma ^ { ( g ) } \\exp \\left( \\frac { c _ { \\sigma } } {...",
+      "content_length": 242,
+      "ai_probability": 0.42446532249450686,
+      "human_probability": 0.46941837668418884,
+      "prediction": "AI生成",
+      "confidence": 0.5305816531181335,
+      "pdf_positions": []
+    },
+    {
+      "chunk_id": 81,
+      "chapter": "第二章 背景介绍",
+      "section": "#2.5 CMA-ES 算法",
+      "subsection": null,
+      "content_preview": "$$<!--/formula-->\n\n4. 迭代直到满足终止条件。\n\nCMA-ES 的参数更新可以被视作最大化成功搜索步长似然或沿自然梯度方向进行分布参数更新，这也是其高效性的理论依据之一[46]。此...",
+      "content_length": 200,
+      "ai_probability": 0.5807285159826279,
+      "human_probability": 0.22569528222084045,
+      "prediction": "AI生成",
+      "confidence": 0.7743046879768372,
+      "pdf_positions": [
+        {
+          "page_idx": 26,
+          "block_idx": 164
+        },
+        {
+          "page_idx": 26,
+          "block_idx": 165
+        }
+      ]
+    },
+    {
+      "chunk_id": 82,
+      "chapter": "第三章 基于元学习的多目标演化种群更新机制",
+      "section": null,
+      "subsection": null,
+      "content_preview": "本章主要介绍本文提出的基于元学习的多目标演化种群更新机制（称作Meta-MOO）。其中 3.1 节介绍了低级多目标优化器的执行流程，3.2 节详细阐述了如何用注意力模块参数化选择算子，3.3 节介绍了...",
+      "content_length": 159,
+      "ai_probability": 0.6955473089218139,
+      "human_probability": 0.03396206349134445,
+      "prediction": "AI生成",
+      "confidence": 0.966037929058075,
+      "pdf_positions": [
+        {
+          "page_idx": 28,
+          "block_idx": 167
+        }
+      ]
+    },
+    {
+      "chunk_id": 83,
+      "chapter": "第三章 基于元学习的多目标演化种群更新机制",
+      "section": "#3.1 Meta-MOO 优化器",
+      "subsection": null,
+      "content_preview": "Meta-MOO 分为元策略和低级优化器，低级优化器整体上采用与 NSGA-II一致的流程，仅在生成下一代种群时，将基于非支配排序和拥挤距离的种群更新方法替换为基于自注意力的选择算子。\n\n每轮迭代中，...",
+      "content_length": 178,
+      "ai_probability": 0.7045349407196044,
+      "human_probability": 0.021479278802871704,
+      "prediction": "AI生成",
+      "confidence": 0.9785207509994507,
+      "pdf_positions": [
+        {
+          "page_idx": 28,
+          "block_idx": 169
+        },
+        {
+          "page_idx": 28,
+          "block_idx": 170
+        }
+      ]
+    },
+    {
+      "chunk_id": 84,
+      "chapter": "第三章 基于元学习的多目标演化种群更新机制",
+      "section": "#3.1 Meta-MOO 优化器",
+      "subsection": null,
+      "content_preview": "### Algorithm 1 Meta-MOO-Optimizer\n\nRequire: 种群大小 $N$ ，初始种群 $\\pmb { X }$ 及其适应度 $f$ ，元策略 $\\pi _ { \\th...",
+      "content_length": 106,
+      "ai_probability": 0.3980218648910523,
+      "human_probability": 0.5024726986885071,
+      "prediction": "人类",
+      "confidence": 0.5024726986885071,
+      "pdf_positions": [
+        {
+          "page_idx": 28,
+          "block_idx": 171
+        },
+        {
+          "page_idx": 28,
+          "block_idx": 172
+        }
+      ]
+    },
+    {
+      "chunk_id": 85,
+      "chapter": "第三章 基于元学习的多目标演化种群更新机制",
+      "section": "#3.1 Meta-MOO 优化器",
+      "subsection": null,
+      "content_preview": "1: repeat\n\n2: $\\hat { \\ b X } ^ { \\prime }  \\ b X \\ b u$ 通过交叉和变异生成的?? 个子代解\n\n3: $f ~ \\gets$ 评估 $\\pmb ...",
+      "content_length": 130,
+      "ai_probability": 0.455827072262764,
+      "human_probability": 0.3922305703163147,
+      "prediction": "AI生成",
+      "confidence": 0.6077694296836853,
+      "pdf_positions": [
+        {
+          "page_idx": 28,
+          "block_idx": 173
+        }
+      ]
+    },
+    {
+      "chunk_id": 86,
+      "chapter": "第三章 基于元学习的多目标演化种群更新机制",
+      "section": "#3.1 Meta-MOO 优化器",
+      "subsection": null,
+      "content_preview": "4: $X ~  \\pi _ { \\theta }$ 基于 $f$ 选择 $N$ 个解\n\n5: until 终止条件满足\n\n在算法 1 的第 4 行，传统的多目标演化算法往往使用手工设计的选择算子，从...",
+      "content_length": 220,
+      "ai_probability": 0.7187857532501221,
+      "human_probability": 0.0016864124918356538,
+      "prediction": "AI生成",
+      "confidence": 0.9983135461807251,
+      "pdf_positions": [
+        {
+          "page_idx": 28,
+          "block_idx": 174
+        }
+      ]
+    },
+    {
+      "chunk_id": 87,
+      "chapter": "第三章 基于元学习的多目标演化种群更新机制",
+      "section": "#3.2 基于注意力的选择算子",
+      "subsection": null,
+      "content_preview": "在NSGA-II算法中，选择算子的作用是从2?? 个解中选择 $N$ 个作为下一代种群。具体而言，选择算子包括两个部分：选择函数和排序。可学习的选择函数（参数记为 $\\theta$ ）由注意力模块组成...",
+      "content_length": 159,
+      "ai_probability": 0.5749032944440842,
+      "human_probability": 0.23346225917339325,
+      "prediction": "AI生成",
+      "confidence": 0.7665377259254456,
+      "pdf_positions": [
+        {
+          "page_idx": 29,
+          "block_idx": 176
+        }
+      ]
+    },
+    {
+      "chunk_id": 88,
+      "chapter": "第三章 基于元学习的多目标演化种群更新机制",
+      "section": "#3.2 基于注意力的选择算子",
+      "subsection": null,
+      "content_preview": "接下来介绍选择函数的细节。为了使算法能够泛化到不同目标空间的任务上，我们首先对种群的适应度进行 z-score 归一化。从适应度到注意力分数的变换如下：\n\n(1) 输入：记种群大小为 $N$ ，则输入...",
+      "content_length": 217,
+      "ai_probability": 0.6409726810455322,
+      "human_probability": 0.10976013541221619,
+      "prediction": "AI生成",
+      "confidence": 0.8902398347854614,
+      "pdf_positions": [
+        {
+          "page_idx": 29,
+          "block_idx": 177
+        },
+        {
+          "page_idx": 29,
+          "block_idx": 178
+        }
+      ]
+    },
+    {
+      "chunk_id": 89,
+      "chapter": "第三章 基于元学习的多目标演化种群更新机制",
+      "section": "#3.2 基于注意力的选择算子",
+      "subsection": null,
+      "content_preview": "(2) 嵌入：将归一化后的输入 $f$ 投影嵌入到更高维的空间。嵌入向量 $\\boldsymbol { f } ^ { \\prime } =$ ?? ?? emb + ??emb ∈ ℝ2??×??。",
+      "content_length": 100,
+      "ai_probability": 0.3357836723327637,
+      "human_probability": 0.5802704095840454,
+      "prediction": "人类",
+      "confidence": 0.5802704095840454,
+      "pdf_positions": [
+        {
+          "page_idx": 29,
+          "block_idx": 179
+        }
+      ]
+    },
+    {
+      "chunk_id": 90,
+      "chapter": "第三章 基于元学习的多目标演化种群更新机制",
+      "section": "#3.2 基于注意力的选择算子",
+      "subsection": null,
+      "content_preview": "(3) Transformer：用 transformer 网络计算嵌入向量的注意力信息，注意力向量$\\pmb { f } ^ { \\prime \\prime } \\in \\mathbb { R } ...",
+      "content_length": 189,
+      "ai_probability": 0.24456514418125153,
+      "human_probability": 0.7554348707199097,
+      "prediction": "人类",
+      "confidence": 0.7554348707199097,
+      "pdf_positions": [
+        {
+          "page_idx": 29,
+          "block_idx": 180
+        }
+      ]
+    },
+    {
+      "chunk_id": 91,
+      "chapter": "第三章 基于元学习的多目标演化种群更新机制",
+      "section": "#3.2 基于注意力的选择算子",
+      "subsection": null,
+      "content_preview": "(4) 得分：注意力向量经过线性层聚合为输出向量 $^ o$ ，表示每个解的得分， $o =$ $\\boldsymbol { f } ^ { \\prime } \\boldsymbol { W } _ ...",
+      "content_length": 211,
+      "ai_probability": 0.5768577146530152,
+      "human_probability": 0.19880875945091248,
+      "prediction": "AI生成",
+      "confidence": 0.8011912703514099,
+      "pdf_positions": [
+        {
+          "page_idx": 29,
+          "block_idx": 181
+        }
+      ]
+    },
+    {
+      "chunk_id": 92,
+      "chapter": "第三章 基于元学习的多目标演化种群更新机制",
+      "section": "#3.2 基于注意力的选择算子",
+      "subsection": null,
+      "content_preview": "![](images/0a7b0f100b82f6959b2875214ef0631d8e52272e73b5f2921453b2edc016b191.jpg)\n\n图 3-1 计算注意力得分的流程图\n...",
+      "content_length": 252,
+      "ai_probability": 0.7186812114715576,
+      "human_probability": 0.0018316523637622595,
+      "prediction": "AI生成",
+      "confidence": 0.9981683492660522,
+      "pdf_positions": [
+        {
+          "page_idx": 29,
+          "block_idx": 182
+        }
+      ]
+    },
+    {
+      "chunk_id": 93,
+      "chapter": "第三章 基于元学习的多目标演化种群更新机制",
+      "section": "#3.2 基于注意力的选择算子",
+      "subsection": null,
+      "content_preview": "值得一提的是，Lange 等人的工作[8-9,47] 为了使注意力参数化的算子具有排序不变性，即种群个体输入的相对顺序不影响计算结果，而没有在注意力模块前引入位置编码。但对于多目标优化问题而言，种群的...",
+      "content_length": 210,
+      "ai_probability": 0.6432670640945435,
+      "human_probability": 0.10657353699207306,
+      "prediction": "AI生成",
+      "confidence": 0.8934264779090881,
+      "pdf_positions": [
+        {
+          "page_idx": 30,
+          "block_idx": 183
+        }
+      ]
+    },
+    {
+      "chunk_id": 94,
+      "chapter": "第三章 基于元学习的多目标演化种群更新机制",
+      "section": "#3.3 元训练",
+      "subsection": null,
+      "content_preview": "为了发现有效的种群更新策略，我们使用元黑箱优化方法优化 transfomer 网络的参数。具体而言，元学习选择算子可以建模为一个单目标的黑箱优化问题，其中每个解代表一组参数，这个参数可用于构建多目标优...",
+      "content_length": 166,
+      "ai_probability": 0.7154536771774291,
+      "human_probability": 0.00631437124684453,
+      "prediction": "AI生成",
+      "confidence": 0.9936856627464294,
+      "pdf_positions": [
+        {
+          "page_idx": 30,
+          "block_idx": 185
+        },
+        {
+          "page_idx": 30,
+          "block_idx": 186
+        }
+      ]
+    },
+    {
+      "chunk_id": 95,
+      "chapter": "第三章 基于元学习的多目标演化种群更新机制",
+      "section": "#3.3 元训练",
+      "subsection": "##3.3.1 元黑箱优化的目标",
+      "content_preview": "我们选取了 $K$ 个有代表性的多目标优化任务，并将参数为 $\\theta$ 的选择算子嵌入到 Meta-MOO 架构中，在每个任务上运行 $T$ 轮。最终种群的性能可以用超体积指标衡量。元训练过程最...",
+      "content_length": 137,
+      "ai_probability": 0.6941841459274292,
+      "human_probability": 0.035855308175086975,
+      "prediction": "AI生成",
+      "confidence": 0.9641446471214294,
+      "pdf_positions": [
+        {
+          "page_idx": 30,
+          "block_idx": 188
+        }
+      ]
+    },
+    {
+      "chunk_id": 96,
+      "chapter": "第三章 基于元学习的多目标演化种群更新机制",
+      "section": "#3.3 元训练",
+      "subsection": "##3.3.1 元黑箱优化的目标",
+      "content_preview": "由于不同优化问题的超体积指标在数值上可能有着数量级的差异，为了让每个任务对元目标的贡献相近，各个任务最终种群的超体积指标经过 arctan 归一化到区间 (−1, 1)，取平均后得到的标量作为参数 $...",
+      "content_length": 129,
+      "ai_probability": 0.10892888903617859,
+      "human_probability": 0.8910711407661438,
+      "prediction": "人类",
+      "confidence": 0.8910711407661438,
+      "pdf_positions": [
+        {
+          "page_idx": 30,
+          "block_idx": 189
+        }
+      ]
+    },
+    {
+      "chunk_id": 97,
+      "chapter": "第三章 基于元学习的多目标演化种群更新机制",
+      "section": "#3.3 元训练",
+      "subsection": "##3.3.2 元训练过程",
+      "content_preview": "元训练分为内外两层优化。外层的元黑箱优化使用 CMA-ES[46] 算法，目的是搜索高效的种群更新策略；内层的多目标优化使用 Meta-MOO 优化器 (算法 1)，目的是评估参数 $\\theta _...",
+      "content_length": 113,
+      "ai_probability": 0.6955836153030395,
+      "human_probability": 0.03391169384121895,
+      "prediction": "AI生成",
+      "confidence": 0.9660883545875549,
+      "pdf_positions": [
+        {
+          "page_idx": 30,
+          "block_idx": 191
+        }
+      ]
+    },
+    {
+      "chunk_id": 98,
+      "chapter": "第三章 基于元学习的多目标演化种群更新机制",
+      "section": "#3.3 元训练",
+      "subsection": "##3.3.2 元训练过程",
+      "content_preview": "![](images/fbece8efb95ee9c0287c6350ebd8ad7eb65ea036cfa93a1da313292d7e381511.jpg)\n\n元训练\n\n图 3-2 Meta-MO...",
+      "content_length": 111,
+      "ai_probability": 0.23618413507938385,
+      "human_probability": 0.7638158798217773,
+      "prediction": "人类",
+      "confidence": 0.7638158798217773,
+      "pdf_positions": [
+        {
+          "page_idx": 9,
+          "block_idx": 39
+        }
+      ]
+    },
+    {
+      "chunk_id": 99,
+      "chapter": "第三章 基于元学习的多目标演化种群更新机制",
+      "section": "#3.3 元训练",
+      "subsection": "##3.3.2 元训练过程",
+      "content_preview": "每轮迭代，算法首先从多元高斯分布 $\\mathcal { N } \\left( \\pmb { \\mu } , \\pmb { \\Sigma } \\right)$ 中采样 $M$ 个候选参数 $\\thet...",
+      "content_length": 264,
+      "ai_probability": 0.7004091882705689,
+      "human_probability": 0.027209432795643806,
+      "prediction": "AI生成",
+      "confidence": 0.972790539264679,
+      "pdf_positions": [
+        {
+          "page_idx": 31,
+          "block_idx": 192
+        }
+      ]
+    },
+    {
+      "chunk_id": 100,
+      "chapter": "第三章 基于元学习的多目标演化种群更新机制",
+      "section": "#3.3 元训练",
+      "subsection": "##3.3.2 元训练过程",
+      "content_preview": "其中 $\\theta _ { i }$ 的维度与注意力模块的总参数量相同，在构建低级优化器的过程中，参数向量被拆分为多个部分，分别嵌入到transformer网络的对应位置。\n\n元训练的伪代码见算法 ...",
+      "content_length": 116,
+      "ai_probability": 0.7172936725616454,
+      "human_probability": 0.003758840961381793,
+      "prediction": "AI生成",
+      "confidence": 0.9962412118911743,
+      "pdf_positions": [
+        {
+          "page_idx": 31,
+          "block_idx": 193
+        },
+        {
+          "page_idx": 31,
+          "block_idx": 194
+        }
+      ]
+    },
+    {
+      "chunk_id": 101,
+      "chapter": "第三章 基于元学习的多目标演化种群更新机制",
+      "section": "#3.4 元学习方法与经典算法的对比分析",
+      "subsection": null,
+      "content_preview": "Meta-MOO 方法通过 transformer 网络端到端地建模每个解对超体积指标的贡献。相较于SMS-EMOA算法根据超体积指标贪心地进行选择，Meta-MOO的元策略以指标的长期回报为目标，这...",
+      "content_length": 169,
+      "ai_probability": 0.7103894519805908,
+      "human_probability": 0.01334802620112896,
+      "prediction": "AI生成",
+      "confidence": 0.9866520166397095,
+      "pdf_positions": [
+        {
+          "page_idx": 31,
+          "block_idx": 196
+        }
+      ]
+    },
+    {
+      "chunk_id": 102,
+      "chapter": "第三章 基于元学习的多目标演化种群更新机制",
+      "section": "#3.4 元学习方法与经典算法的对比分析",
+      "subsection": null,
+      "content_preview": "NSGA-II 算法根据非支配排序和拥挤距离更新种群，而边界解会被赋予无穷大的拥挤距离，使它们总是被保留，这可能导致解的分布不均匀。这是启发式设计的种群更新策略的缺陷，而本文提出的 Meta-MOO ...",
+      "content_length": 110,
+      "ai_probability": 0.509559229016304,
+      "human_probability": 0.32058772444725037,
+      "prediction": "AI生成",
+      "confidence": 0.679412305355072,
+      "pdf_positions": [
+        {
+          "page_idx": 31,
+          "block_idx": 197
+        }
+      ]
+    },
+    {
+      "chunk_id": 103,
+      "chapter": "第三章 基于元学习的多目标演化种群更新机制",
+      "section": "#3.4 元学习方法与经典算法的对比分析",
+      "subsection": null,
+      "content_preview": "### Algorithm 2 元训练\n\nRequire: 元种群大小 $M$ ，多目标优化种群大小 $N$ ， $T$ 个元任务 $\\xi _ { 1 } , \\xi _ { 2 } , \\cdot...",
+      "content_length": 116,
+      "ai_probability": 0.40873022079467775,
+      "human_probability": 0.4890872538089752,
+      "prediction": "AI生成",
+      "confidence": 0.5109127759933472,
+      "pdf_positions": [
+        {
+          "page_idx": 32,
+          "block_idx": 198
+        },
+        {
+          "page_idx": 32,
+          "block_idx": 199
+        }
+      ]
+    },
+    {
+      "chunk_id": 104,
+      "chapter": "第三章 基于元学习的多目标演化种群更新机制",
+      "section": "#3.4 元学习方法与经典算法的对比分析",
+      "subsection": null,
+      "content_preview": "1: 初始化 CMA-ES 的参数 $\\mu , \\Sigma$\n\n2: repeat\n\n3: $X $ 采样 $M$ 个参数 $\\theta _ { i } \\sim \\mathcal { N } ...",
+      "content_length": 168,
+      "ai_probability": 0.1995442658662796,
+      "human_probability": 0.8004557490348816,
+      "prediction": "人类",
+      "confidence": 0.8004557490348816,
+      "pdf_positions": []
+    },
+    {
+      "chunk_id": 105,
+      "chapter": "第三章 基于元学习的多目标演化种群更新机制",
+      "section": "#3.4 元学习方法与经典算法的对比分析",
+      "subsection": null,
+      "content_preview": "4: for $i = 1$ to $M$ do\n\n5: for $t = 1$ to $T$ do\n\n6: 使用以 $\\theta _ { i }$ 为参数的 Meta-MOO 优化器执行多目标优化...",
+      "content_length": 106,
+      "ai_probability": 0.18742933869361877,
+      "human_probability": 0.8125706315040588,
+      "prediction": "人类",
+      "confidence": 0.8125706315040588,
+      "pdf_positions": []
+    },
+    {
+      "chunk_id": 106,
+      "chapter": "第三章 基于元学习的多目标演化种群更新机制",
+      "section": "#3.4 元学习方法与经典算法的对比分析",
+      "subsection": null,
+      "content_preview": "?? ??,??\n\n7: 计算它们的超体积指标 $\\mathrm { h v } _ { i , t } =$ CalcHypervolume $\\left( \\xi _ { t } , \\pmb {...",
+      "content_length": 125,
+      "ai_probability": 0.4697396904230118,
+      "human_probability": 0.3736804127693176,
+      "prediction": "AI生成",
+      "confidence": 0.6263195872306824,
+      "pdf_positions": []
+    },
+    {
+      "chunk_id": 107,
+      "chapter": "第三章 基于元学习的多目标演化种群更新机制",
+      "section": "#3.4 元学习方法与经典算法的对比分析",
+      "subsection": null,
+      "content_preview": "8: 归一化： $\\mathrm { h v } _ { i , t } \\gets 2$ arctan $\\left( \\operatorname { h v } _ { i , t } \\righ...",
+      "content_length": 109,
+      "ai_probability": 0.35351628065109253,
+      "human_probability": 0.6464836597442627,
+      "prediction": "人类",
+      "confidence": 0.6464836597442627,
+      "pdf_positions": []
+    },
+    {
+      "chunk_id": 108,
+      "chapter": "第三章 基于元学习的多目标演化种群更新机制",
+      "section": "#3.4 元学习方法与经典算法的对比分析",
+      "subsection": null,
+      "content_preview": "9: end for\n\n10: 计算所有任务上的平均超体积作为 $\\theta _ { i }$ 的适应度值 $f _ { i }$\n\n11: end for\n\n12: 根据 $f _ { 1 } ,...",
+      "content_length": 174,
+      "ai_probability": 0.5139535814523697,
+      "human_probability": 0.3147285580635071,
+      "prediction": "AI生成",
+      "confidence": 0.6852714419364929,
+      "pdf_positions": []
+    },
+    {
+      "chunk_id": 109,
+      "chapter": "第三章 基于元学习的多目标演化种群更新机制",
+      "section": "#3.4 元学习方法与经典算法的对比分析",
+      "subsection": null,
+      "content_preview": "13: until 一定轮次\n\n避免这类问题。\n\n然而，相比于经典方法，Meta-MOO的可解释性较差。传统的多目标优化算法往往基于明确的数学原理和启发式规则进行决策，其选择机制具有直观的可解释性。例...",
+      "content_length": 234,
+      "ai_probability": 0.7198119020462036,
+      "human_probability": 0.00026119977701455355,
+      "prediction": "AI生成",
+      "confidence": 0.9997387528419495,
+      "pdf_positions": [
+        {
+          "page_idx": 32,
+          "block_idx": 200
+        },
+        {
+          "page_idx": 32,
+          "block_idx": 201
+        }
+      ]
+    },
+    {
+      "chunk_id": 110,
+      "chapter": "第三章 基于元学习的多目标演化种群更新机制",
+      "section": "#3.4 元学习方法与经典算法的对比分析",
+      "subsection": null,
+      "content_preview": "而 Meta-MOO 作为基于注意力机制的方法，其决策过程隐藏在复杂的神经网络结构中。研究者难以直接解释为什么网络会选择某个特定的解，也无法预测网络在面对新问题时的行为模式。这种可解释性的缺失在实际应...",
+      "content_length": 150,
+      "ai_probability": 0.7195811462402344,
+      "human_probability": 0.0005817011697217822,
+      "prediction": "AI生成",
+      "confidence": 0.9994182586669922,
+      "pdf_positions": [
+        {
+          "page_idx": 32,
+          "block_idx": 202
+        }
+      ]
+    },
+    {
+      "chunk_id": 111,
+      "chapter": "第三章 基于元学习的多目标演化种群更新机制",
+      "section": "#3.5 小结",
+      "subsection": null,
+      "content_preview": "本章介绍了 Meta-MOO 优化器的整体架构，该优化器在保持与 NSGA-II 相似流程的基础上，将传统的基于非支配排序和拥挤距离的种群更新方法替换为transformer网络，实现了从启发式规则向...",
+      "content_length": 108,
+      "ai_probability": 0.7097146081924438,
+      "human_probability": 0.01428529154509306,
+      "prediction": "AI生成",
+      "confidence": 0.9857147336006165,
+      "pdf_positions": [
+        {
+          "page_idx": 32,
+          "block_idx": 204
+        }
+      ]
+    },
+    {
+      "chunk_id": 112,
+      "chapter": "第三章 基于元学习的多目标演化种群更新机制",
+      "section": "#3.5 小结",
+      "subsection": null,
+      "content_preview": "我们提出了基于注意力机制的选择算子。通过对种群适应度进行 $\\mathbf { Z } ^ { \\cdot }$ -score 归\n\n![](images/953c3dad7e05fb00569c11...",
+      "content_length": 147,
+      "ai_probability": 0.6766770029067993,
+      "human_probability": 0.06017085537314415,
+      "prediction": "AI生成",
+      "confidence": 0.9398291707038879,
+      "pdf_positions": [
+        {
+          "page_idx": 32,
+          "block_idx": 205
+        }
+      ]
+    },
+    {
+      "chunk_id": 113,
+      "chapter": "第三章 基于元学习的多目标演化种群更新机制",
+      "section": "#3.5 小结",
+      "subsection": null,
+      "content_preview": "图 3-3 NSGA-II、SMS-EMOA 与 Meta-MOO 的种群更新机制对比\n\n一化、嵌入变换、transformer网络处理和得分聚合四个步骤，该选择算子能够涵盖广阔的策略空间。\n\n我们使...",
+      "content_length": 201,
+      "ai_probability": 0.7172055244445801,
+      "human_probability": 0.003881273325532675,
+      "prediction": "AI生成",
+      "confidence": 0.9961187839508057,
+      "pdf_positions": [
+        {
+          "page_idx": 33,
+          "block_idx": 206
+        },
+        {
+          "page_idx": 33,
+          "block_idx": 207
+        }
+      ]
+    },
+    {
+      "chunk_id": 114,
+      "chapter": "第三章 基于元学习的多目标演化种群更新机制",
+      "section": "#3.5 小结",
+      "subsection": null,
+      "content_preview": "之后，本章从多个角度对比分析了 Meta-MOO 与经典多目标演化算法的异同。Meta-MOO在建模解的长期贡献、降低计算复杂度和避免启发式设计缺陷方面具有优势，但在可解释性方面存在不足。\n\n总体而言...",
+      "content_length": 149,
+      "ai_probability": 0.71874107837677,
+      "human_probability": 0.0017485381104052067,
+      "prediction": "AI生成",
+      "confidence": 0.9982514977455139,
+      "pdf_positions": [
+        {
+          "page_idx": 33,
+          "block_idx": 208
+        },
+        {
+          "page_idx": 33,
+          "block_idx": 209
+        }
+      ]
+    },
+    {
+      "chunk_id": 115,
+      "chapter": "第四章 实验",
+      "section": null,
+      "subsection": null,
+      "content_preview": "本章 4.1 节介绍了基准问题、用于对比的基线方法和实验的参数设置，4.2节给出了在二目标和三目标优化问题下的对比实验结果，以及种群更新策略的可视化分析，4.3节对实验结果进行总结与讨论。",
+      "content_length": 94,
+      "ai_probability": 0.046441368758678436,
+      "human_probability": 0.953558623790741,
+      "prediction": "人类",
+      "confidence": 0.953558623790741,
+      "pdf_positions": [
+        {
+          "page_idx": 34,
+          "block_idx": 211
+        }
+      ]
+    },
+    {
+      "chunk_id": 116,
+      "chapter": "第四章 实验",
+      "section": "#4.1 实验设置",
+      "subsection": "##4.1.1 基准问题",
+      "content_preview": "我们在以下几个基准问题上测试了本文提出的 Meta-MOO 方法，它们都是实值的、无约束的多目标优化问题：\n\n• VLMOP[48]：一组广泛使用的多目标优化问题实例，由 van Veldhuizen...",
+      "content_length": 120,
+      "ai_probability": 0.17123566567897797,
+      "human_probability": 0.8287643790245056,
+      "prediction": "人类",
+      "confidence": 0.8287643790245056,
+      "pdf_positions": [
+        {
+          "page_idx": 34,
+          "block_idx": 214
+        },
+        {
+          "page_idx": 34,
+          "block_idx": 215
+        }
+      ]
+    },
+    {
+      "chunk_id": 117,
+      "chapter": "第四章 实验",
+      "section": "#4.1 实验设置",
+      "subsection": "##4.1.1 基准问题",
+      "content_preview": "• DTLZ[35]：Deb 等人在 2005 年提出的一系列问题，允许使用者自定义目标数和决策变量数。\n\n• WFG[36]：Huband 等人在 2006 年提出的问题集，针对原有测试问题的局限性...",
+      "content_length": 106,
+      "ai_probability": 0.5875164717435837,
+      "human_probability": 0.21664470434188843,
+      "prediction": "AI生成",
+      "confidence": 0.7833552956581116,
+      "pdf_positions": []
+    },
+    {
+      "chunk_id": 118,
+      "chapter": "第四章 实验",
+      "section": "#4.1 实验设置",
+      "subsection": "##4.1.1 基准问题",
+      "content_preview": "• RE[49]：Tanabe 等人在 2020 年提出的问题集，包含一些真实场景中的多目标优化问题。\n\n• 其他基准问题：Lin 等人在 2022 年新提出的人造函数 $\\mathrm { F 1 ...",
+      "content_length": 139,
+      "ai_probability": 0.7141747140884399,
+      "human_probability": 0.008090702816843987,
+      "prediction": "AI生成",
+      "confidence": 0.9919093251228333,
+      "pdf_positions": []
+    },
+    {
+      "chunk_id": 119,
+      "chapter": "第四章 实验",
+      "section": "#4.1 实验设置",
+      "subsection": "##4.1.2 基线方法",
+      "content_preview": "在实验过程中作为对比的基线方法有：常用的多目标优化算法 NSGA-II[5]、SMS-EMOA[6]，以及使用随机选择算子的 RAND。实验主要比较种群更新机制对算法的影响，因此我们限制所有算法均使用...",
+      "content_length": 137,
+      "ai_probability": 0.6976959085464477,
+      "human_probability": 0.03097795881330967,
+      "prediction": "AI生成",
+      "confidence": 0.9690220952033997,
+      "pdf_positions": [
+        {
+          "page_idx": 34,
+          "block_idx": 217
+        }
+      ]
+    },
+    {
+      "chunk_id": 120,
+      "chapter": "第四章 实验",
+      "section": "#4.1 实验设置",
+      "subsection": "##4.1.3 实验参数",
+      "content_preview": "我们分别在二目标和三目标的情况下测试了 Meta-MOO 和基线方法的性能。Meta-MOO的元种群大小设为128，进行300轮元训练。对于具体的多目标优化问题，迭代100代，种群规模为100。SBX...",
+      "content_length": 154,
+      "ai_probability": 0.7117825269699096,
+      "human_probability": 0.011413178406655788,
+      "prediction": "AI生成",
+      "confidence": 0.9885868430137634,
+      "pdf_positions": [
+        {
+          "page_idx": 35,
+          "block_idx": 219
+        }
+      ]
+    },
+    {
+      "chunk_id": 121,
+      "chapter": "第四章 实验",
+      "section": "#4.2 实验结果",
+      "subsection": "##4.2.1 二目标优化问题",
+      "content_preview": "Meta-MOO方法在F1、F2和VLMOP2任务上训练，并在所有二目标优化问题上测试。我们分别用5个随机数种子独立测试，选取优化过程中种群的最大超体积，最后对 5 个结果计算均值和标准差。其中 VL...",
+      "content_length": 149,
+      "ai_probability": 0.6186664867401123,
+      "human_probability": 0.14074097573757172,
+      "prediction": "AI生成",
+      "confidence": 0.8592590093612671,
+      "pdf_positions": [
+        {
+          "page_idx": 35,
+          "block_idx": 222
+        }
+      ]
+    },
+    {
+      "chunk_id": 122,
+      "chapter": "第四章 实验",
+      "section": "#4.2 实验结果",
+      "subsection": "##4.2.1 二目标优化问题",
+      "content_preview": "表4-1 算法在二目标优化问题上的最优超体积指标对比，每个结果来自5个随机数种子运行得出的均值和标准差",
+      "content_length": 51,
+      "ai_probability": 0.03691013529896736,
+      "human_probability": 0.9630898833274841,
+      "prediction": "人类",
+      "confidence": 0.9630898833274841,
+      "pdf_positions": []
+    },
+    {
+      "chunk_id": 123,
+      "chapter": "第四章 实验",
+      "section": "#4.2 实验结果",
+      "subsection": "##4.2.1 二目标优化问题",
+      "content_preview": "<table><tr><td>任务</td><td>是否用于元训练</td><td>NSGA-II</td><td>SMS-EMOA</td><td>RAND</td><td>Meta-MO0</td...",
+      "content_length": 1330,
+      "ai_probability": 0.507319986820221,
+      "human_probability": 0.3235732913017273,
+      "prediction": "AI生成",
+      "confidence": 0.6764266490936279,
+      "pdf_positions": []
+    },
+    {
+      "chunk_id": 124,
+      "chapter": "第四章 实验",
+      "section": "#4.2 实验结果",
+      "subsection": "##4.2.1 二目标优化问题",
+      "content_preview": "表4-1的结果表明，在二目标问题上，我们提出的Meta-MOO方法在所有任务上均好于随机选择算子，但略差于经典的 NSGA-II 算法和 SMS-EMOA 算法。Meta-MOO在RE23上的表现远好...",
+      "content_length": 139,
+      "ai_probability": 0.6687857294082641,
+      "human_probability": 0.07113093882799149,
+      "prediction": "AI生成",
+      "confidence": 0.9288690686225891,
+      "pdf_positions": [
+        {
+          "page_idx": 35,
+          "block_idx": 223
+        }
+      ]
+    },
+    {
+      "chunk_id": 125,
+      "chapter": "第四章 实验",
+      "section": "#4.2 实验结果",
+      "subsection": "##4.2.2 三目标优化问题",
+      "content_preview": "Meta-MOO 方法在 DTLZ2、DTLZ4、WFG1 和 WFG2 四个任务上进行训练，并在所有三目标优化问题上测试。实验在不同的随机数种子下独立重复5次，结果为最优超体积指标的均值与方差，具体...",
+      "content_length": 154,
+      "ai_probability": 0.7134112930297851,
+      "human_probability": 0.009150942787528038,
+      "prediction": "AI生成",
+      "confidence": 0.9908490180969238,
+      "pdf_positions": [
+        {
+          "page_idx": 36,
+          "block_idx": 225
+        }
+      ]
+    },
+    {
+      "chunk_id": 126,
+      "chapter": "第四章 实验",
+      "section": "#4.2 实验结果",
+      "subsection": "##4.2.2 三目标优化问题",
+      "content_preview": "表4-2 算法在三目标优化问题上的最优超体积指标对比，每个结果来自5个随机数种子运行得出的均值和标准差",
+      "content_length": 51,
+      "ai_probability": 0.04183626547455788,
+      "human_probability": 0.9581637978553772,
+      "prediction": "人类",
+      "confidence": 0.9581637978553772,
+      "pdf_positions": []
+    },
+    {
+      "chunk_id": 127,
+      "chapter": "第四章 实验",
+      "section": "#4.2 实验结果",
+      "subsection": "##4.2.2 三目标优化问题",
+      "content_preview": "<table><tr><td>任务</td><td>是否用于元训练</td><td>NSGA-II</td><td>SMS-EMOA</td><td>RAND</td><td>Meta-MOO</td...",
+      "content_length": 1182,
+      "ai_probability": 0.515302374958992,
+      "human_probability": 0.3129301965236664,
+      "prediction": "AI生成",
+      "confidence": 0.687069833278656,
+      "pdf_positions": []
+    },
+    {
+      "chunk_id": 128,
+      "chapter": "第四章 实验",
+      "section": "#4.2 实验结果",
+      "subsection": "##4.2.2 三目标优化问题",
+      "content_preview": "图 4-1 对比了 Meta-MOO、NSGA-II 和 SMS-EMOA 优化过程中的超体积指标变化。每个算法迭代100轮，每轮需要对各个目标函数分别进行100次函数评估。\n\n表 4-2 和图 4-...",
+      "content_length": 280,
+      "ai_probability": 0.7185020399093628,
+      "human_probability": 0.0020805220119655132,
+      "prediction": "AI生成",
+      "confidence": 0.997919499874115,
+      "pdf_positions": [
+        {
+          "page_idx": 36,
+          "block_idx": 226
+        },
+        {
+          "page_idx": 36,
+          "block_idx": 227
+        }
+      ]
+    },
+    {
+      "chunk_id": 129,
+      "chapter": "第四章 实验",
+      "section": "#4.2 实验结果",
+      "subsection": "##4.2.3 可视化分析",
+      "content_preview": "本节可视化Meta-MOO算法优化F1问题的过程，以散点图的形式绘制了种群中每个解的目标函数值，结果如图4-2所示。种群大小为50，共优化60轮。其中每个解的排名通过颜色深浅表征，颜色由青绿到品红渐变...",
+      "content_length": 151,
+      "ai_probability": 0.6237729835510254,
+      "human_probability": 0.13364870846271515,
+      "prediction": "AI生成",
+      "confidence": 0.8663513660430908,
+      "pdf_positions": [
+        {
+          "page_idx": 36,
+          "block_idx": 229
+        }
+      ]
+    },
+    {
+      "chunk_id": 130,
+      "chapter": "第四章 实验",
+      "section": "#4.2 实验结果",
+      "subsection": "##4.2.3 可视化分析",
+      "content_preview": "![](images/84e6082c3c42b2496c71de18810ab80ccb850f37e6d899996f3e0f7d7d378d6b.jpg)\n\n图4-1 优化过程中各算法超体积指标...",
+      "content_length": 136,
+      "ai_probability": 0.6110501289367676,
+      "human_probability": 0.15131926536560059,
+      "prediction": "AI生成",
+      "confidence": 0.8486807346343994,
+      "pdf_positions": []
+    },
+    {
+      "chunk_id": 131,
+      "chapter": "第四章 实验",
+      "section": "#4.2 实验结果",
+      "subsection": "##4.2.3 可视化分析",
+      "content_preview": "在初始阶段（前 20 轮），种群分布较为分散，表明算法正在进行全局探索；随着迭代的进行，种群逐渐向帕累托前沿逼近，在40轮到60轮，种群分布趋于稳定。这一现象验证了选择策略的有效性。\n\n被帕累托支配的...",
+      "content_length": 245,
+      "ai_probability": 0.7195798587799072,
+      "human_probability": 0.0005836021737195551,
+      "prediction": "AI生成",
+      "confidence": 0.9994164705276489,
+      "pdf_positions": [
+        {
+          "page_idx": 37,
+          "block_idx": 230
+        },
+        {
+          "page_idx": 37,
+          "block_idx": 231
+        }
+      ]
+    },
+    {
+      "chunk_id": 132,
+      "chapter": "第四章 实验",
+      "section": "#4.3 小结",
+      "subsection": null,
+      "content_preview": "基于元黑箱优化和注意力机制的多目标演化种群更新机制在所有测试中均超过随机选择算子，表明元学习能够探索得到有效的选择策略。虽然 Meta-MOO整体上无法超越经典多目标演化算法 NSGA-II 和 SM...",
+      "content_length": 181,
+      "ai_probability": 0.39429017901420593,
+      "human_probability": 0.6057098507881165,
+      "prediction": "人类",
+      "confidence": 0.6057098507881165,
+      "pdf_positions": [
+        {
+          "page_idx": 37,
+          "block_idx": 233
+        }
+      ]
+    },
+    {
+      "chunk_id": 133,
+      "chapter": "第四章 实验",
+      "section": "#4.3 小结",
+      "subsection": null,
+      "content_preview": "Meta-MOO 的元训练均在人造的多目标问题上进行，但算法在从未见过的现实任务上也表现良好，证明元策略能够泛化到未见任务上。\n\n![](images/fbe34f342e438f5108e70720...",
+      "content_length": 145,
+      "ai_probability": 0.686605167388916,
+      "human_probability": 0.04638174921274185,
+      "prediction": "AI生成",
+      "confidence": 0.9536182880401611,
+      "pdf_positions": [
+        {
+          "page_idx": 37,
+          "block_idx": 234
+        }
+      ]
+    },
+    {
+      "chunk_id": 134,
+      "chapter": "第四章 实验",
+      "section": "#4.3 小结",
+      "subsection": null,
+      "content_preview": "图 4-2 Meta-MOO 在 F1 问题上的可视化分析\n\n图 4-1 和图 4-2 的可视化分析表明，Meta-MOO 的超体积指标容易出现波动，这是因为基于元学习的选择策略往往有一定的随机性，在...",
+      "content_length": 135,
+      "ai_probability": 0.6932300090789795,
+      "human_probability": 0.037180475890636444,
+      "prediction": "AI生成",
+      "confidence": 0.9628194570541382,
+      "pdf_positions": [
+        {
+          "page_idx": 38,
+          "block_idx": 236
+        }
+      ]
+    },
+    {
+      "chunk_id": 135,
+      "chapter": "第五章 总结与展望",
+      "section": null,
+      "subsection": null,
+      "content_preview": "本文尝试用元学习发现新的种群更新机制，以此来提高多目标优化算法的收敛速率。我们提出的 Meta-MOO 框架基于 transformer block 参数化的选择算子，它通过元黑箱优化方法从一组任务中...",
+      "content_length": 431,
+      "ai_probability": 0.7168374395370483,
+      "human_probability": 0.004392463248223066,
+      "prediction": "AI生成",
+      "confidence": 0.9956075549125671,
+      "pdf_positions": [
+        {
+          "page_idx": 40,
+          "block_idx": 238
+        },
+        {
+          "page_idx": 40,
+          "block_idx": 239
+        },
+        {
+          "page_idx": 40,
+          "block_idx": 240
+        }
+      ]
+    }
+  ]
+}

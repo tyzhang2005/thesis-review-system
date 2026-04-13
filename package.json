@@ -1,0 +1,45 @@
+{
+  "name": "project_template_react",
+  "private": true,
+  "version": "0.0.1",
+  "type": "module",
+  "scripts": {
+    "dev:client": "vite --host --port 3000",
+    "dev": "pnpm dev:client",
+    "dev:npm": "vite --host --port 3000",
+    "build:client": "vite build --outDir dist",
+    "build": "rimraf dist && pnpm build:client && cpx package.json dist && echo. > dist/build.flag",
+    "build:npm": "rimraf dist && vite build --outDir dist && copy package.json dist && type nul > dist/build.flag",
+    "build:linux": "rimraf dist && pnpm build:client && cp package.json dist && touch dist/build.flag",
+    "build:npm:linux": "rimraf dist && vite build --outDir dist && cp package.json dist && touch dist/build.flag && cp public/404.html dist/ && touch dist/.nojekyll"
+  },
+  "dependencies": {
+    "@ant-design/icons": "^5.2.6",
+    "antd": "^5.12.0",
+    "clsx": "^2.1.1",
+    "echarts": "^5.5.0",
+    "echarts-for-react": "^3.0.2",
+    "framer-motion": "^12.9.2",
+    "lucide-react": "^0.577.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^7.3.0",
+    "recharts": "^2.15.1",
+    "sonner": "^2.0.2",
+    "tailwind-merge": "^3.0.2",
+    "zod": "^3.24.2"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "@vitejs/plugin-react": "^4.3.4",
+    "autoprefixer": "^10.4.21",
+    "cpx": "^1.5.0",
+    "postcss": "^8.5.3",
+    "rimraf": "^5.0.5",
+    "tailwindcss": "^3.4.17",
+    "typescript": "~5.7.2",
+    "vite": "^6.2.0",
+    "vite-tsconfig-paths": "^5.1.4"
+  }
+}

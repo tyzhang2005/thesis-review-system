@@ -1,0 +1,25 @@
+AIGC检测汇总报告
+============================================================
+文档名称: 211300033
+检测时间: 2026-04-03 19:00:08
+使用的检测模式: by_chunks, by_sections, by_chapters
+
+平均AI生成率: 0.7824
+
+各模式详细结果:
+  By Chunks:
+    AI生成率: 0.4798
+    检测项目数: 135
+  By Sections:
+    AI生成率: 0.9227
+    检测项目数: 21
+  By Chapters:
+    AI生成率: 0.9447
+    检测项目数: 5
+
+详细结果文件位置: /data/zhangtianyue/backend/data/processed/aigc_detect/211300033
+包含文件:
+  - aigc_detect_byby_chunks.txt/.json
+  - aigc_detect_byby_sections.txt/.json
+  - aigc_detect_byby_chapters.txt/.json
+  - aigc_detection_summary.txt/.json

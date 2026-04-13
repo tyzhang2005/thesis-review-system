@@ -1,0 +1,53 @@
+{
+  "overall_ai_rate": 0.8990364574616256,
+  "total_chapters": 5,
+  "total_length": 27503,
+  "detection_time": "2026-04-03T18:43:26.500658",
+  "chapters": [
+    {
+      "chapter": "第一章 绪论",
+      "content_length": 4787,
+      "chunk_count": 16,
+      "ai_probability": 0.9982972741127014,
+      "human_probability": 0.0017027768772095442,
+      "prediction": "AI生成",
+      "confidence": 0.9982972741127014
+    },
+    {
+      "chapter": "第二章 相关工作及背景介绍",
+      "content_length": 5616,
+      "chunk_count": 18,
+      "ai_probability": 0.5877150297164917,
+      "human_probability": 0.4122849404811859,
+      "prediction": "AI生成",
+      "confidence": 0.5877150297164917
+    },
+    {
+      "chapter": "第三章 多阶段反绎学习",
+      "content_length": 8486,
+      "chunk_count": 41,
+      "ai_probability": 0.9961255192756653,
+      "human_probability": 0.00387446116656065,
+      "prediction": "AI生成",
+      "confidence": 0.9961255192756653
+    },
+    {
+      "chapter": "第四章 实验",
+      "content_length": 7250,
+      "chunk_count": 19,
+      "ai_probability": 0.9512400031089783,
+      "human_probability": 0.04875998571515083,
+      "prediction": "AI生成",
+      "confidence": 0.9512400031089783
+    },
+    {
+      "chapter": "第五章 总结与展望",
+      "content_length": 1364,
+      "chunk_count": 1,
+      "ai_probability": 0.9509764313697815,
+      "human_probability": 0.04902353882789612,
+      "prediction": "AI生成",
+      "confidence": 0.9509764313697815
+    }
+  ]
+}

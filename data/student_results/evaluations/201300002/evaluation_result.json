@@ -1,0 +1,32 @@
+{
+  "metadata": {
+    "student_name": "陈默",
+    "student_id": "201300002",
+    "paper_title": "基于空间感知的多组学降维聚类"
+  },
+  "evaluation_data": {
+    "score_list": [
+      3,
+      2,
+      3,
+      3,
+      2,
+      3,
+      3,
+      3,
+      3,
+      3,
+      2,
+      2,
+      2,
+      2,
+      3,
+      2,
+      2,
+      2,
+      88
+    ],
+    "advice_content": " \n[摘要]英文摘要字数不足，应以约300个实词为宜；[关键词]关键词之间应使用\"；\"分开\n \n \n \n\n[参考文献]引用的参考文献：Method of the Year 2019: Single- cell multimodal omics[J/OL]. Nature Methods, 2020, 17(1): 1- 1. https://doi.org/10.1038/s41592- 019- 0703- 5. DOI: 10.1038/s41592- 019- 0703- 5.,存在格式错误：缺失报告责任单位/作者\n\n[参考文献]引用的参考文献：THE TABULA SAPIENS C, JONES R C, KARKANIAS J, et al. The Tabula Sapiens: A multiple- organ, single- cell transcriptomic atlas of humans[J/OL]. Science, 376(6594): eabl4896. https://doi.org/10.1126/science.abl4896. DOI: 10.1126/science.abl4896.,存在格式错误：缺失出版年份\n\n[第一章 引言] 在分析现有方法局限性时提供具体的数据支撑  \n[第二章 空间多组学主成分分析方法] 补充算法伪代码，明确迭代优化步骤和收敛条件  \n[第二章 空间多组学主成分分析方法] 分析算法时间复杂度和空间复杂度  \n[第三章 实验与结果分析] 增加模型效率评估，如运行时间和内存消耗分析  \n[第四章 总结与展望] 量化性能优势，提供具体改进百分比或指标数据",
+    "evaluation_time": "2025-12-08 14:18:51"
+  }
+}

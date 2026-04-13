@@ -1,0 +1,239 @@
+{
+  "overall_ai_rate": 0.9227283969339124,
+  "total_sections": 21,
+  "total_length": 26551,
+  "detection_time": "2026-04-03T19:00:08.144642",
+  "sections": [
+    {
+      "section_key": "第一章 引言__#1.1 研究背景",
+      "chapter": "第一章 引言",
+      "section": "#1.1 研究背景",
+      "content_length": 789,
+      "chunk_count": 4,
+      "ai_probability": 0.9971332550048828,
+      "human_probability": 0.0028667196165770292,
+      "prediction": "AI生成",
+      "confidence": 0.9971332550048828
+    },
+    {
+      "section_key": "第一章 引言__#1.2 研究现状",
+      "chapter": "第一章 引言",
+      "section": "#1.2 研究现状",
+      "content_length": 2880,
+      "chunk_count": 15,
+      "ai_probability": 0.9984875917434692,
+      "human_probability": 0.001512394635938108,
+      "prediction": "AI生成",
+      "confidence": 0.9984875917434692
+    },
+    {
+      "section_key": "第一章 引言__#1.3 本文主要贡献",
+      "chapter": "第一章 引言",
+      "section": "#1.3 本文主要贡献",
+      "content_length": 467,
+      "chunk_count": 3,
+      "ai_probability": 0.7868918180465698,
+      "human_probability": 0.21310816705226898,
+      "prediction": "AI生成",
+      "confidence": 0.7868918180465698
+    },
+    {
+      "section_key": "第一章 引言__#1.4 本文组织架构",
+      "chapter": "第一章 引言",
+      "section": "#1.4 本文组织架构",
+      "content_length": 267,
+      "chunk_count": 1,
+      "ai_probability": 0.9951717257499695,
+      "human_probability": 0.004828230012208223,
+      "prediction": "AI生成",
+      "confidence": 0.9951717257499695
+    },
+    {
+      "section_key": "第二章 背景介绍__None",
+      "chapter": "第二章 背景介绍",
+      "section": null,
+      "content_length": 115,
+      "chunk_count": 1,
+      "ai_probability": 0.2514505386352539,
+      "human_probability": 0.7485494613647461,
+      "prediction": "人类",
+      "confidence": 0.7485494613647461
+    },
+    {
+      "section_key": "第二章 背景介绍__#2.1 多目标优化问题",
+      "chapter": "第二章 背景介绍",
+      "section": "#2.1 多目标优化问题",
+      "content_length": 1767,
+      "chunk_count": 9,
+      "ai_probability": 0.9959374666213989,
+      "human_probability": 0.004062490537762642,
+      "prediction": "AI生成",
+      "confidence": 0.9959374666213989
+    },
+    {
+      "section_key": "第二章 背景介绍__#2.2 多目标演化算法",
+      "chapter": "第二章 背景介绍",
+      "section": "#2.2 多目标演化算法",
+      "content_length": 1408,
+      "chunk_count": 8,
+      "ai_probability": 0.9898888468742371,
+      "human_probability": 0.010111208073794842,
+      "prediction": "AI生成",
+      "confidence": 0.9898888468742371
+    },
+    {
+      "section_key": "第二章 背景介绍__#2.3 注意力机制",
+      "chapter": "第二章 背景介绍",
+      "section": "#2.3 注意力机制",
+      "content_length": 3088,
+      "chunk_count": 16,
+      "ai_probability": 0.9960457682609558,
+      "human_probability": 0.00395425409078598,
+      "prediction": "AI生成",
+      "confidence": 0.9960457682609558
+    },
+    {
+      "section_key": "第二章 背景介绍__#2.4 元黑箱优化",
+      "chapter": "第二章 背景介绍",
+      "section": "#2.4 元黑箱优化",
+      "content_length": 1547,
+      "chunk_count": 8,
+      "ai_probability": 0.9949663281440735,
+      "human_probability": 0.005033696535974741,
+      "prediction": "AI生成",
+      "confidence": 0.9949663281440735
+    },
+    {
+      "section_key": "第二章 背景介绍__#2.5 CMA-ES 算法",
+      "chapter": "第二章 背景介绍",
+      "section": "#2.5 CMA-ES 算法",
+      "content_length": 3480,
+      "chunk_count": 16,
+      "ai_probability": 0.9863775968551636,
+      "human_probability": 0.013622360303997993,
+      "prediction": "AI生成",
+      "confidence": 0.9863775968551636
+    },
+    {
+      "section_key": "第三章 基于元学习的多目标演化种群更新机制__None",
+      "chapter": "第三章 基于元学习的多目标演化种群更新机制",
+      "section": null,
+      "content_length": 159,
+      "chunk_count": 1,
+      "ai_probability": 0.9660378694534302,
+      "human_probability": 0.03396213799715042,
+      "prediction": "AI生成",
+      "confidence": 0.9660378694534302
+    },
+    {
+      "section_key": "第三章 基于元学习的多目标演化种群更新机制__#3.1 Meta-MOO 优化器",
+      "chapter": "第三章 基于元学习的多目标演化种群更新机制",
+      "section": "#3.1 Meta-MOO 优化器",
+      "content_length": 634,
+      "chunk_count": 4,
+      "ai_probability": 0.9959827661514282,
+      "human_probability": 0.004017287399619818,
+      "prediction": "AI生成",
+      "confidence": 0.9959827661514282
+    },
+    {
+      "section_key": "第三章 基于元学习的多目标演化种群更新机制__#3.2 基于注意力的选择算子",
+      "chapter": "第三章 基于元学习的多目标演化种群更新机制",
+      "section": "#3.2 基于注意力的选择算子",
+      "content_length": 1338,
+      "chunk_count": 7,
+      "ai_probability": 0.8941237330436707,
+      "human_probability": 0.10587631911039352,
+      "prediction": "AI生成",
+      "confidence": 0.8941237330436707
+    },
+    {
+      "section_key": "第三章 基于元学习的多目标演化种群更新机制__#3.3 元训练",
+      "chapter": "第三章 基于元学习的多目标演化种群更新机制",
+      "section": "#3.3 元训练",
+      "content_length": 1036,
+      "chunk_count": 7,
+      "ai_probability": 0.9032993912696838,
+      "human_probability": 0.09670063108205795,
+      "prediction": "AI生成",
+      "confidence": 0.9032993912696838
+    },
+    {
+      "section_key": "第三章 基于元学习的多目标演化种群更新机制__#3.4 元学习方法与经典算法的对比分析",
+      "chapter": "第三章 基于元学习的多目标演化种群更新机制",
+      "section": "#3.4 元学习方法与经典算法的对比分析",
+      "content_length": 1461,
+      "chunk_count": 10,
+      "ai_probability": 0.9338846802711487,
+      "human_probability": 0.0661153644323349,
+      "prediction": "AI生成",
+      "confidence": 0.9338846802711487
+    },
+    {
+      "section_key": "第三章 基于元学习的多目标演化种群更新机制__#3.5 小结",
+      "chapter": "第三章 基于元学习的多目标演化种群更新机制",
+      "section": "#3.5 小结",
+      "content_length": 605,
+      "chunk_count": 4,
+      "ai_probability": 0.9990965127944946,
+      "human_probability": 0.0009034519316628575,
+      "prediction": "AI生成",
+      "confidence": 0.9990965127944946
+    },
+    {
+      "section_key": "第四章 实验__None",
+      "chapter": "第四章 实验",
+      "section": null,
+      "content_length": 94,
+      "chunk_count": 1,
+      "ai_probability": 0.046441346406936646,
+      "human_probability": 0.953558623790741,
+      "prediction": "人类",
+      "confidence": 0.953558623790741
+    },
+    {
+      "section_key": "第四章 实验__#4.1 实验设置",
+      "chapter": "第四章 实验",
+      "section": "#4.1 实验设置",
+      "content_length": 656,
+      "chunk_count": 5,
+      "ai_probability": 0.9742743372917175,
+      "human_probability": 0.02572573348879814,
+      "prediction": "AI生成",
+      "confidence": 0.9742743372917175
+    },
+    {
+      "section_key": "第四章 实验__#4.2 实验结果",
+      "chapter": "第四章 实验",
+      "section": "#4.2 实验结果",
+      "content_length": 3868,
+      "chunk_count": 11,
+      "ai_probability": 0.7498237490653992,
+      "human_probability": 0.25017625093460083,
+      "prediction": "AI生成",
+      "confidence": 0.7498237490653992
+    },
+    {
+      "section_key": "第四章 实验__#4.3 小结",
+      "chapter": "第四章 实验",
+      "section": "#4.3 小结",
+      "content_length": 461,
+      "chunk_count": 3,
+      "ai_probability": 0.24882765114307404,
+      "human_probability": 0.7511723041534424,
+      "prediction": "人类",
+      "confidence": 0.7511723041534424
+    },
+    {
+      "section_key": "第五章 总结与展望__None",
+      "chapter": "第五章 总结与展望",
+      "section": null,
+      "content_length": 431,
+      "chunk_count": 1,
+      "ai_probability": 0.9956075549125671,
+      "human_probability": 0.004392463248223066,
+      "prediction": "AI生成",
+      "confidence": 0.9956075549125671
+    }
+  ]
+}

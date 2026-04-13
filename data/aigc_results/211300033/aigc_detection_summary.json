@@ -1,0 +1,27 @@
+{
+  "document_name": "211300033",
+  "detection_time": "2026-04-03T19:00:08.367472",
+  "overall_summary": {
+    "average_ai_rate": 0.782415765378901,
+    "detection_modes_used": [
+      "by_chunks",
+      "by_sections",
+      "by_chapters"
+    ],
+    "total_detection_modes": 3
+  },
+  "detailed_results": {
+    "by_chunks": {
+      "overall_ai_rate": 0.47981496844026783,
+      "total_items": 135
+    },
+    "by_sections": {
+      "overall_ai_rate": 0.9227283969339124,
+      "total_items": 21
+    },
+    "by_chapters": {
+      "overall_ai_rate": 0.9447039307625226,
+      "total_items": 5
+    }
+  }
+}

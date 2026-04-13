@@ -1,0 +1,217 @@
+{
+  "overall_ai_rate": 0.6160968543629588,
+  "total_sections": 19,
+  "total_length": 27503,
+  "detection_time": "2026-04-03T18:43:26.293781",
+  "sections": [
+    {
+      "section_key": "第一章 绪论__#1.1 引言",
+      "chapter": "第一章 绪论",
+      "section": "#1.1 引言",
+      "content_length": 1887,
+      "chunk_count": 7,
+      "ai_probability": 0.9982972741127014,
+      "human_probability": 0.0017027768772095442,
+      "prediction": "AI生成",
+      "confidence": 0.9982972741127014
+    },
+    {
+      "section_key": "第一章 绪论__#1.2 研究现状",
+      "chapter": "第一章 绪论",
+      "section": "#1.2 研究现状",
+      "content_length": 941,
+      "chunk_count": 3,
+      "ai_probability": 0.9752525091171265,
+      "human_probability": 0.024747483432292938,
+      "prediction": "AI生成",
+      "confidence": 0.9752525091171265
+    },
+    {
+      "section_key": "第一章 绪论__#1.3 待研究问题",
+      "chapter": "第一章 绪论",
+      "section": "#1.3 待研究问题",
+      "content_length": 979,
+      "chunk_count": 3,
+      "ai_probability": 0.9963273406028748,
+      "human_probability": 0.003672687103971839,
+      "prediction": "AI生成",
+      "confidence": 0.9963273406028748
+    },
+    {
+      "section_key": "第一章 绪论__#1.4 本文工作",
+      "chapter": "第一章 绪论",
+      "section": "#1.4 本文工作",
+      "content_length": 980,
+      "chunk_count": 3,
+      "ai_probability": 0.9344806671142578,
+      "human_probability": 0.0655193030834198,
+      "prediction": "AI生成",
+      "confidence": 0.9344806671142578
+    },
+    {
+      "section_key": "第二章 相关工作及背景介绍__None",
+      "chapter": "第二章 相关工作及背景介绍",
+      "section": null,
+      "content_length": 114,
+      "chunk_count": 1,
+      "ai_probability": 0.9895289540290833,
+      "human_probability": 0.010471082292497158,
+      "prediction": "AI生成",
+      "confidence": 0.9895289540290833
+    },
+    {
+      "section_key": "第二章 相关工作及背景介绍__#2.1 反绎推理",
+      "chapter": "第二章 相关工作及背景介绍",
+      "section": "#2.1 反绎推理",
+      "content_length": 449,
+      "chunk_count": 2,
+      "ai_probability": 0.8103449940681458,
+      "human_probability": 0.18965500593185425,
+      "prediction": "AI生成",
+      "confidence": 0.8103449940681458
+    },
+    {
+      "section_key": "第二章 相关工作及背景介绍__#2.2 反绎学习",
+      "chapter": "第二章 相关工作及背景介绍",
+      "section": "#2.2 反绎学习",
+      "content_length": 3809,
+      "chunk_count": 10,
+      "ai_probability": 0.1465553194284439,
+      "human_probability": 0.8534446954727173,
+      "prediction": "人类",
+      "confidence": 0.8534446954727173
+    },
+    {
+      "section_key": "第二章 相关工作及背景介绍__#2.3 神经符号学习",
+      "chapter": "第二章 相关工作及背景介绍",
+      "section": "#2.3 神经符号学习",
+      "content_length": 1034,
+      "chunk_count": 4,
+      "ai_probability": 0.9990353584289551,
+      "human_probability": 0.0009646109538152814,
+      "prediction": "AI生成",
+      "confidence": 0.9990353584289551
+    },
+    {
+      "section_key": "第二章 相关工作及背景介绍__#2.4 本章小结",
+      "chapter": "第二章 相关工作及背景介绍",
+      "section": "#2.4 本章小结",
+      "content_length": 210,
+      "chunk_count": 1,
+      "ai_probability": 0.09545723348855972,
+      "human_probability": 0.9045427441596985,
+      "prediction": "人类",
+      "confidence": 0.9045427441596985
+    },
+    {
+      "section_key": "第三章 多阶段反绎学习__None",
+      "chapter": "第三章 多阶段反绎学习",
+      "section": null,
+      "content_length": 111,
+      "chunk_count": 1,
+      "ai_probability": 0.8380976319313049,
+      "human_probability": 0.16190235316753387,
+      "prediction": "AI生成",
+      "confidence": 0.8380976319313049
+    },
+    {
+      "section_key": "第三章 多阶段反绎学习__#3.1 MSABL 框架",
+      "chapter": "第三章 多阶段反绎学习",
+      "section": "#3.1 MSABL 框架",
+      "content_length": 5235,
+      "chunk_count": 25,
+      "ai_probability": 0.9987485408782959,
+      "human_probability": 0.0012513977708294988,
+      "prediction": "AI生成",
+      "confidence": 0.9987485408782959
+    },
+    {
+      "section_key": "第三章 多阶段反绎学习__#3.2 MSRABL 框架",
+      "chapter": "第三章 多阶段反绎学习",
+      "section": "#3.2 MSRABL 框架",
+      "content_length": 2933,
+      "chunk_count": 14,
+      "ai_probability": 0.5865913033485413,
+      "human_probability": 0.41340869665145874,
+      "prediction": "AI生成",
+      "confidence": 0.5865913033485413
+    },
+    {
+      "section_key": "第三章 多阶段反绎学习__#3.3 本章小结",
+      "chapter": "第三章 多阶段反绎学习",
+      "section": "#3.3 本章小结",
+      "content_length": 207,
+      "chunk_count": 1,
+      "ai_probability": 0.9883561730384827,
+      "human_probability": 0.011643844656646252,
+      "prediction": "AI生成",
+      "confidence": 0.9883561730384827
+    },
+    {
+      "section_key": "第四章 实验__None",
+      "chapter": "第四章 实验",
+      "section": null,
+      "content_length": 279,
+      "chunk_count": 1,
+      "ai_probability": 0.9949647188186646,
+      "human_probability": 0.005035363603383303,
+      "prediction": "AI生成",
+      "confidence": 0.9949647188186646
+    },
+    {
+      "section_key": "第四章 实验__#4.1 Addition 任务",
+      "chapter": "第四章 实验",
+      "section": "#4.1 Addition 任务",
+      "content_length": 1507,
+      "chunk_count": 3,
+      "ai_probability": 0.3051173686981201,
+      "human_probability": 0.6948826313018799,
+      "prediction": "人类",
+      "confidence": 0.6948826313018799
+    },
+    {
+      "section_key": "第四章 实验__#4.2 Max 任务",
+      "chapter": "第四章 实验",
+      "section": "#4.2 Max 任务",
+      "content_length": 2347,
+      "chunk_count": 5,
+      "ai_probability": 0.20988667011260986,
+      "human_probability": 0.7901133298873901,
+      "prediction": "人类",
+      "confidence": 0.7901133298873901
+    },
+    {
+      "section_key": "第四章 实验__#4.3 结果分析",
+      "chapter": "第四章 实验",
+      "section": "#4.3 结果分析",
+      "content_length": 2850,
+      "chunk_count": 9,
+      "ai_probability": 0.043576452881097794,
+      "human_probability": 0.9564235210418701,
+      "prediction": "人类",
+      "confidence": 0.9564235210418701
+    },
+    {
+      "section_key": "第四章 实验__#4.4 本章小结",
+      "chapter": "第四章 实验",
+      "section": "#4.4 本章小结",
+      "content_length": 267,
+      "chunk_count": 1,
+      "ai_probability": 0.9963012933731079,
+      "human_probability": 0.0036986698396503925,
+      "prediction": "AI生成",
+      "confidence": 0.9963012933731079
+    },
+    {
+      "section_key": "第五章 总结与展望__None",
+      "chapter": "第五章 总结与展望",
+      "section": null,
+      "content_length": 1364,
+      "chunk_count": 1,
+      "ai_probability": 0.9509764313697815,
+      "human_probability": 0.04902353882789612,
+      "prediction": "AI生成",
+      "confidence": 0.9509764313697815
+    }
+  ]
+}

@@ -1,0 +1,1652 @@
+{
+  "overall_ai_rate": 0.3501504164118515,
+  "total_chunks": 95,
+  "detection_time": "2026-04-03T18:43:23.960655",
+  "chunks": [
+    {
+      "chunk_id": 1,
+      "chapter": "第一章 绪论",
+      "section": "#1.1 引言",
+      "subsection": null,
+      "content_preview": "人工智能（Artificial Intelligence，AI）旨在研究如何让机器具备类似人类的智能，如感知、学习、推理、规划、决策等能力。机器学习（Machine Learning，ML）作为人工智...",
+      "content_length": 227,
+      "ai_probability": 0.7159491348266601,
+      "human_probability": 0.005626179277896881,
+      "prediction": "AI生成",
+      "confidence": 0.9943737983703613,
+      "pdf_positions": [
+        {
+          "page_idx": 7,
+          "block_idx": 41
+        }
+      ]
+    },
+    {
+      "chunk_id": 2,
+      "chapter": "第一章 绪论",
+      "section": "#1.1 引言",
+      "subsection": null,
+      "content_preview": "现阶段机器学习算法主要依赖于深度神经网络（Deep Neural Network，DNN）模型，其核心思想是模拟人脑中神经元之间传递电信号的方式，来建模人类对外界环境的“感知”过程。通过大规模数据驱动...",
+      "content_length": 538,
+      "ai_probability": 0.7193324947357177,
+      "human_probability": 0.0009271191083826125,
+      "prediction": "AI生成",
+      "confidence": 0.9990729093551636,
+      "pdf_positions": [
+        {
+          "page_idx": 7,
+          "block_idx": 42
+        }
+      ]
+    },
+    {
+      "chunk_id": 3,
+      "chapter": "第一章 绪论",
+      "section": "#1.1 引言",
+      "subsection": null,
+      "content_preview": "近年来，研究者面临机器学习模型在注重逻辑推理的任务上表现不佳的问题，重新将研究重心转向符号推理领域，希望以逻辑推理所具有的严谨可信的优点来弥补现有机器学习模型的不足。一个重要的发展趋势是将机器学习与逻...",
+      "content_length": 159,
+      "ai_probability": 0.6018440580368042,
+      "human_probability": 0.16410547494888306,
+      "prediction": "AI生成",
+      "confidence": 0.8358945250511169,
+      "pdf_positions": [
+        {
+          "page_idx": 7,
+          "block_idx": 43
+        }
+      ]
+    },
+    {
+      "chunk_id": 4,
+      "chapter": "第一章 绪论",
+      "section": "#1.1 引言",
+      "subsection": null,
+      "content_preview": "当前广泛应用的深度神经网络等机器学习模型虽然在图像识别、语言处理等感知任务中表现卓越，然由于机器学习模型遵从概率近似正确（Probably Ap-proximately Correct，PAC）学习理...",
+      "content_length": 276,
+      "ai_probability": 0.6781139802932739,
+      "human_probability": 0.05817508324980736,
+      "prediction": "AI生成",
+      "confidence": 0.9418249726295471,
+      "pdf_positions": [
+        {
+          "page_idx": 8,
+          "block_idx": 45
+        }
+      ]
+    },
+    {
+      "chunk_id": 5,
+      "chapter": "第一章 绪论",
+      "section": "#1.1 引言",
+      "subsection": null,
+      "content_preview": "与此同时，逻辑推理因其正确性与严谨性而被用于定理证明与关系归纳推理，能够弥补机器学习模型在先验知识与可信度上的欠缺。然而与机器学习不同的是，逻辑推理本身并不具备高效的从原始数据中主动学习并自动转换为逻...",
+      "content_length": 218,
+      "ai_probability": 0.719657621383667,
+      "human_probability": 0.0004754811234306544,
+      "prediction": "AI生成",
+      "confidence": 0.9995244741439819,
+      "pdf_positions": [
+        {
+          "page_idx": 8,
+          "block_idx": 46
+        }
+      ]
+    },
+    {
+      "chunk_id": 6,
+      "chapter": "第一章 绪论",
+      "section": "#1.1 引言",
+      "subsection": null,
+      "content_preview": "然而这一融合存在两大难点：一是逻辑推理的可满足性问题本质上是组合优化问题，常被编码为布尔可满足性（SAT）或整数线性规划等形式，属于NP-hard问题，求解复杂度高[4]；二是逻辑推理基于离散符号归结...",
+      "content_length": 150,
+      "ai_probability": 0.6067833566665649,
+      "human_probability": 0.15724529325962067,
+      "prediction": "AI生成",
+      "confidence": 0.8427546620368958,
+      "pdf_positions": [
+        {
+          "page_idx": 8,
+          "block_idx": 47
+        }
+      ]
+    },
+    {
+      "chunk_id": 7,
+      "chapter": "第一章 绪论",
+      "section": "#1.1 引言",
+      "subsection": null,
+      "content_preview": "下一代人工智能的发展需要数据与知识的“双驱动”：机器学习模型不仅需要大规模数据的支持，更需要深层次的领域知识保障，唯有实现数据与知识的“双驱动”协同，才能真正推动人工智能迈向更高的智能水平。构建一个统...",
+      "content_length": 319,
+      "ai_probability": 0.7197480869293212,
+      "human_probability": 0.0003498711157590151,
+      "prediction": "AI生成",
+      "confidence": 0.9996501207351685,
+      "pdf_positions": [
+        {
+          "page_idx": 8,
+          "block_idx": 48
+        }
+      ]
+    },
+    {
+      "chunk_id": 8,
+      "chapter": "第一章 绪论",
+      "section": "#1.2 研究现状",
+      "subsection": null,
+      "content_preview": "为了充分结合神经网络对海量数据建模的“感知”能力和符号规则系统的“推理”能力，数十年以来，研究者们一直致力于探寻整合二者的方法[5-6]。近期的研究工作中也不乏一些经典的算法或框架。有一些研究者尝试将...",
+      "content_length": 377,
+      "ai_probability": 0.7031760263442993,
+      "human_probability": 0.023366576060652733,
+      "prediction": "AI生成",
+      "confidence": 0.9766333699226379,
+      "pdf_positions": [
+        {
+          "page_idx": 9,
+          "block_idx": 51
+        }
+      ]
+    },
+    {
+      "chunk_id": 9,
+      "chapter": "第一章 绪论",
+      "section": "#1.2 研究现状",
+      "subsection": null,
+      "content_preview": "然而，上述框架有的侧重于模型的学习过程，而有的则注重推理模块的设计，并没有做到学习与推理二者兼顾，也即没有将机器学习与符号推理的潜力完全发挥出来。反绎学习（Abductive Learning，ABL...",
+      "content_length": 307,
+      "ai_probability": 0.7171290493011474,
+      "human_probability": 0.003987391013652086,
+      "prediction": "AI生成",
+      "confidence": 0.9960125684738159,
+      "pdf_positions": [
+        {
+          "page_idx": 9,
+          "block_idx": 52
+        }
+      ]
+    },
+    {
+      "chunk_id": 10,
+      "chapter": "第一章 绪论",
+      "section": "#1.2 研究现状",
+      "subsection": null,
+      "content_preview": "在反绎学习框架提出后，不少研究者在其基础上进行了跟进工作，在多种方向与各个领域都有改进与应用。一些研究者通过理论分析反绎学习的可行性与有效性[18-19]；一些研究者提出加快反绎学习反绎与收敛速度的方...",
+      "content_length": 257,
+      "ai_probability": 0.7192134475708007,
+      "human_probability": 0.0010924538364633918,
+      "prediction": "AI生成",
+      "confidence": 0.9989075660705566,
+      "pdf_positions": [
+        {
+          "page_idx": 9,
+          "block_idx": 53
+        }
+      ]
+    },
+    {
+      "chunk_id": 11,
+      "chapter": "第一章 绪论",
+      "section": "#1.3 待研究问题",
+      "subsection": null,
+      "content_preview": "反绎学习框架将机器学习与逻辑推理结合的特性，使其在现实场景任务中能够可靠地运行，并取得优秀的模型性能，有着很高的应用价值。然而，反绎学习在效率方面仍面临诸多亟待解决的问题与挑战。因此，本文将主要研究加...",
+      "content_length": 122,
+      "ai_probability": 0.7153901195526122,
+      "human_probability": 0.006402552593499422,
+      "prediction": "AI生成",
+      "confidence": 0.9935973882675171,
+      "pdf_positions": [
+        {
+          "page_idx": 10,
+          "block_idx": 56
+        }
+      ]
+    },
+    {
+      "chunk_id": 12,
+      "chapter": "第一章 绪论",
+      "section": "#1.3 待研究问题",
+      "subsection": null,
+      "content_preview": "在反绎学习框架的反绎推理过程中，逻辑推理模块需要基于模型预测输出的伪标记和预定义的符号规则通过反绎推理修正伪标记，并尽可能使得修正后的伪标记的推理结果与事实结果一致。在后续对模型重新训练时，即将修正后...",
+      "content_length": 489,
+      "ai_probability": 0.5993416160345078,
+      "human_probability": 0.2008778601884842,
+      "prediction": "AI生成",
+      "confidence": 0.799122154712677,
+      "pdf_positions": [
+        {
+          "page_idx": 10,
+          "block_idx": 57
+        }
+      ]
+    },
+    {
+      "chunk_id": 13,
+      "chapter": "第一章 绪论",
+      "section": "#1.3 待研究问题",
+      "subsection": null,
+      "content_preview": "以往的方法中，有的依赖于样本特征的相似性度量，当相似的样本被反绎为同一类时可以获得更高的分数，最后选择得分最高的反绎结果用于训练模型[21]。然而，以图像分类任务为例，在训练的初期阶段，模型对图像的特...",
+      "content_length": 368,
+      "ai_probability": 0.47371954917907716,
+      "human_probability": 0.4078505337238312,
+      "prediction": "AI生成",
+      "confidence": 0.5921494364738464,
+      "pdf_positions": [
+        {
+          "page_idx": 10,
+          "block_idx": 58
+        }
+      ]
+    },
+    {
+      "chunk_id": 14,
+      "chapter": "第一章 绪论",
+      "section": "#1.4 本文工作",
+      "subsection": null,
+      "content_preview": "针对1.3节所述的问题与挑战，本文提出一种创新性的加速反绎学习过程的框架和方法，并进行了实验验证。本文的主要工作如下：",
+      "content_length": 59,
+      "ai_probability": 0.7036005449295044,
+      "human_probability": 0.02277701161801815,
+      "prediction": "AI生成",
+      "confidence": 0.9772229790687561,
+      "pdf_positions": [
+        {
+          "page_idx": 11,
+          "block_idx": 61
+        }
+      ]
+    },
+    {
+      "chunk_id": 15,
+      "chapter": "第一章 绪论",
+      "section": "#1.4 本文工作",
+      "subsection": null,
+      "content_preview": "为缓解反绎空间较大而带来的反绎结果选择困难的问题，本文提出多阶段反绎学习（Multi-Stage Abductive Learning，MSABL）框架。与已有方法不同，MSABL框架能够缩减反绎结果...",
+      "content_length": 761,
+      "ai_probability": 0.6954366302490234,
+      "human_probability": 0.034115757793188095,
+      "prediction": "AI生成",
+      "confidence": 0.9658842086791992,
+      "pdf_positions": [
+        {
+          "page_idx": 11,
+          "block_idx": 62
+        }
+      ]
+    },
+    {
+      "chunk_id": 16,
+      "chapter": "第一章 绪论",
+      "section": "#1.4 本文工作",
+      "subsection": null,
+      "content_preview": "本文余下的内容将以如下结构进行组织：在第二章，本文将详细介绍有关反绎推理和反绎学习框架的背景知识，以及与反绎学习相关的研究工作进展；在第三章，本文将介绍 MSABL 框架以及 MSRABL 框架的流程...",
+      "content_length": 160,
+      "ai_probability": 0.678677544593811,
+      "human_probability": 0.05739235877990723,
+      "prediction": "AI生成",
+      "confidence": 0.9426077008247375,
+      "pdf_positions": [
+        {
+          "page_idx": 12,
+          "block_idx": 64
+        }
+      ]
+    },
+    {
+      "chunk_id": 17,
+      "chapter": "第二章 相关工作及背景介绍",
+      "section": null,
+      "subsection": null,
+      "content_preview": "本章将详细介绍与本文工作相关的已有研究成果。在2.1节中，本文将介绍反绎学习的底层机制——反绎推理的概念。在2.2节中，本文将详细介绍反绎学习的流程以及在该领域已有的研究成果。在2.3节中，本文将介绍...",
+      "content_length": 114,
+      "ai_probability": 0.7124608469009399,
+      "human_probability": 0.010471098124980927,
+      "prediction": "AI生成",
+      "confidence": 0.9895289540290833,
+      "pdf_positions": [
+        {
+          "page_idx": 13,
+          "block_idx": 66
+        }
+      ]
+    },
+    {
+      "chunk_id": 18,
+      "chapter": "第二章 相关工作及背景介绍",
+      "section": "#2.1 反绎推理",
+      "subsection": null,
+      "content_preview": "反绎推理（Abductive Reasoning）是一种基本的逻辑推理形式，根据给定的一套逻辑规则，通过观测到的事实反向推测导致该事实的原因。在反绎推理时，需要首先给出导致事实的原因的假设，并不断的对...",
+      "content_length": 141,
+      "ai_probability": 0.22114460170269012,
+      "human_probability": 0.7788554430007935,
+      "prediction": "人类",
+      "confidence": 0.7788554430007935,
+      "pdf_positions": [
+        {
+          "page_idx": 13,
+          "block_idx": 68
+        }
+      ]
+    },
+    {
+      "chunk_id": 19,
+      "chapter": "第二章 相关工作及背景介绍",
+      "section": "#2.1 反绎推理",
+      "subsection": null,
+      "content_preview": "举例来说，现有以下命题逻辑规则：\n\n其中式2-1和式2-2解释了草地湿与鞋子湿的原因，式2-3表明昨晚下雨与洒水器开启不会同时为真。若我们观察到经过草地后鞋子湿了，就可以通过式2-2得知草地湿了。如果...",
+      "content_length": 308,
+      "ai_probability": 0.6918645715713501,
+      "human_probability": 0.039077021181583405,
+      "prediction": "AI生成",
+      "confidence": 0.9609230160713196,
+      "pdf_positions": [
+        {
+          "page_idx": 13,
+          "block_idx": 69
+        },
+        {
+          "page_idx": 13,
+          "block_idx": 70
+        },
+        {
+          "page_idx": 13,
+          "block_idx": 71
+        },
+        {
+          "page_idx": 14,
+          "block_idx": 72
+        }
+      ]
+    },
+    {
+      "chunk_id": 20,
+      "chapter": "第二章 相关工作及背景介绍",
+      "section": "#2.2 反绎学习",
+      "subsection": null,
+      "content_preview": "反绎学习是一种将机器学习模型与逻辑推理结合的迭代式算法，以模型输出的伪标记为媒介，通过最小化伪标记与知识库间的不一致性，在学习与推理之间架起相互促进的桥梁。反绎学习框架融合了两个模型，分别为感知模型和...",
+      "content_length": 385,
+      "ai_probability": 0.346643614768982,
+      "human_probability": 0.5666954517364502,
+      "prediction": "人类",
+      "confidence": 0.5666954517364502,
+      "pdf_positions": [
+        {
+          "page_idx": 14,
+          "block_idx": 74
+        }
+      ]
+    },
+    {
+      "chunk_id": 21,
+      "chapter": "第二章 相关工作及背景介绍",
+      "section": "#2.2 反绎学习",
+      "subsection": null,
+      "content_preview": "![](images/9eae6fcdf64338dc4f8bd2db58a56e86c9218b1b0ffac0c35062d7ead50e8641.jpg)\n\n图 2-1 反绎学习框架流程图",
+      "content_length": 97,
+      "ai_probability": 0.5900511592626572,
+      "human_probability": 0.21326515078544617,
+      "prediction": "AI生成",
+      "confidence": 0.7867348790168762,
+      "pdf_positions": []
+    },
+    {
+      "chunk_id": 22,
+      "chapter": "第二章 相关工作及背景介绍",
+      "section": "#2.2 反绎学习",
+      "subsection": null,
+      "content_preview": "在反绎学习使用的数据集中，往往没有样本对应的标记等强监督信息，而只有一些基于样本标记和领域先验知识做推理后得到的推理结果。每一笔数据由一组样本和一个推理结果构成。具体来说，现有样本空间 $\\mathc...",
+      "content_length": 860,
+      "ai_probability": 0.05299796909093857,
+      "human_probability": 0.9470019936561584,
+      "prediction": "人类",
+      "confidence": 0.9470019936561584,
+      "pdf_positions": [
+        {
+          "page_idx": 14,
+          "block_idx": 75
+        }
+      ]
+    },
+    {
+      "chunk_id": 23,
+      "chapter": "第二章 相关工作及背景介绍",
+      "section": "#2.2 反绎学习",
+      "subsection": null,
+      "content_preview": "在反绎学习的训练过程中，模型 $f$ 首先处理输入 $\\pmb { x }$ 得到输出伪标记序列$\\widetilde { z } = \\{ \\widetilde { z } _ { 1 } , \\c...",
+      "content_length": 767,
+      "ai_probability": 0.4959997236728668,
+      "human_probability": 0.33866703510284424,
+      "prediction": "AI生成",
+      "confidence": 0.6613329648971558,
+      "pdf_positions": [
+        {
+          "page_idx": 15,
+          "block_idx": 77
+        }
+      ]
+    },
+    {
+      "chunk_id": 24,
+      "chapter": "第二章 相关工作及背景介绍",
+      "section": "#2.2 反绎学习",
+      "subsection": null,
+      "content_preview": "![](images/ab032bfed2b31878a59d0def590d31de1786381462ad3d5bb08dc8e1c5adbcb6.jpg)\n\n图 2-2 反绎学习训练过程示例\n\n...",
+      "content_length": 336,
+      "ai_probability": 0.6802343845367431,
+      "human_probability": 0.055229976773262024,
+      "prediction": "AI生成",
+      "confidence": 0.9447699785232544,
+      "pdf_positions": [
+        {
+          "page_idx": 15,
+          "block_idx": 78
+        }
+      ]
+    },
+    {
+      "chunk_id": 25,
+      "chapter": "第二章 相关工作及背景介绍",
+      "section": "#2.2 反绎学习",
+      "subsection": null,
+      "content_preview": "以上介绍的是在知识库全知全能的假设下，反绎学习的训练流程。在广义的反绎学习框架中，我们认为负责逻辑推理的知识库模块也需要调整。现实中人类对一些领域的认知仍非常浅薄，甚至存在诸多谬误。若使用存在问题的知...",
+      "content_length": 320,
+      "ai_probability": 0.7167761993408203,
+      "human_probability": 0.004477472044527531,
+      "prediction": "AI生成",
+      "confidence": 0.9955224990844727,
+      "pdf_positions": [
+        {
+          "page_idx": 16,
+          "block_idx": 80
+        }
+      ]
+    },
+    {
+      "chunk_id": 26,
+      "chapter": "第二章 相关工作及背景介绍",
+      "section": "#2.2 反绎学习",
+      "subsection": null,
+      "content_preview": "在反绎学习框架提出后，有大量的工作在此基础上展开，其中不乏在各个领域的应用以及框架运行效率与鲁棒性的研究。\n\n在应用方面，反绎学习框架在许多现实任务中都能充当优秀的解决方案。研究者首先将反绎学习框架应...",
+      "content_length": 310,
+      "ai_probability": 0.030928118154406548,
+      "human_probability": 0.9690718650817871,
+      "prediction": "人类",
+      "confidence": 0.9690718650817871,
+      "pdf_positions": [
+        {
+          "page_idx": 16,
+          "block_idx": 81
+        },
+        {
+          "page_idx": 16,
+          "block_idx": 82
+        }
+      ]
+    },
+    {
+      "chunk_id": 27,
+      "chapter": "第二章 相关工作及背景介绍",
+      "section": "#2.2 反绎学习",
+      "subsection": null,
+      "content_preview": "在现实场景中，人类在某些领域的认知不足，领域先验知识也可能存在不完善的情况。考虑到知识库有待修缮这一点，ABLnc[24]能够在现实场景下识别在训练阶段未接触到的新类别，发明新谓词来更新知识库规则与知...",
+      "content_length": 246,
+      "ai_probability": 0.7119442749023437,
+      "human_probability": 0.011188497766852379,
+      "prediction": "AI生成",
+      "confidence": 0.9888114929199219,
+      "pdf_positions": [
+        {
+          "page_idx": 16,
+          "block_idx": 83
+        }
+      ]
+    },
+    {
+      "chunk_id": 28,
+      "chapter": "第二章 相关工作及背景介绍",
+      "section": "#2.2 反绎学习",
+      "subsection": null,
+      "content_preview": "在反绎空间十分庞大的情况下，以往通过暴力搜索或零阶优化来产生反绎结果的方法变得不可行。ABL-Refl[23]在反绎学习框架中新增反思（Reflection）模块，能够预测模型输出伪标记可能出错的位置...",
+      "content_length": 170,
+      "ai_probability": 0.6663586091995239,
+      "human_probability": 0.07450193911790848,
+      "prediction": "AI生成",
+      "confidence": 0.9254980683326721,
+      "pdf_positions": [
+        {
+          "page_idx": 16,
+          "block_idx": 84
+        }
+      ]
+    },
+    {
+      "chunk_id": 29,
+      "chapter": "第二章 相关工作及背景介绍",
+      "section": "#2.2 反绎学习",
+      "subsection": null,
+      "content_preview": "由于反绎推理的结果通常不唯一，如果从中选择出错误的伪标记，则会在之后的训练过程中误导模型，从而导致模型收敛速度变慢。为提高反绎学习的效率，ABLSim[21]引入特征相似性度量，基于相似的样本大概率属...",
+      "content_length": 318,
+      "ai_probability": 0.7192294549942017,
+      "human_probability": 0.0010702377185225487,
+      "prediction": "AI生成",
+      "confidence": 0.9989297986030579,
+      "pdf_positions": [
+        {
+          "page_idx": 17,
+          "block_idx": 86
+        }
+      ]
+    },
+    {
+      "chunk_id": 30,
+      "chapter": "第二章 相关工作及背景介绍",
+      "section": "#2.3 神经符号学习",
+      "subsection": null,
+      "content_preview": "一些研究者提出在逻辑推理中引入概率，以实现从离散到连续优化的过渡。Semantic Loss[7]是一种新的损失函数，利用概率计算定量刻画模型输出与逻辑约束之间的相符程度，很大程度地提升了模型在推理问...",
+      "content_length": 586,
+      "ai_probability": 0.7191331958770751,
+      "human_probability": 0.0012038563145324588,
+      "prediction": "AI生成",
+      "confidence": 0.9987961053848267,
+      "pdf_positions": [
+        {
+          "page_idx": 17,
+          "block_idx": 88
+        }
+      ]
+    },
+    {
+      "chunk_id": 31,
+      "chapter": "第二章 相关工作及背景介绍",
+      "section": "#2.3 神经符号学习",
+      "subsection": null,
+      "content_preview": "另一些研究者提出使用优化问题近似逻辑推理，并使用神经网络求解该优化问题的方法。OptNet（Optimization Networks）[14]是一种结合了神经网络和优化问题的框架，使得优化问题能够作...",
+      "content_length": 121,
+      "ai_probability": 0.06174386665225029,
+      "human_probability": 0.9382560849189758,
+      "prediction": "人类",
+      "confidence": 0.9382560849189758,
+      "pdf_positions": [
+        {
+          "page_idx": 17,
+          "block_idx": 89
+        }
+      ]
+    },
+    {
+      "chunk_id": 32,
+      "chapter": "第二章 相关工作及背景介绍",
+      "section": "#2.3 神经符号学习",
+      "subsection": null,
+      "content_preview": "Net[15]基于 OptNet 的思想，将逻辑推理问题规约为命题逻辑中的 MaxSAT 问题，并用神经网络建模，从而省去了逻辑推理模块。SATNet 用于解数独等逻辑推理问题，效果显著优于同期先进的...",
+      "content_length": 221,
+      "ai_probability": 0.662000126838684,
+      "human_probability": 0.08055534213781357,
+      "prediction": "AI生成",
+      "confidence": 0.9194446206092834,
+      "pdf_positions": [
+        {
+          "page_idx": 18,
+          "block_idx": 90
+        }
+      ]
+    },
+    {
+      "chunk_id": 33,
+      "chapter": "第二章 相关工作及背景介绍",
+      "section": "#2.3 神经符号学习",
+      "subsection": null,
+      "content_preview": "但是，在知识库复杂，符号空间庞大的场景下，现有的框架都面临训练效率低下，模型收敛速度缓慢的问题。此外，在领域知识尚未完善的场景下，如何鉴别并利用有效的知识，修缮错误的知识，补充新的知识，也是亟待进一步...",
+      "content_length": 106,
+      "ai_probability": 0.7059960794448852,
+      "human_probability": 0.019449962303042412,
+      "prediction": "AI生成",
+      "confidence": 0.9805501103401184,
+      "pdf_positions": [
+        {
+          "page_idx": 18,
+          "block_idx": 91
+        }
+      ]
+    },
+    {
+      "chunk_id": 34,
+      "chapter": "第二章 相关工作及背景介绍",
+      "section": "#2.4 本章小结",
+      "subsection": null,
+      "content_preview": "本章围绕反绎学习框架，详细介绍了反绎学习相关的背景知识以及已有的相关工作。本章首先通过一个具体例子介绍了反绎推理的概念，并由此引出反绎学习框架。接着本章以形式化语言描述了反绎学习框架的训练流程，并以 ...",
+      "content_length": 210,
+      "ai_probability": 0.09545725584030151,
+      "human_probability": 0.9045427441596985,
+      "prediction": "人类",
+      "confidence": 0.9045427441596985,
+      "pdf_positions": [
+        {
+          "page_idx": 18,
+          "block_idx": 93
+        }
+      ]
+    },
+    {
+      "chunk_id": 35,
+      "chapter": "第三章 多阶段反绎学习",
+      "section": null,
+      "subsection": null,
+      "content_preview": "本章节将主要介绍一种可加速反绎学习过程并提升模型准确率的算法及框架。具体而言，在第3.1节中，本文将介绍提出的反绎学习加速方法 MSABL 的整体算法框架；在第3.2节中，本文将介绍 MSABL 的改...",
+      "content_length": 111,
+      "ai_probability": 0.6034306383132935,
+      "human_probability": 0.16190186142921448,
+      "prediction": "AI生成",
+      "confidence": 0.8380981087684631,
+      "pdf_positions": [
+        {
+          "page_idx": 19,
+          "block_idx": 95
+        }
+      ]
+    },
+    {
+      "chunk_id": 36,
+      "chapter": "第三章 多阶段反绎学习",
+      "section": "#3.1 MSABL 框架",
+      "subsection": null,
+      "content_preview": "本文的研究基于知识库包含完备的规则的假设，所以真实的标记组合必然存在于反绎结果候选集中，需要设计策略提升。我们不考虑数据对知识库的精化过程，而主要关注反绎推理模块对模型性能的提升作用。\n\n反绎结果候选...",
+      "content_length": 431,
+      "ai_probability": 0.7172590827941894,
+      "human_probability": 0.003806855296716094,
+      "prediction": "AI生成",
+      "confidence": 0.9961931705474854,
+      "pdf_positions": [
+        {
+          "page_idx": 19,
+          "block_idx": 97
+        },
+        {
+          "page_idx": 19,
+          "block_idx": 98
+        }
+      ]
+    },
+    {
+      "chunk_id": 37,
+      "chapter": "第三章 多阶段反绎学习",
+      "section": "#3.1 MSABL 框架",
+      "subsection": null,
+      "content_preview": "与上述方法不同，本文的研究则主要关注如何缩减反绎结果候选集的大小。本文注意到，已有的加速方法并不关注知识库本身的规则依赖关系与内在结构，而是仅将其视为一个黑箱函数，输入已有的逻辑事实，输出需要的反绎结...",
+      "content_length": 245,
+      "ai_probability": 0.7170745468139648,
+      "human_probability": 0.004063181579113007,
+      "prediction": "AI生成",
+      "confidence": 0.9959368705749512,
+      "pdf_positions": [
+        {
+          "page_idx": 19,
+          "block_idx": 99
+        }
+      ]
+    },
+    {
+      "chunk_id": 38,
+      "chapter": "第三章 多阶段反绎学习",
+      "section": "#3.1 MSABL 框架",
+      "subsection": null,
+      "content_preview": "### Algorithm 1 数据切片算法\n\n输入： 数据集 $_ D$ ，知识库 $\\kappa \\boldsymbol { B }$ ，标记空间 $\\mathcal { Z }$ ，推理结果空间...",
+      "content_length": 103,
+      "ai_probability": 0.5758569985628128,
+      "human_probability": 0.23219068348407745,
+      "prediction": "AI生成",
+      "confidence": 0.7678093314170837,
+      "pdf_positions": [
+        {
+          "page_idx": 20,
+          "block_idx": 100
+        },
+        {
+          "page_idx": 20,
+          "block_idx": 101
+        }
+      ]
+    },
+    {
+      "chunk_id": 39,
+      "chapter": "第三章 多阶段反绎学习",
+      "section": "#3.1 MSABL 框架",
+      "subsection": null,
+      "content_preview": "输出： 数据切片 slice\n\n1: $i \\gets 1$ ， $A  \\mathcal { Z }$\n\n2: for each $y \\in \\mathcal { D }$ do\n\n3: 根据式3...",
+      "content_length": 119,
+      "ai_probability": 0.47073738276958466,
+      "human_probability": 0.37235015630722046,
+      "prediction": "AI生成",
+      "confidence": 0.6276498436927795,
+      "pdf_positions": []
+    },
+    {
+      "chunk_id": 40,
+      "chapter": "第三章 多阶段反绎学习",
+      "section": "#3.1 MSABL 框架",
+      "subsection": null,
+      "content_preview": "4: end for\n\n5: while $A \\neq \\emptyset$ do\n\n6: for each $c \\in A$ do\n\n7: 根据式3-2与式3-3分别计算 $\\mathrm { ...",
+      "content_length": 140,
+      "ai_probability": 0.386394476890564,
+      "human_probability": 0.5170068740844727,
+      "prediction": "人类",
+      "confidence": 0.5170068740844727,
+      "pdf_positions": []
+    },
+    {
+      "chunk_id": 41,
+      "chapter": "第三章 多阶段反绎学习",
+      "section": "#3.1 MSABL 框架",
+      "subsection": null,
+      "content_preview": "8: end for\n\n9: $\\begin{array} { r l } & { C \\gets \\{ c \\mid c \\in A , c = \\mathrm { a r g m i n } _ ...",
+      "content_length": 349,
+      "ai_probability": 0.3253093242645264,
+      "human_probability": 0.593363344669342,
+      "prediction": "人类",
+      "confidence": 0.593363344669342,
+      "pdf_positions": []
+    },
+    {
+      "chunk_id": 42,
+      "chapter": "第三章 多阶段反绎学习",
+      "section": "#3.1 MSABL 框架",
+      "subsection": null,
+      "content_preview": "10:\n\n11:\n\n12:\n\n13: for each $y \\in \\mathcal { V }$ do\n\n14: $\\Psi _ { y }  \\Psi _ { y } \\backslash C$",
+      "content_length": 100,
+      "ai_probability": 0.2530756890773773,
+      "human_probability": 0.7469243407249451,
+      "prediction": "人类",
+      "confidence": 0.7469243407249451,
+      "pdf_positions": [
+        {
+          "page_idx": 25,
+          "block_idx": 125
+        }
+      ]
+    },
+    {
+      "chunk_id": 43,
+      "chapter": "第三章 多阶段反绎学习",
+      "section": "#3.1 MSABL 框架",
+      "subsection": null,
+      "content_preview": "15: end for\n\n16: $i \\gets i + 1$\n\n17: end while\n\n18: return slice??\n\n条件或例外情况。这些规则可以按复杂程度的递增分为若干阶段。\n\n...",
+      "content_length": 437,
+      "ai_probability": 0.13294382393360138,
+      "human_probability": 0.8670561909675598,
+      "prediction": "人类",
+      "confidence": 0.8670561909675598,
+      "pdf_positions": [
+        {
+          "page_idx": 20,
+          "block_idx": 102
+        },
+        {
+          "page_idx": 20,
+          "block_idx": 103
+        }
+      ]
+    },
+    {
+      "chunk_id": 44,
+      "chapter": "第三章 多阶段反绎学习",
+      "section": "#3.1 MSABL 框架",
+      "subsection": null,
+      "content_preview": "首先我们需要给出类别的难度指数的定义。对于给定的知识库 $\\kappa \\boldsymbol { B }$ 以及推理结果 $y$ ，可以得到反绎结果候选集 $\\mathbb { S } = \\{ z...",
+      "content_length": 210,
+      "ai_probability": 0.4318109512329102,
+      "human_probability": 0.4602363407611847,
+      "prediction": "AI生成",
+      "confidence": 0.5397636890411377,
+      "pdf_positions": [
+        {
+          "page_idx": 20,
+          "block_idx": 104
+        }
+      ]
+    },
+    {
+      "chunk_id": 45,
+      "chapter": "第三章 多阶段反绎学习",
+      "section": "#3.1 MSABL 框架",
+      "subsection": null,
+      "content_preview": "<!--formula-->$$\n\n\\Psi ( y , K B ) = \\{ z _ { i } \\mid i \\in [ m ] , z _ { i } \\in z , z \\cup K B \\m...",
+      "content_length": 110,
+      "ai_probability": 0.39293861389160156,
+      "human_probability": 0.6070613265037537,
+      "prediction": "人类",
+      "confidence": 0.6070613265037537,
+      "pdf_positions": []
+    },
+    {
+      "chunk_id": 46,
+      "chapter": "第三章 多阶段反绎学习",
+      "section": "#3.1 MSABL 框架",
+      "subsection": null,
+      "content_preview": "$$<!--/formula-->\n\n![](images/9f832611bee42eb818df1fbc09ba583aabbb4290897197b134a8e3fd268ff1c4.jpg)\n...",
+      "content_length": 118,
+      "ai_probability": 0.458525151014328,
+      "human_probability": 0.3886331021785736,
+      "prediction": "AI生成",
+      "confidence": 0.611366868019104,
+      "pdf_positions": []
+    },
+    {
+      "chunk_id": 47,
+      "chapter": "第三章 多阶段反绎学习",
+      "section": "#3.1 MSABL 框架",
+      "subsection": null,
+      "content_preview": "后面将 $\\Psi ( y , \\boldsymbol { \\kappa } \\boldsymbol { B } )$ 简写为 $\\Psi _ { y }$ 。由此可定义类别 $c$ 的难度指数为\n\n...",
+      "content_length": 116,
+      "ai_probability": 0.5899704551696777,
+      "human_probability": 0.18059659004211426,
+      "prediction": "AI生成",
+      "confidence": 0.8194034099578857,
+      "pdf_positions": [
+        {
+          "page_idx": 21,
+          "block_idx": 105
+        }
+      ]
+    },
+    {
+      "chunk_id": 48,
+      "chapter": "第三章 多阶段反绎学习",
+      "section": "#3.1 MSABL 框架",
+      "subsection": null,
+      "content_preview": "\\mathrm { D I } ( c , K B ) = \\operatorname* { m i n } _ { c \\in \\Psi _ { y } } | \\Psi _ { y } |\n\n$$...",
+      "content_length": 115,
+      "ai_probability": 0.3772001743316651,
+      "human_probability": 0.5284997820854187,
+      "prediction": "人类",
+      "confidence": 0.5284997820854187,
+      "pdf_positions": []
+    },
+    {
+      "chunk_id": 49,
+      "chapter": "第三章 多阶段反绎学习",
+      "section": "#3.1 MSABL 框架",
+      "subsection": null,
+      "content_preview": "基于难度指数我们还可以定义类别 $c$ 的特征推理结果（Characteristic ReasoningResult，CRR）\n\n<!--formula-->$$\n\n\\mathrm { C R R }...",
+      "content_length": 186,
+      "ai_probability": 0.6669728136062621,
+      "human_probability": 0.07364881783723831,
+      "prediction": "AI生成",
+      "confidence": 0.9263511300086975,
+      "pdf_positions": [
+        {
+          "page_idx": 21,
+          "block_idx": 106
+        }
+      ]
+    },
+    {
+      "chunk_id": 50,
+      "chapter": "第三章 多阶段反绎学习",
+      "section": "#3.1 MSABL 框架",
+      "subsection": null,
+      "content_preview": "$$<!--/formula-->\n\n同样以 MNIST Addition 为例， $\\kappa \\boldsymbol { B }$ 为加法规则且 $m = 2$ ，由反绎标记集合的定义可知 $\\...",
+      "content_length": 255,
+      "ai_probability": 0.07511705160140991,
+      "human_probability": 0.9248829483985901,
+      "prediction": "人类",
+      "confidence": 0.9248829483985901,
+      "pdf_positions": [
+        {
+          "page_idx": 21,
+          "block_idx": 107
+        }
+      ]
+    },
+    {
+      "chunk_id": 51,
+      "chapter": "第三章 多阶段反绎学习",
+      "section": "#3.1 MSABL 框架",
+      "subsection": null,
+      "content_preview": "根据 DI 的计算方法，我们可以对训练数据集做切片。首先需要在每次切片之前，找出所有当前 DI 最小的类别，这样的类别可能有多个。这意味着我们希望从剩余的类别中挑选出最容易区分的，不确定性最低的类别。...",
+      "content_length": 143,
+      "ai_probability": 0.5668592602014542,
+      "human_probability": 0.24418765306472778,
+      "prediction": "AI生成",
+      "confidence": 0.7558123469352722,
+      "pdf_positions": [
+        {
+          "page_idx": 21,
+          "block_idx": 108
+        }
+      ]
+    },
+    {
+      "chunk_id": 52,
+      "chapter": "第三章 多阶段反绎学习",
+      "section": "#3.1 MSABL 框架",
+      "subsection": null,
+      "content_preview": "找出DI最小的类别后，需要确定这些类别各自的CRR，并从数据集中选择所有推理结果与 CRR 一致的数据，与上一轮的训练数据切片合并，作为本轮的训练数据切片。切片完成后，需要在所有的反绎标记集合中去掉本...",
+      "content_length": 147,
+      "ai_probability": 0.7070379781723022,
+      "human_probability": 0.018002834171056747,
+      "prediction": "AI生成",
+      "confidence": 0.9819971919059753,
+      "pdf_positions": [
+        {
+          "page_idx": 21,
+          "block_idx": 109
+        }
+      ]
+    },
+    {
+      "chunk_id": 53,
+      "chapter": "第三章 多阶段反绎学习",
+      "section": "#3.1 MSABL 框架",
+      "subsection": null,
+      "content_preview": "例如，在 MNIST Addition 任务中，第 $i$ 个切片 $\\mathsf { s l i c e } _ { i } = \\{ ( \\boldsymbol { \\mathbf { x } ...",
+      "content_length": 271,
+      "ai_probability": 0.7151315116882324,
+      "human_probability": 0.006761787924915552,
+      "prediction": "AI生成",
+      "confidence": 0.9932382106781006,
+      "pdf_positions": [
+        {
+          "page_idx": 22,
+          "block_idx": 110
+        }
+      ]
+    },
+    {
+      "chunk_id": 54,
+      "chapter": "第三章 多阶段反绎学习",
+      "section": "#3.1 MSABL 框架",
+      "subsection": null,
+      "content_preview": "得到一系列数据切片后，就可以按顺序在这些切片上做一般意义上的反绎学习。切片排位越前，则其包含的类别越容易被区分。由数据切片算法的设计可知，基于切片中数据的真实推理结果做反绎推理，得到的反绎结果的类别，...",
+      "content_length": 163,
+      "ai_probability": 0.03133469074964523,
+      "human_probability": 0.968665361404419,
+      "prediction": "人类",
+      "confidence": 0.968665361404419,
+      "pdf_positions": [
+        {
+          "page_idx": 22,
+          "block_idx": 111
+        }
+      ]
+    },
+    {
+      "chunk_id": 55,
+      "chapter": "第三章 多阶段反绎学习",
+      "section": "#3.1 MSABL 框架",
+      "subsection": null,
+      "content_preview": "只要模型在第??个数据切片上得到充分训练，即在当前切片对应的类别上取得较好的泛化性能或达到终止条件，我们就过渡到第 $i + 1$ 个切片上继续训练模型。泛化性能可量化为模型在验证集上的表现，而终止条...",
+      "content_length": 246,
+      "ai_probability": 0.6968816328048706,
+      "human_probability": 0.032108888030052185,
+      "prediction": "AI生成",
+      "confidence": 0.9678911566734314,
+      "pdf_positions": [
+        {
+          "page_idx": 22,
+          "block_idx": 112
+        }
+      ]
+    },
+    {
+      "chunk_id": 56,
+      "chapter": "第三章 多阶段反绎学习",
+      "section": "#3.1 MSABL 框架",
+      "subsection": null,
+      "content_preview": "以 MNIST Addition 为例，原数据集 $_ D$ 包含任意0至9类的两位数加减，若直接在 $_ D$ 上做反绎学习，则起步阶段在反绎结果候选集中选择出错误的反绎标记的概率较大，模型很容易被...",
+      "content_length": 550,
+      "ai_probability": 0.7103116464614868,
+      "human_probability": 0.01345604658126831,
+      "prediction": "AI生成",
+      "confidence": 0.9865439534187317,
+      "pdf_positions": [
+        {
+          "page_idx": 22,
+          "block_idx": 113
+        }
+      ]
+    },
+    {
+      "chunk_id": 57,
+      "chapter": "第三章 多阶段反绎学习",
+      "section": "#3.1 MSABL 框架",
+      "subsection": null,
+      "content_preview": "通过MSABL框架，模型实行一种类似于人类学习新知识时由浅入深，由易到难的过程。MSABL可以系统地解构原本庞大繁杂的知识库，划分为多个由简单逐渐到困难的知识库子集，从而创建不同的学习阶段，逐步扩大反...",
+      "content_length": 208,
+      "ai_probability": 0.7161706209182739,
+      "human_probability": 0.005318568553775549,
+      "prediction": "AI生成",
+      "confidence": 0.9946814179420471,
+      "pdf_positions": [
+        {
+          "page_idx": 22,
+          "block_idx": 114
+        }
+      ]
+    },
+    {
+      "chunk_id": 58,
+      "chapter": "第三章 多阶段反绎学习",
+      "section": "#3.1 MSABL 框架",
+      "subsection": null,
+      "content_preview": "### Algorithm 2 MSABL 算法\n\n输入： 数据集 $_ D$ ，知识库 $\\kappa \\boldsymbol { B }$\n\n输出： 模型 $f$\n\n1: 基于 $\\mathcal...",
+      "content_length": 165,
+      "ai_probability": 0.08899553120136261,
+      "human_probability": 0.9110044240951538,
+      "prediction": "人类",
+      "confidence": 0.9110044240951538,
+      "pdf_positions": [
+        {
+          "page_idx": 23,
+          "block_idx": 115
+        },
+        {
+          "page_idx": 23,
+          "block_idx": 116
+        }
+      ]
+    },
+    {
+      "chunk_id": 59,
+      "chapter": "第三章 多阶段反绎学习",
+      "section": "#3.1 MSABL 框架",
+      "subsection": null,
+      "content_preview": "2: 初始化模型 $f$ 3: for each $i \\in [ K ]$ do4: 在 slice?? 上做反绎学习，更新 $f$ 5: end for6: 在 $_ D$ 上做反绎学习，更新 $...",
+      "content_length": 116,
+      "ai_probability": 0.13948480784893036,
+      "human_probability": 0.8605151176452637,
+      "prediction": "人类",
+      "confidence": 0.8605151176452637,
+      "pdf_positions": []
+    },
+    {
+      "chunk_id": 60,
+      "chapter": "第三章 多阶段反绎学习",
+      "section": "#3.1 MSABL 框架",
+      "subsection": null,
+      "content_preview": "推理简单易行，还能让模型逐渐适应更具挑战性的约束条件。模型在简单基础的任务上达到高性能，对后续学习高级困难任务也有一定的帮助。在最后阶段，我们整合了完整的知识库，使模型能够纳入所有相关知识，同时保持通...",
+      "content_length": 192,
+      "ai_probability": 0.7174702262878417,
+      "human_probability": 0.0035136365331709385,
+      "prediction": "AI生成",
+      "confidence": 0.9964864253997803,
+      "pdf_positions": [
+        {
+          "page_idx": 23,
+          "block_idx": 117
+        }
+      ]
+    },
+    {
+      "chunk_id": 61,
+      "chapter": "第三章 多阶段反绎学习",
+      "section": "#3.2 MSRABL 框架",
+      "subsection": null,
+      "content_preview": "在 MSABL 训练过程中，切换数据切片的环节会引入难度指数更高的类别，并与先前难度指数低的类别共同参与反绎推理过程并更新模型。在刚切换数据切片时，可以认为模型在低难度的类别上泛化性能较好，但在新引进...",
+      "content_length": 274,
+      "ai_probability": 0.6755047702789306,
+      "human_probability": 0.061798904091119766,
+      "prediction": "AI生成",
+      "confidence": 0.9382010698318481,
+      "pdf_positions": [
+        {
+          "page_idx": 23,
+          "block_idx": 119
+        }
+      ]
+    },
+    {
+      "chunk_id": 62,
+      "chapter": "第三章 多阶段反绎学习",
+      "section": "#3.2 MSRABL 框架",
+      "subsection": null,
+      "content_preview": "为解决该问题，我们提出多阶段拒绝反绎学习框架（Multi-Stage with Rejec-tion ABL，MSRABL）。该框架基于如下假设：在每个数据切片上训练完毕后，模型在该切片所包含的类别上...",
+      "content_length": 243,
+      "ai_probability": 0.26227548718452454,
+      "human_probability": 0.7377245426177979,
+      "prediction": "人类",
+      "confidence": 0.7377245426177979,
+      "pdf_positions": [
+        {
+          "page_idx": 23,
+          "block_idx": 120
+        }
+      ]
+    },
+    {
+      "chunk_id": 63,
+      "chapter": "第三章 多阶段反绎学习",
+      "section": "#3.2 MSRABL 框架",
+      "subsection": null,
+      "content_preview": "好。下面的分析默认上述假设成立。\n\n当切换至下一个数据切片，就引入了更高难度的类别，此时切片中包含上一轮的低难度类别与新引进的高难度类别。当模型预测一个样本不属于低难度类别，则根据假设可知，此样本的真...",
+      "content_length": 383,
+      "ai_probability": 0.5364581644535065,
+      "human_probability": 0.2847224473953247,
+      "prediction": "AI生成",
+      "confidence": 0.7152775526046753,
+      "pdf_positions": [
+        {
+          "page_idx": 24,
+          "block_idx": 121
+        },
+        {
+          "page_idx": 24,
+          "block_idx": 122
+        }
+      ]
+    },
+    {
+      "chunk_id": 64,
+      "chapter": "第三章 多阶段反绎学习",
+      "section": "#3.2 MSRABL 框架",
+      "subsection": null,
+      "content_preview": "![](images/901ca4e3edae0972ad28954c21fe27b07692d066ed2d7f6aef272e39bef373be.jpg)\n\n图 3-2 MSABL 与 MSRA...",
+      "content_length": 109,
+      "ai_probability": 0.47994861602783206,
+      "human_probability": 0.4000642001628876,
+      "prediction": "AI生成",
+      "confidence": 0.59993577003479,
+      "pdf_positions": []
+    },
+    {
+      "chunk_id": 65,
+      "chapter": "第三章 多阶段反绎学习",
+      "section": "#3.2 MSRABL 框架",
+      "subsection": null,
+      "content_preview": "0 和 1。在未改进的 MSABL 框架中，反绎推理正常进行，根据真实的推理结果1，推理得到反绎结果候选集 $\\{ [ 0 , 1 ] , [ 1 , 0 ] , [ 1 , 1 ] \\}$ 。然后根...",
+      "content_length": 436,
+      "ai_probability": 0.16322782635688782,
+      "human_probability": 0.8367722034454346,
+      "prediction": "人类",
+      "confidence": 0.8367722034454346,
+      "pdf_positions": [
+        {
+          "page_idx": 24,
+          "block_idx": 123
+        }
+      ]
+    },
+    {
+      "chunk_id": 66,
+      "chapter": "第三章 多阶段反绎学习",
+      "section": "#3.2 MSRABL 框架",
+      "subsection": null,
+      "content_preview": "### Algorithm 3 MSRABL 拒绝反绎算法\n\n输入： 伪标记??̃，知识库 $_ { \\kappa B }$ ，低难度类别集合 $E$ ，新引进的高难度类别集合 $H$\n\n输出： 反绎...",
+      "content_length": 105,
+      "ai_probability": 0.32960865497589115,
+      "human_probability": 0.5879892110824585,
+      "prediction": "人类",
+      "confidence": 0.5879892110824585,
+      "pdf_positions": [
+        {
+          "page_idx": 25,
+          "block_idx": 124
+        }
+      ]
+    },
+    {
+      "chunk_id": 67,
+      "chapter": "第三章 多阶段反绎学习",
+      "section": "#3.2 MSRABL 框架",
+      "subsection": null,
+      "content_preview": "1: for each $\\tilde { z } _ { i } \\in \\tilde { z }$ do\n\n2: if $\\tilde { z } _ { i } \\notin E$ then\n\n...",
+      "content_length": 168,
+      "ai_probability": 0.2926883101463318,
+      "human_probability": 0.7073116898536682,
+      "prediction": "人类",
+      "confidence": 0.7073116898536682,
+      "pdf_positions": []
+    },
+    {
+      "chunk_id": 68,
+      "chapter": "第三章 多阶段反绎学习",
+      "section": "#3.2 MSRABL 框架",
+      "subsection": null,
+      "content_preview": "4: else\n\n5: ${ \\mathbb I } _ { i } \\gets \\langle { \\mathrm { U N K } } \\rangle$\n\n6: end if\n\n7: end f...",
+      "content_length": 102,
+      "ai_probability": 0.329977422952652,
+      "human_probability": 0.6700226068496704,
+      "prediction": "人类",
+      "confidence": 0.6700226068496704,
+      "pdf_positions": []
+    },
+    {
+      "chunk_id": 69,
+      "chapter": "第三章 多阶段反绎学习",
+      "section": "#3.2 MSRABL 框架",
+      "subsection": null,
+      "content_preview": "8: 使用 $\\kappa \\boldsymbol { B }$ 对 $\\tilde { z }$ 做反绎，得到反绎结果候选集 ??。其中 $\\mathbb { I } _ { i } = \\left...",
+      "content_length": 139,
+      "ai_probability": 0.04200076311826706,
+      "human_probability": 0.9579992294311523,
+      "prediction": "人类",
+      "confidence": 0.9579992294311523,
+      "pdf_positions": []
+    },
+    {
+      "chunk_id": 70,
+      "chapter": "第三章 多阶段反绎学习",
+      "section": "#3.2 MSRABL 框架",
+      "subsection": null,
+      "content_preview": "$H$ 中反绎；反之 $\\mathbb { I } _ { i } = \\langle { \\tt U N K } \\rangle$ 的位置在 $E \\cup H$ 中反绎。\n\n9: for each...",
+      "content_length": 117,
+      "ai_probability": 0.37845160961151125,
+      "human_probability": 0.5269355177879333,
+      "prediction": "人类",
+      "confidence": 0.5269355177879333,
+      "pdf_positions": []
+    },
+    {
+      "chunk_id": 71,
+      "chapter": "第三章 多阶段反绎学习",
+      "section": "#3.2 MSRABL 框架",
+      "subsection": null,
+      "content_preview": "10: $\\Phi _ { i }  \\{ z _ { i } \\vert z \\in s \\}$\n\n11: if $| \\Phi _ { i } | = 1$ then\n\n12: $\\bar { z...",
+      "content_length": 136,
+      "ai_probability": 0.3836900591850281,
+      "human_probability": 0.6163099408149719,
+      "prediction": "人类",
+      "confidence": 0.6163099408149719,
+      "pdf_positions": []
+    },
+    {
+      "chunk_id": 72,
+      "chapter": "第三章 多阶段反绎学习",
+      "section": "#3.2 MSRABL 框架",
+      "subsection": null,
+      "content_preview": "13: else\n\n14: $\\bar { z } _ { i } \\gets \\langle \\mathrm { R E J } \\rangle$\n\n15: end if\n\n16: end for\n...",
+      "content_length": 115,
+      "ai_probability": 0.32357585430145264,
+      "human_probability": 0.6764241456985474,
+      "prediction": "人类",
+      "confidence": 0.6764241456985474,
+      "pdf_positions": []
+    },
+    {
+      "chunk_id": 73,
+      "chapter": "第三章 多阶段反绎学习",
+      "section": "#3.2 MSRABL 框架",
+      "subsection": null,
+      "content_preview": "一确定，所以MSRABL拒绝对0进行反绎，在更新模型时也仅计算模型在第二张图像上的分类损失，而不考虑第一张。将确定的反绎标记用于训练，至少能够大幅降低误导模型的可能，维持了模型的性能。MSRABL 中...",
+      "content_length": 116,
+      "ai_probability": 0.3857066869735718,
+      "human_probability": 0.5178666710853577,
+      "prediction": "人类",
+      "confidence": 0.5178666710853577,
+      "pdf_positions": [
+        {
+          "page_idx": 25,
+          "block_idx": 126
+        }
+      ]
+    },
+    {
+      "chunk_id": 74,
+      "chapter": "第三章 多阶段反绎学习",
+      "section": "#3.2 MSRABL 框架",
+      "subsection": null,
+      "content_preview": "拒绝反绎的技巧对多阶段反绎学习有如下促进作用。多阶段反绎学习框架由于特殊的算法机制，决定了其在训练过程中势必需要频繁地更换数据切片，这就带来数据分布的频繁变化，而机器学习模型对于数据分布的变化非常敏感...",
+      "content_length": 490,
+      "ai_probability": 0.7181834363937377,
+      "human_probability": 0.0025229835882782936,
+      "prediction": "AI生成",
+      "confidence": 0.9974769949913025,
+      "pdf_positions": [
+        {
+          "page_idx": 25,
+          "block_idx": 127
+        }
+      ]
+    },
+    {
+      "chunk_id": 75,
+      "chapter": "第三章 多阶段反绎学习",
+      "section": "#3.3 本章小结",
+      "subsection": null,
+      "content_preview": "本章针对反绎推理的不确定性而引发的模型收敛缓慢的问题，提出了MSABL框架，意在提升选择正确反绎结果的概率。MSABL利用领域先验知识规则的内在结构，将数据集打散并组成多个数据切片。之后，MSABL ...",
+      "content_length": 207,
+      "ai_probability": 0.7116164445877075,
+      "human_probability": 0.011643844656646252,
+      "prediction": "AI生成",
+      "confidence": 0.9883561730384827,
+      "pdf_positions": [
+        {
+          "page_idx": 26,
+          "block_idx": 130
+        }
+      ]
+    },
+    {
+      "chunk_id": 76,
+      "chapter": "第四章 实验",
+      "section": null,
+      "subsection": null,
+      "content_preview": "本章将详细展示多种反绎学习框架在多种任务与数据集上的实验结果，以展示本文所提出的多阶段反绎学习框架对模型性能的提升。在4.1节，本文将介绍 Addition 任务的设定与数据集；在4.2节，本文将介绍...",
+      "content_length": 279,
+      "ai_probability": 0.7163745975494384,
+      "human_probability": 0.0050353663973510265,
+      "prediction": "AI生成",
+      "confidence": 0.9949647188186646,
+      "pdf_positions": [
+        {
+          "page_idx": 27,
+          "block_idx": 132
+        }
+      ]
+    },
+    {
+      "chunk_id": 77,
+      "chapter": "第四章 实验",
+      "section": "#4.1 Addition 任务",
+      "subsection": null,
+      "content_preview": "MNIST Addition 任务在 DeepProbLog[10]中首次提出。在训练集的每一笔数据中，两张MNIST[33]手写数字图像作为样本序列，是模型输入；它们所代表的数字之和是推理结果，作为...",
+      "content_length": 756,
+      "ai_probability": 0.3051178753376007,
+      "human_probability": 0.6948820948600769,
+      "prediction": "人类",
+      "confidence": 0.6948820948600769,
+      "pdf_positions": [
+        {
+          "page_idx": 27,
+          "block_idx": 134
+        }
+      ]
+    },
+    {
+      "chunk_id": 78,
+      "chapter": "第四章 实验",
+      "section": "#4.1 Addition 任务",
+      "subsection": null,
+      "content_preview": "表 4-1 Addition 任务",
+      "content_length": 17,
+      "ai_probability": 0.18147863447666168,
+      "human_probability": 0.8185213804244995,
+      "prediction": "人类",
+      "confidence": 0.8185213804244995,
+      "pdf_positions": []
+    },
+    {
+      "chunk_id": 79,
+      "chapter": "第四章 实验",
+      "section": "#4.1 Addition 任务",
+      "subsection": null,
+      "content_preview": "<table><tr><td></td><td>Method</td><td>MNIST</td><td>Fashion</td><td>CIFAR-10</td></tr><tr><td rowsp...",
+      "content_length": 734,
+      "ai_probability": 0.6139693164825439,
+      "human_probability": 0.14726483821868896,
+      "prediction": "AI生成",
+      "confidence": 0.852735161781311,
+      "pdf_positions": []
+    },
+    {
+      "chunk_id": 80,
+      "chapter": "第四章 实验",
+      "section": "#4.2 Max 任务",
+      "subsection": null,
+      "content_preview": "为了更直观地展示多阶段反绎学习框架与其它反绎学习框架相比所具有的独特优越性，我们设计了一类新的反绎学习基准测试（benchmark）：最大值（Max）任务。以 MNIST Max 为例，在训练集的每一...",
+      "content_length": 754,
+      "ai_probability": 0.20988652110099792,
+      "human_probability": 0.7901135087013245,
+      "prediction": "人类",
+      "confidence": 0.7901135087013245,
+      "pdf_positions": [
+        {
+          "page_idx": 28,
+          "block_idx": 136
+        }
+      ]
+    },
+    {
+      "chunk_id": 81,
+      "chapter": "第四章 实验",
+      "section": "#4.2 Max 任务",
+      "subsection": null,
+      "content_preview": "表 4-2 预训练样本数量及其占原数据集训练样本的比例\n\n<table><tr><td></td><td>MNIST Max(5,4)</td><td>Fashion Max(5,4)</td><td...",
+      "content_length": 385,
+      "ai_probability": 0.29967164993286133,
+      "human_probability": 0.7003282904624939,
+      "prediction": "人类",
+      "confidence": 0.7003282904624939,
+      "pdf_positions": []
+    },
+    {
+      "chunk_id": 82,
+      "chapter": "第四章 实验",
+      "section": "#4.2 Max 任务",
+      "subsection": null,
+      "content_preview": "表 4-3 Max(5,4) 任务",
+      "content_length": 17,
+      "ai_probability": 0.20344044268131256,
+      "human_probability": 0.7965595722198486,
+      "prediction": "人类",
+      "confidence": 0.7965595722198486,
+      "pdf_positions": []
+    },
+    {
+      "chunk_id": 83,
+      "chapter": "第四章 实验",
+      "section": "#4.2 Max 任务",
+      "subsection": null,
+      "content_preview": "<table><tr><td></td><td>Method</td><td>MNIST</td><td>Fashion</td><td>CIFAR-10</td></tr><tr><td rowsp...",
+      "content_length": 941,
+      "ai_probability": 0.6035004186630248,
+      "human_probability": 0.16180500388145447,
+      "prediction": "AI生成",
+      "confidence": 0.8381950259208679,
+      "pdf_positions": []
+    },
+    {
+      "chunk_id": 84,
+      "chapter": "第四章 实验",
+      "section": "#4.2 Max 任务",
+      "subsection": null,
+      "content_preview": "表 4-4 CIFAR-10 Max(16,10) 任务\n\n<table><tr><td></td><td>ABL</td><td>ABLSim</td><td>ABL</td><td>MSABL (...",
+      "content_length": 250,
+      "ai_probability": 0.3791057348251343,
+      "human_probability": 0.5261178612709045,
+      "prediction": "人类",
+      "confidence": 0.5261178612709045,
+      "pdf_positions": []
+    },
+    {
+      "chunk_id": 85,
+      "chapter": "第四章 实验",
+      "section": "#4.3 结果分析",
+      "subsection": "##4.3.1 Addition 任务",
+      "content_preview": "根据表4-1可知，本文提出的 MSABL 框架在大部分 Addition 任务上，训练得到的模型测试准确率高于其它反绎学习框架。ABLSim 由于存在额外的抽取样本特征，计算样本相似度，集束搜索等步骤...",
+      "content_length": 419,
+      "ai_probability": 0.02986401505768299,
+      "human_probability": 0.9701359868049622,
+      "prediction": "人类",
+      "confidence": 0.9701359868049622,
+      "pdf_positions": [
+        {
+          "page_idx": 29,
+          "block_idx": 139
+        }
+      ]
+    },
+    {
+      "chunk_id": 86,
+      "chapter": "第四章 实验",
+      "section": "#4.3 结果分析",
+      "subsection": "##4.3.2 Max 任务",
+      "content_preview": "Max 任务与 Addition 任务相比难度更大，因为最大值规则对样本的监督信号更弱。根据表4-3可知，大部分反绎学习框架，包括未改进前的MSABL，在Max任务上表现不佳，这一点在 CIFAR-1...",
+      "content_length": 783,
+      "ai_probability": 0.4538108348846436,
+      "human_probability": 0.43273642659187317,
+      "prediction": "AI生成",
+      "confidence": 0.5672635436058044,
+      "pdf_positions": [
+        {
+          "page_idx": 29,
+          "block_idx": 141
+        }
+      ]
+    },
+    {
+      "chunk_id": 87,
+      "chapter": "第四章 实验",
+      "section": "#4.3 结果分析",
+      "subsection": "##4.3.2 Max 任务",
+      "content_preview": "![](images/14e56b86623d9040aaf391bfb4efda500608f4337f853071b90bfa2c5915afdd.jpg)\n\n图 4-1 Max(5, 4) 任务...",
+      "content_length": 104,
+      "ai_probability": 0.47665996849536896,
+      "human_probability": 0.36445337533950806,
+      "prediction": "AI生成",
+      "confidence": 0.6355466246604919,
+      "pdf_positions": []
+    },
+    {
+      "chunk_id": 88,
+      "chapter": "第四章 实验",
+      "section": "#4.3 结果分析",
+      "subsection": "##4.3.2 Max 任务",
+      "content_preview": "为进一步探索MSRABL的能力，我们设计了一个极具挑战性的任务：CIFAR-10 Max(16,10)。表4-4展示了多个反绎学习框架在该任务上的表现。在该任务的数据集中，每一笔数据由 16 张 10...",
+      "content_length": 489,
+      "ai_probability": 0.7167724657058716,
+      "human_probability": 0.004482656717300415,
+      "prediction": "AI生成",
+      "confidence": 0.9955173134803772,
+      "pdf_positions": [
+        {
+          "page_idx": 31,
+          "block_idx": 143
+        }
+      ]
+    },
+    {
+      "chunk_id": 89,
+      "chapter": "第四章 实验",
+      "section": "#4.3 结果分析",
+      "subsection": "##4.3.3 案例研究",
+      "content_preview": "由于 Max 知识库的最大值规则具有其自身的特性，它对不同类别的约束强度有很大的差别。数据集中存在推理结果为 0 的数据，其样本序列中仅有 0 类样本，而知识库对其反绎推理也只有 0 类这一种结果，此...",
+      "content_length": 346,
+      "ai_probability": 0.32408967018127444,
+      "human_probability": 0.594887912273407,
+      "prediction": "人类",
+      "confidence": 0.594887912273407,
+      "pdf_positions": [
+        {
+          "page_idx": 31,
+          "block_idx": 145
+        }
+      ]
+    },
+    {
+      "chunk_id": 90,
+      "chapter": "第四章 实验",
+      "section": "#4.3 结果分析",
+      "subsection": "##4.3.3 案例研究",
+      "content_preview": "![](images/38c674fbb43f59df9c65595098cb5f1b2312c80c15eac6e362c0c717822ef8f3.jpg)\n\n图 4-2 CIFAR-10 Max...",
+      "content_length": 115,
+      "ai_probability": 0.47284898757934574,
+      "human_probability": 0.4089387357234955,
+      "prediction": "AI生成",
+      "confidence": 0.5910612344741821,
+      "pdf_positions": []
+    },
+    {
+      "chunk_id": 91,
+      "chapter": "第四章 实验",
+      "section": "#4.3 结果分析",
+      "subsection": "##4.3.3 案例研究",
+      "content_preview": "在 CIFAR-10 Max(16,10) 任务的训练过程中，我们对 MSABL 与 MSRABL 的模型在10个类别上的各自的测试准确率进行全程跟踪，并绘制图4-3。在MSABL框架下，模型倾向于将...",
+      "content_length": 372,
+      "ai_probability": 0.15746434032917023,
+      "human_probability": 0.8425356149673462,
+      "prediction": "人类",
+      "confidence": 0.8425356149673462,
+      "pdf_positions": [
+        {
+          "page_idx": 32,
+          "block_idx": 147
+        }
+      ]
+    },
+    {
+      "chunk_id": 92,
+      "chapter": "第四章 实验",
+      "section": "#4.3 结果分析",
+      "subsection": "##4.3.3 案例研究",
+      "content_preview": "![](images/4066bf3432cfed5233b0f89f156993b582476b8d5ce6d9d960e3c254444609e0.jpg)\n\n(a) MSRABL 各类别测试集准...",
+      "content_length": 102,
+      "ai_probability": 0.21072112023830414,
+      "human_probability": 0.7892788648605347,
+      "prediction": "人类",
+      "confidence": 0.7892788648605347,
+      "pdf_positions": []
+    },
+    {
+      "chunk_id": 93,
+      "chapter": "第四章 实验",
+      "section": "#4.3 结果分析",
+      "subsection": "##4.3.3 案例研究",
+      "content_preview": "![](images/c31831846db99ad8ad29e8ca3bf408a708b45493737035de024bafc4b344508f.jpg)\n\n图 4-3 CIFAR-10 Max...",
+      "content_length": 120,
+      "ai_probability": 0.2651160657405853,
+      "human_probability": 0.7348839044570923,
+      "prediction": "人类",
+      "confidence": 0.7348839044570923,
+      "pdf_positions": []
+    },
+    {
+      "chunk_id": 94,
+      "chapter": "第四章 实验",
+      "section": "#4.4 本章小结",
+      "subsection": null,
+      "content_preview": "为充分展示多阶段反绎学习框架的优越性，本章参照反绎学习经典任务Ad-dition，设计了一个全新的反绎学习任务——Max 任务。本章给出了多种反绎学习框架在我们给定的 Addition 任务与 Max...",
+      "content_length": 267,
+      "ai_probability": 0.7173369312286376,
+      "human_probability": 0.0036986717022955418,
+      "prediction": "AI生成",
+      "confidence": 0.9963012933731079,
+      "pdf_positions": [
+        {
+          "page_idx": 34,
+          "block_idx": 149
+        }
+      ]
+    },
+    {
+      "chunk_id": 95,
+      "chapter": "第五章 总结与展望",
+      "section": null,
+      "subsection": null,
+      "content_preview": "本文主要研究了加速反绎学习模型收敛的方法。本文为提高正确反绎的概率，以缩小反绎结果候选集为问题切入点，提出了 MSABL 框架，并在此基础上优化得到MSRABL框架。参考人类学习新知识通常倾向于由浅入...",
+      "content_length": 1364,
+      "ai_probability": 0.6847029876708984,
+      "human_probability": 0.04902363941073418,
+      "prediction": "AI生成",
+      "confidence": 0.9509763717651367,
+      "pdf_positions": [
+        {
+          "page_idx": 35,
+          "block_idx": 151
+        },
+        {
+          "page_idx": 35,
+          "block_idx": 152
+        },
+        {
+          "page_idx": 35,
+          "block_idx": 153
+        },
+        {
+          "page_idx": 36,
+          "block_idx": 154
+        },
+        {
+          "page_idx": 36,
+          "block_idx": 155
+        },
+        {
+          "page_idx": 36,
+          "block_idx": 156
+        },
+        {
+          "page_idx": 36,
+          "block_idx": 157
+        }
+      ]
+    }
+  ]
+}
