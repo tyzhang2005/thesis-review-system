@@ -1,0 +1,14 @@
+repos:
+  # isort：整理导入
+  - repo: https://github.com/PyCQA/isort
+    rev: 5.13.0  # 使用最新稳定版
+    hooks:
+      - id: isort
+        args: ["--profile", "black"]   # 让 isort 兼容 black 的格式
+
+  # black：代码格式化
+  - repo: https://github.com/psf/black
+    rev: 26.3.0  # 使用最新稳定版
+    hooks:
+      - id: black
+        args: ["--line-length", "88"]  # 可选，默认就是 88
