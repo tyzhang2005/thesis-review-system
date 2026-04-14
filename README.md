@@ -1,216 +1,237 @@
-# 🎓 Thesis RAG Evaluator
+# 🎓 Thesis RAG Evaluator - Backend
 
-基于 LLM + RAG 的本科毕业论文自动化评审系统
+基于 LLM + RAG 的本科毕业论文自动化评审系统后端
 
 > [![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)](https://www.python.org/)
 > [![FastAPI](https://img.shields.io/badge/FastAPI-0.100+-green.svg)](https://fastapi.tiangolo.com/)
 > [![LangChain](https://img.shields.io/badge/LangChain-0.1+-orange.svg)](https://www.langchain.com/)
-> [![React](https://img.shields.io/badge/React-18-blue.svg)](https://react.dev/)
+> [![ChromaDB](https://img.shields.io/badge/ChromaDB-0.5+-yellow.svg)](https://www.trychroma.com/)
 
 ---
 
 ## 📖 项目简介
 
-针对人工评审效率低、通用模型评分区分度差及评语模板化问题，构建基于 **RAG 技术** 的自动化评审系统。
+基于 **RAG 技术** 的智能论文评审系统后端服务，实现 18 维智能评分与个性化修改建议生成。
 
-### 核心亮点
+### 核心特性
 
-- **500+ 专家案例库**: 将 180 篇往届人工评审表构建为结构化案例库
-- **18 维智能评分**: 融合规则引擎与 LLM 语义分析，深度适配院系标准
-- **RAG 混合检索**: 向量搜索 + 元数据过滤，生成具体可操作的修改建议
-- **长文本处理**: 7 步评审 pipeline，智能处理 2 万字毕业论文
-- **本地化部署**: 基于 vLLM 部署量化模型，支持多用户并发
+- **500+ 专家案例库**: 基于向量数据库的混合检索系统
+- **7 步评审 Pipeline**: 处理 2 万字论文的长文本评估流程
+- **云端 API 集成**: 推理和嵌入模型均使用云端 API，无需本地 GPU
+- **本地化 PDF 解析**: 推荐使用本地 MinerU 进行 PDF 转 Markdown
+- **结构化输出**: Pydantic 约束 JSON Schema，确保输出质量
 
-## ✨ 系统架构
-
-```
-┌─────────────────────────────────────────────────────────────┐
-│                         用户端                                │
-├─────────────────────────────────────────────────────────────┤
-│  学生端        教师端        教务端        AIGC检测            │
-│  上传论文      人工评审      统计分析      AI生成检测         │
-└─────────────────────────────────────────────────────────────┘
-                              ↓
-┌─────────────────────────────────────────────────────────────┐
-│                       FastAPI 后端                            │
-├─────────────────────────────────────────────────────────────┤
-│  ┌──────────┐  ┌──────────┐  ┌──────────┐  ┌──────────┐     │
-│  │ 论文解析  │  │ RAG检索  │  │ LLM评估  │  │ AIGC检测 │     │
-│  │ MinerU   │  │ChromaDB │  │ vLLM     │  │ 分析器   │     │
-│  └──────────┘  └──────────┘  └──────────┘  └──────────┘     │
-└─────────────────────────────────────────────────────────────┘
-                              ↓
-┌─────────────────────────────────────────────────────────────┐
-│                      500+ 专家案例库                           │
-│  分数、评语、思维链 | 论文类型 | 章节概要 | 结构化字段         │
-└─────────────────────────────────────────────────────────────┘
-```
+---
 
 ## 🛠️ 技术栈
 
-### 后端
-| 技术 | 用途 |
-|------|------|
-| FastAPI | Web 框架 |
-| LangChain | LLM 集成 |
-| ChromaDB | 向量数据库 |
-| vLLM | 模型推理 |
-| PyTorch | 深度学习 |
-| Pydantic | 数据校验 |
-| MinerU | PDF 解析 |
+| 技术      | 版本   | 用途          |
+| --------- | ------ | ------------- |
+| FastAPI   | 0.100+ | Web 框架      |
+| LangChain | 0.1+   | LLM 集成      |
+| ChromaDB  | 0.5+   | 向量数据库    |
+| Pydantic  | 2.0+   | 数据校验      |
+| MinerU    | -      | 本地 PDF 解析 |
+| asyncio   | -      | 异步处理      |
 
-### 前端
-| 技术 | 用途 |
-|------|------|
-| React 18 | UI 框架 |
-| TypeScript | 类型安全 |
-| Vite | 构建工具 |
-| Ant Design | UI 组件 |
-
-## 🚀 快速开始
-
-### 前置要求
-
-- Python 3.10+
-- Node.js 14+
-- Conda (推荐)
-
-### 前端
-
-```bash
-cd frontend
-npm install
-npm run dev
-# 访问 http://localhost:3000
-```
-
-### 后端
-
-```bash
-cd backend
-
-# 创建 conda 环境
-conda env create -f environment.yml
-conda activate ruiwen
-
-# 安装依赖
-pip install -r requirements.txt
-
-# 配置环境变量
-cp .env.example .env
-# 编辑 .env 填入 API Keys
-
-# 启动服务
-python main.py
-# 访问 http://localhost:8000
-```
+---
 
 ## 📁 项目结构
 
 ```
-ruiwen/
-├── frontend/           # React 前端
-│   ├── src/
-│   │   ├── pages/     # 页面组件
-│   │   ├── utils/     # 工具函数
-│   │   └── components/# UI 组件
-│   ├── public/
-│   │   └── data/      # 静态数据
-│   └── vite.config.ts
-│
-└── backend/           # Python 后端
-    ├── routers/       # API 路由
-    │   ├── evaluation.py      # 论文评估
-    │   ├── aigc_detector.py   # AIGC 检测
-    │   └── auth.py            # 认证
-    ├── services/      # 业务逻辑
-    │   ├── llm_utils.py      # LLM 工具
-    │   ├── pdf_annotator.py  # PDF 标注
-    │   └── markdown_processor.py
-    ├── prompts/       # 提示词模板
-    ├── templates/     # 评估模板
-    ├── models/        # 数据模型
-    ├── config/        # 配置管理
-    └── main.py        # 应用入口
+backend/
+├── main.py                    # FastAPI 入口
+├── routers/                   # API 路由
+│   ├── evaluation.py         # 论文评估核心
+│   ├── aigc_detector.py      # AIGC 检测
+│   ├── auth.py               # 用户认证
+│   ├── file_handlers.py      # 文件处理
+│   ├── advice_retrieval.py   # 建议检索
+│   └── vectorstore.py        # 向量数据库
+├── services/                  # 业务服务
+│   ├── llm_utils.py         # LLM 工具
+│   ├── pdf_annotator.py     # PDF 标注
+│   ├── aigc_report_generator.py # AIGC 报告生成
+│   └── markdown_processor.py # Markdown 处理
+├── models/                    # 数据模型
+│   └── schemas.py           # Pydantic 模型
+├── prompts/                   # 提示词模板
+│   ├── step1_classify.md
+│   ├── step2_chapter_classify.md
+│   ├── step3_retrieve_advice.md
+│   ├── step4_engineering/
+│   ├── step4_method/
+│   ├── step4_theory/
+│   ├── step5_workload_*.md
+│   ├── step6_summary_advice.md
+│   └── step7_comprehensive_scoring.md
+├── templates/                 # 评估模板
+│   ├── template_engineering.py
+│   ├── template_method.py
+│   ├── template_theory.py
+│   └── evaluate_template.py
+├── config/                    # 配置管理
+│   ├── config.py
+│   └── settings.json
+└── data/                     # 运行时数据
+    ├── uploads/              # 上传文件
+    ├── databases/            # 向量数据库
+    ├── processed/            # 处理结果
+    └── results/              # 最终输出
 ```
 
-## 📊 评估体系
+---
 
-### 18 维评分
+## 🚀 快速开始
 
-**格式规范 (6项)**
-1. 结构完整性
-2. 摘要和关键词规范性
-3. 目录规范性
-4. 章节规范性
-5. 参考文献格式规范性
-6. 致谢规范性
+### 环境要求
 
-**内容质量 (12项)**
-7. 选题契合度
-8. 选题工作量适宜度
-9. 选题学术价值
-10. 文献检索和分析能力
-11. 知识综合应用和研究深度
-12. 专业方法工具运用
-13. 专业技能和实践能力
-14. 技术应用和外语能力
-15. 创新性
-16. 论证严谨性和科学性
-17. 论文结构和语言表达
-18. 成果价值
+- Python 3.10+
+- Conda (推荐)
 
-### 评分标准
-- 每项 0-3 分
-- 总分 0-54 分
-- 等级: 优秀(48+) / 良好(42+) / 中等(36+) / 及格(30+) / 不及格(<30)
+### 安装 MinerU (本地 PDF 解析)
 
-## 📈 量化成果
-
-| 指标 | 结果 |
-|------|------|
-| 解析准确率 | 94% (180篇论文测试) |
-| 评分一致性 | ICC(3,1)=0.82 |
-| 四分类准确率 | 75% |
-| 案例库规模 | 500+ 条专家案例 |
-| 处理速度 | ~2分钟/篇 |
-
-## 🔧 配置说明
-
-### 环境变量
+**推荐使用本地 MinerU 以获得最佳解析效果**：
 
 ```bash
-# 后端 .env
-CLOUD_API_KEY=sk-your-api-key          # DeepSeek API Key
-MINERU_TOKEN=Bearer-your-token         # MinerU Token
-MODEL_NAME=deepseek-v3.2               # 模型名称
+# 使用 Docker 运行 MinerU (推荐)
+docker pull opendatalab/mineru:latest
+docker run -d -p 8888:8888 opendatalab/mineru:latest
+
+# 或从源码安装
+git clone https://github.com/opendatalab/MinerU.git
+cd MinerU
+pip install -e .
 ```
 
-### 模型部署
+### 安装 Python 依赖
 
-**本地部署 (推荐)**:
-- 推理模型: DeepSeek-R1-Distill-Qwen-32B-Q4_K_L
-- 嵌入模型: Qwen3-Embedding-8B-Q4_K_M
+```bash
+# 使用 conda 创建环境
+conda env create -f environment.yml
+conda activate ruiwen
 
-**云端 API**:
-- DeepSeek-v3.2
-- Qwen3-Embedding-8B
+# 或使用 pip
+pip install -r requirements.txt
+```
 
-## 📱 在线演示
+### 配置环境变量
 
-- **GitHub Pages**: https://tyzhang2005.github.io/thesis-review-system/
+```bash
+# 复制配置模板
+cp .env.example .env
+
+# 编辑配置，填入 API Keys
+nano .env
+```
+
+**主要配置项**:
+
+```env
+# 云端 API 配置
+CLOUD_API_KEY=sk-your-deepseek-api-key    # DeepSeek API Key
+CLOUD_API_BASE=https://api.deepseek.com   # API Base URL
+
+# 模型配置
+MODEL_NAME=deepseek-chat                   # 推理模型
+EMBEDDING_MODEL=text-embedding-3-small     # 嵌入模型
+
+# MinerU 配置 (本地部署)
+MINERU_API_URL=http://localhost:8888       # MinerU 服务地址
+MINERU_TOKEN=                              # 本地部署可留空
+```
+
+### 启动服务
+
+```bash
+python main.py
+# 访问 http://localhost:8000
+# API 文档: http://localhost:8000/docs
+```
+
+---
+
+## 📊 核心功能
+
+### 1. 论文解析 (本地 MinerU)
+
+- **MinerU 本地部署**: PDF → Markdown 高质量转换
+- **元数据提取**: 标题、作者、摘要等
+- **层级结构识别**: 章节树自动构建
+- **分块处理**: 长文档智能分段
+
+### 2. RAG 评估流程
+
+```
+PDF 上传 → MinerU解析 → 分类 → 检索案例 → 云端LLM评估 → 输出结果
+                ↓           ↓         ↓            ↓
+            Markdown      类型    向量DB      结构化JSON
+```
+
+**7 步 Pipeline**:
+
+1. 论文分类 (工程/方法/理论)
+2. 章节分类
+3. 建议检索
+4. 分类评估
+5. 工作量评估
+6. 总结建议
+7. 综合评分
+
+### 3. AIGC 检测
+
+- 基于块的文本分析
+- 多维度 AI 特征提取
+- 检测报告生成
+- PDF 标注输出
+
+### 4. 人工评审
+
+- 评审数据录入
+- 批注管理
+- 评分与建议保存
+
+---
+
+## 🔧 API 端点
+
+### 评估相关
+
+| 端点                  | 方法 | 描述         |
+| --------------------- | ---- | ------------ |
+| `/api/upload`         | POST | 上传论文     |
+| `/api/qa`             | POST | 启动评估     |
+| `/api/task/{user_id}` | GET  | 查询任务状态 |
+| `/api/download_pdf`   | POST | 下载评审表   |
+
+### AIGC 检测
+
+| 端点                               | 方法 | 描述      |
+| ---------------------------------- | ---- | --------- |
+| `/api/aigc_detect`                 | POST | AIGC 检测 |
+| `/api/aigc_detect/download-report` | GET  | 下载报告  |
+
+### 建议检索
+
+| 端点                     | 方法 | 描述         |
+| ------------------------ | ---- | ------------ |
+| `/api/initialize_advice` | POST | 初始化案例库 |
+| `/api/search_advice`     | POST | 检索建议     |
+
+### 认证
+
+| 端点                 | 方法 | 描述     |
+| -------------------- | ---- | -------- |
+| `/api/register_user` | POST | 用户注册 |
+| `/api/login_user`    | POST | 用户登录 |
+| `/api/logout`        | POST | 用户登出 |
+
+
+
+
+
+---
 
 ## 📄 许可证
 
 MIT License
-
----
-
-## 🙏 致谢
-
-本项目基于以下开源项目构建：
-- [FastAPI](https://fastapi.tiangolo.com/)
-- [LangChain](https://www.langchain.com/)
-- [ChromaDB](https://www.trychroma.com/)
-- [vLLM](https://github.com/vllm-project/vllm)
-- [MinerU](https://github.com/opendatalab/MinerU)
